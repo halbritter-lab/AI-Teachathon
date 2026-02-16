@@ -1,0 +1,54 @@
+/* @theme teachathon */
+@import 'gaia';
+
+:root.invert {
+  --color-background: #1a1a1a;
+  --color-background-code: #0d0d0d;
+  --color-foreground: #ffffff;
+  --color-header: rgba(255, 255, 255, 0.6);
+  --color-highlight: #02c797;
+  --color-highlight-hover: #04e6af;
+  --color-dimmed: #c6c6c6;
+}
+
+section {
+  background-color: var(--color-background);
+  color: var(--color-foreground);
+  font-size: 1.8rem;
+}
+
+h1 {
+  font-size: 3.2rem;
+  color: var(--color-highlight);
+}
+
+h2 {
+  font-size: 2.4rem;
+  border-bottom: 3px solid var(--color-highlight);
+  padding-bottom: 0.5rem;
+}
+
+a {
+  color: var(--color-highlight);
+  text-decoration: none;
+  border-bottom: 2px solid var(--color-highlight);
+}
+
+a:hover {
+  color: var(--color-highlight-hover);
+  border-bottom-color: var(--color-highlight-hover);
+}
+
+section::after {
+  color: var(--color-highlight);
+  font-weight: 600;
+}
+
+header, footer {
+  color: var(--color-header);
+}
+
+pre {
+  background-color: var(--color-background-code);
+  border: 1px solid var(--color-highlight);
+}
