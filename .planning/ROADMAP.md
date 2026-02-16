@@ -56,6 +56,13 @@ Plans:
 
 **Requirements:** LAND-01, LAND-02, LAND-03, SETUP-01, SETUP-02, SETUP-03, SETUP-04, SETUP-05, AGND-01, AGND-02, AGND-03
 
+**Plans:** 3 plans
+
+Plans:
+- [ ] 02-01-PLAN.md — Landing page with hero, CTA cards, and footer branding
+- [ ] 02-02-PLAN.md — Setup guide with platform-specific instructions and verification checklist
+- [ ] 02-03-PLAN.md — Agenda page with vertical timeline component
+
 **Success Criteria:**
 1. Landing page shows event name, date/time (Feb 17, 17:00), location, and description
 2. Landing page has three clear CTAs linking to setup, agenda, and ideas
@@ -65,7 +72,7 @@ Plans:
 6. Agenda shows timeline from 17:00 to ~20:00 with all segments
 7. Each agenda segment links to its relevant page
 
-**Content tone:** Approachable, encouraging. "If you get stuck, don't worry — we'll help." Use research analogies for Git concepts. No unexplained jargon.
+**Content tone:** Approachable, encouraging. Friendly and casual. No research analogies.
 
 ---
 
@@ -140,4 +147,4 @@ Plans:
 
 ---
 *Roadmap created: 2026-02-16*
-*Last updated: 2026-02-16 after Phase 1 planning*
+*Last updated: 2026-02-16 after Phase 2 planning*
