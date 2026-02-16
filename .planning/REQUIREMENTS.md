@@ -16,23 +16,23 @@
 
 ### Landing Page
 
-- [ ] **LAND-01**: Landing page with event title, date (Feb 17, 17:00), location, and one-paragraph description
-- [ ] **LAND-02**: Three calls to action: Prepare (setup), See Agenda, Project Ideas
-- [ ] **LAND-03**: CeRKiD / Charité / Halbritter Lab branding in footer
+- [x] **LAND-01**: Landing page with event title, date (Feb 17, 17:00), location, and one-paragraph description
+- [x] **LAND-02**: Three calls to action: Prepare (setup), See Agenda, Project Ideas
+- [x] **LAND-03**: CeRKiD / Charité / Halbritter Lab branding in footer
 
 ### Setup Guide
 
-- [ ] **SETUP-01**: VS Code installation instructions with download link and recommended extensions
-- [ ] **SETUP-02**: Git installation instructions (platform-specific: Windows, macOS, Linux) with git config commands
-- [ ] **SETUP-03**: GitHub account creation instructions with education pack link for free Copilot
-- [ ] **SETUP-04**: Node.js installation (optional, for Claude Code)
-- [ ] **SETUP-05**: Verification checklist with expected outputs for each tool
+- [x] **SETUP-01**: VS Code installation instructions with download link and recommended extensions
+- [x] **SETUP-02**: Git installation instructions (platform-specific: Windows, macOS, Linux) with git config commands
+- [x] **SETUP-03**: GitHub account creation instructions with education pack link for free Copilot
+- [x] **SETUP-04**: Node.js installation (optional, for Claude Code)
+- [x] **SETUP-05**: Verification checklist with expected outputs for each tool
 
 ### Agenda
 
-- [ ] **AGND-01**: Event timeline from 17:00 to ~20:00 in vertical format
-- [ ] **AGND-02**: Segments: Welcome/Setup Check, Presentation, AI Tools, Break, Hands-On, Wrap-Up
-- [ ] **AGND-03**: Links from each segment to relevant page/resource
+- [x] **AGND-01**: Event timeline from 17:00 to ~20:00 in vertical format
+- [x] **AGND-02**: Segments: Welcome/Setup Check, Presentation, AI Tools, Break, Hands-On, Wrap-Up
+- [x] **AGND-03**: Links from each segment to relevant page/resource
 
 ### Presentation
 
@@ -95,17 +95,17 @@
 | INFRA-04 | Phase 1 | Pending |
 | INFRA-05 | Phase 1 | Pending |
 | INFRA-06 | Phase 1 | Pending |
-| LAND-01 | Phase 2 | Pending |
-| LAND-02 | Phase 2 | Pending |
-| LAND-03 | Phase 2 | Pending |
-| SETUP-01 | Phase 2 | Pending |
-| SETUP-02 | Phase 2 | Pending |
-| SETUP-03 | Phase 2 | Pending |
-| SETUP-04 | Phase 2 | Pending |
-| SETUP-05 | Phase 2 | Pending |
-| AGND-01 | Phase 2 | Pending |
-| AGND-02 | Phase 2 | Pending |
-| AGND-03 | Phase 2 | Pending |
+| LAND-01 | Phase 2 | Complete |
+| LAND-02 | Phase 2 | Complete |
+| LAND-03 | Phase 2 | Complete |
+| SETUP-01 | Phase 2 | Complete |
+| SETUP-02 | Phase 2 | Complete |
+| SETUP-03 | Phase 2 | Complete |
+| SETUP-04 | Phase 2 | Complete |
+| SETUP-05 | Phase 2 | Complete |
+| AGND-01 | Phase 2 | Complete |
+| AGND-02 | Phase 2 | Complete |
+| AGND-03 | Phase 2 | Complete |
 | PRES-01 | Phase 3 | Pending |
 | PRES-02 | Phase 3 | Pending |
 | PRES-03 | Phase 3 | Pending |
@@ -131,4 +131,4 @@
 
 ---
 *Requirements defined: 2026-02-16*
-*Last updated: 2026-02-16 after initial definition*
+*Last updated: 2026-02-16 after Phase 2 completion*
