@@ -24,6 +24,12 @@
 
 **Requirements:** INFRA-01, INFRA-02, INFRA-03, INFRA-04, INFRA-05, INFRA-06
 
+**Plans:** 2 plans
+
+Plans:
+- [ ] 01-01-PLAN.md — Initialize VitePress + Tailwind v4 with dark theme
+- [ ] 01-02-PLAN.md — Create placeholder pages + GitHub Actions deployment
+
 **Success Criteria:**
 1. `npm run dev` serves site locally with hot reload
 2. `npm run build` produces static output without errors
@@ -134,4 +140,4 @@
 
 ---
 *Roadmap created: 2026-02-16*
-*Last updated: 2026-02-16 after initial creation*
+*Last updated: 2026-02-16 after Phase 1 planning*
