@@ -1,14 +1,66 @@
+---
+title: Agenda
+---
+
 # Agenda
 
-The AI-Teachathon runs on February 17, 2026 from 17:00 to approximately 20:00. Here's what we'll cover during the workshop.
+The AI-Teachathon runs on **February 17, 2026** from **17:00 to approximately 20:00**. Here's what the evening looks like.
 
-> This page is under construction. The full timeline with session details will be added soon.
+Times are approximate — this is an interactive session, not a rigid schedule. Feel free to ask questions at any point.
 
-## Overview
+<Timeline :segments="[
+  {
+    time: '~17:00 – 17:15',
+    title: 'Welcome & Setup Check',
+    description: 'Quick introductions and a final check that everyone has their tools ready. If you haven\'t completed the setup guide yet, we\'ll help you get sorted.',
+    link: '/setup',
+    linkText: 'Setup guide',
+    highlight: true
+  },
+  {
+    time: '~17:15 – 17:45',
+    title: 'Presentation: Why AI & Version Control?',
+    description: 'A short talk on why version control and AI tools matter for research — and what you can do with them today.',
+    highlight: true
+  },
+  {
+    time: '~17:45 – 18:05',
+    title: 'AI Tool Landscape',
+    description: 'An overview of the AI coding tool spectrum — from simple chatbots to autonomous agents. Learn what\'s available and when to use each.',
+    link: '/ai-tools',
+    linkText: 'AI tools overview'
+  },
+  {
+    time: '~18:05 – 18:15',
+    title: 'Break',
+    description: 'Grab a drink, stretch, chat with your neighbors.'
+  },
+  {
+    time: '~18:15 – 19:45',
+    title: 'Hands-On: Build with AI',
+    description: 'The main event — work through a real Git workflow with AI assistants helping you code. Clone, branch, commit, and submit a pull request.',
+    link: '/hands-on',
+    linkText: 'Hands-on guide',
+    highlight: true
+  },
+  {
+    time: '~19:45 – 20:00',
+    title: 'Wrap-Up & Next Steps',
+    description: 'Recap what you\'ve learned, share your work, and discuss how to keep going after the event.'
+  }
+]" />
 
-- **17:00** — Welcome and introduction
-- **17:15** — Why AI and version control matter for research
-- **17:45** — AI tool landscape overview
-- **18:00** — Break
-- **18:15** — Hands-on coding session
-- **~20:00** — Wrap-up and next steps
+## Segments at a Glance
+
+Below is a quick text summary for accessibility:
+
+| Time | What |
+|------|------|
+| 17:00 | Welcome & Setup Check |
+| 17:15 | Presentation |
+| 17:45 | AI Tool Landscape |
+| 18:05 | Break |
+| 18:15 | Hands-On Session |
+| 19:45 | Wrap-Up |
+
+Bring your laptop with the [setup guide](/setup) completed, and you're good to go!
