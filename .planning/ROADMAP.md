@@ -1,0 +1,137 @@
+# Roadmap: AI Teachathon Website v1.0
+
+**Created:** 2026-02-16
+**Milestone:** v1.0 — Ship complete workshop website by Feb 17 afternoon
+**Phases:** 5
+
+## Phase Overview
+
+| # | Phase | Goal | Requirements | Criteria |
+|---|-------|------|--------------|----------|
+| 1 | Scaffold & Deploy | Working VitePress site live on GitHub Pages | INFRA-01..06 | 6 |
+| 2 | Core Content | Landing, setup guide, and agenda pages complete | LAND-01..03, SETUP-01..05, AGND-01..03 | 11 |
+| 3 | Presentation | Reveal.js slides ready for the workshop talk | PRES-01..04 | 4 |
+| 4 | Knowledge Pages | AI tool landscape and hands-on guide complete | TOOL-01..04, HAND-01..03 | 7 |
+| 5 | Community & Polish | Ideas, resources, cross-links, final testing | IDEA-01..03, RSRC-01..03 | 6 |
+
+---
+
+## Phase 1: Scaffold & Deploy
+
+**Goal:** Get a working VitePress + Tailwind site live on GitHub Pages with dark theme, search, and navigation.
+
+**Why first:** Deploy early. Verify the full pipeline works before writing any real content. Every subsequent phase deploys automatically.
+
+**Requirements:** INFRA-01, INFRA-02, INFRA-03, INFRA-04, INFRA-05, INFRA-06
+
+**Success Criteria:**
+1. `npm run dev` serves site locally with hot reload
+2. `npm run build` produces static output without errors
+3. GitHub Actions workflow builds and deploys on push to main
+4. Site loads at berntpopp.github.io/AI-Teachathon/ with dark theme
+5. Search bar appears and indexes placeholder content
+6. Sidebar navigation shows correct page order
+
+**Key tasks:**
+- Initialize VitePress project
+- Install and configure Tailwind CSS v4 via @tailwindcss/vite
+- Configure dark color scheme with CeRKiD accent colors
+- Create GitHub Actions workflow for Pages deployment
+- Create placeholder .md files for all pages with correct nav ordering
+- Push and verify live deployment
+
+---
+
+## Phase 2: Core Content
+
+**Goal:** Write the three most critical pages: landing page, setup guide, and agenda. These are what participants see first and must be self-service.
+
+**Why second:** Setup guide is the most time-sensitive — participants need it before the event to prepare. Landing page is the entry point. Agenda tells them what to expect.
+
+**Requirements:** LAND-01, LAND-02, LAND-03, SETUP-01, SETUP-02, SETUP-03, SETUP-04, SETUP-05, AGND-01, AGND-02, AGND-03
+
+**Success Criteria:**
+1. Landing page shows event name, date/time (Feb 17, 17:00), location, and description
+2. Landing page has three clear CTAs linking to setup, agenda, and ideas
+3. Setup guide has platform-specific instructions for VS Code, Git, GitHub
+4. Setup guide has verification steps with expected outputs
+5. Setup guide ends with a completion checklist
+6. Agenda shows timeline from 17:00 to ~20:00 with all segments
+7. Each agenda segment links to its relevant page
+
+**Content tone:** Approachable, encouraging. "If you get stuck, don't worry — we'll help." Use research analogies for Git concepts. No unexplained jargon.
+
+---
+
+## Phase 3: Presentation
+
+**Goal:** Build the Reveal.js presentation for the "Why & What" opening segment (~30 min).
+
+**Why third:** The presentation is shown on the projector and is the centerpiece of the first 30 minutes. It must engage non-technical researchers.
+
+**Requirements:** PRES-01, PRES-02, PRES-03, PRES-04
+
+**Success Criteria:**
+1. presentation.html loads from Reveal.js CDN (pinned version) without errors
+2. Slides cover: title, version control problem, Git, GitHub, AI + VCS, AI timeline, what we'll do today
+3. Dark theme matches site palette (coordinated colors)
+4. Fragment animations reveal content progressively
+5. Speaker notes are present on every slide
+6. F key enters fullscreen, S key opens speaker notes, arrow keys navigate
+7. "Back to course" link returns to main site
+
+**Content principles:** One idea per slide. Large text. No code on slides. Use research analogies (repo = lab notebook, branch = parallel experiment). Maximum 15-20 slides.
+
+---
+
+## Phase 4: Knowledge Pages
+
+**Goal:** Write the AI tool landscape overview and the hands-on session guide — the two reference pages used during the workshop.
+
+**Why fourth:** These pages are used during the event itself. The tool landscape supports the 20-min segment, the hands-on guide supports the 2-hour coding session.
+
+**Requirements:** TOOL-01, TOOL-02, TOOL-03, TOOL-04, HAND-01, HAND-02, HAND-03
+
+**Success Criteria:**
+1. AI tool landscape shows 4-level spectrum with examples at each level
+2. Comparison table lists tools with type, best for, cost, and recommendation
+3. 5 practical tips for working with AI tools are clear and actionable
+4. Tool information is current as of Feb 2026
+5. KidneyQuest concept is described with CeRKiD zebra context
+6. Step-by-step Git workflow covers clone through PR with copy-paste commands
+7. Example AI prompts are specific and task-relevant
+
+---
+
+## Phase 5: Community & Polish
+
+**Goal:** Add the ideas page, resources page, ensure all cross-links work, and do final testing.
+
+**Why last:** These pages are lower priority and the polish pass ensures everything works together.
+
+**Requirements:** IDEA-01, IDEA-02, IDEA-03, RSRC-01, RSRC-02, RSRC-03
+
+**Success Criteria:**
+1. Ideas page has 3-4 starter project ideas relevant to nephrology/genetics research
+2. Ideas page has an edit-on-GitHub link
+3. Resources page has curated links organized by category
+4. All internal cross-links work (agenda → presentation, setup → GitHub, etc.)
+5. All external links are valid and load correctly
+6. Site is readable on mobile (test at 375px width)
+7. Presentation works in fullscreen on 1024x768 viewport
+
+---
+
+## Risk Log
+
+| Risk | Impact | Mitigation |
+|------|--------|------------|
+| npm/Node version issues | Build fails | Pin Node version in GitHub Actions, test locally first |
+| Tailwind + VitePress CSS conflicts | Broken styling | Use @layer directives, test preflight interaction |
+| Reveal.js CDN unavailable | Presentation broken | Pin exact version, test before event |
+| GitHub Pages baseurl wrong | All links broken | Set base: '/AI-Teachathon/' in config, test deployed URL |
+| Content too technical | Audience disengages | Write for researchers, use analogies, avoid jargon |
+
+---
+*Roadmap created: 2026-02-16*
+*Last updated: 2026-02-16 after initial creation*

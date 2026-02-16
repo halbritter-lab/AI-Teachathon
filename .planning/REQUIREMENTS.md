@@ -1,0 +1,134 @@
+# Requirements: AI Teachathon Website
+
+**Defined:** 2026-02-16
+**Core Value:** Participants arrive prepared and leave with practical knowledge of AI coding tools, Git, and GitHub
+
+## v1 Requirements
+
+### Infrastructure
+
+- [ ] **INFRA-01**: VitePress project scaffolded with Tailwind CSS v4 and dark theme
+- [ ] **INFRA-02**: GitHub Actions workflow deploys to GitHub Pages on push to main
+- [ ] **INFRA-03**: Built-in content search enabled (MiniSearch)
+- [ ] **INFRA-04**: Sidebar navigation with correct page ordering
+- [ ] **INFRA-05**: Consistent dark color scheme with CeRKiD-inspired accents
+- [ ] **INFRA-06**: Site accessible at berntpopp.github.io/AI-Teachathon/
+
+### Landing Page
+
+- [ ] **LAND-01**: Landing page with event title, date (Feb 17, 17:00), location, and one-paragraph description
+- [ ] **LAND-02**: Three calls to action: Prepare (setup), See Agenda, Project Ideas
+- [ ] **LAND-03**: CeRKiD / Charité / Halbritter Lab branding in footer
+
+### Setup Guide
+
+- [ ] **SETUP-01**: VS Code installation instructions with download link and recommended extensions
+- [ ] **SETUP-02**: Git installation instructions (platform-specific: Windows, macOS, Linux) with git config commands
+- [ ] **SETUP-03**: GitHub account creation instructions with education pack link for free Copilot
+- [ ] **SETUP-04**: Node.js installation (optional, for Claude Code)
+- [ ] **SETUP-05**: Verification checklist with expected outputs for each tool
+
+### Agenda
+
+- [ ] **AGND-01**: Event timeline from 17:00 to ~20:00 in vertical format
+- [ ] **AGND-02**: Segments: Welcome/Setup Check, Presentation, AI Tools, Break, Hands-On, Wrap-Up
+- [ ] **AGND-03**: Links from each segment to relevant page/resource
+
+### Presentation
+
+- [ ] **PRES-01**: Standalone Reveal.js HTML file (not processed by VitePress)
+- [ ] **PRES-02**: Slides: title, version control problem, what is Git, what is GitHub, why VCS matters with AI, AI revolution timeline, what we'll do today
+- [ ] **PRES-03**: Dark theme matching site palette, fragment animations, speaker notes
+- [ ] **PRES-04**: Back-to-course link and keyboard navigation (arrows, F for fullscreen, S for speaker notes)
+
+### AI Tool Landscape
+
+- [ ] **TOOL-01**: 4-level spectrum: chat interfaces, IDE-integrated, CLI agentic, autonomous agents
+- [ ] **TOOL-02**: Comparison table of tools (name, type, best for, cost, recommendation)
+- [ ] **TOOL-03**: 5 practical tips for working with AI coding tools
+- [ ] **TOOL-04**: Current as of Feb 2026 (Copilot agent mode, Cursor, Claude Code, Aider, Codex CLI)
+
+### Hands-On Guide
+
+- [ ] **HAND-01**: KidneyQuest project description (CeRKiD zebra, HTML5 Canvas game concept)
+- [ ] **HAND-02**: Step-by-step Git workflow: clone, open in VS Code, pick issue, branch, code with AI, test, commit, push, PR
+- [ ] **HAND-03**: Example AI prompts participants can use for common tasks
+
+### Ideas Page
+
+- [ ] **IDEA-01**: Starter project ideas relevant to research (variant annotation, phenotype parser, lab website, data format conversion)
+- [ ] **IDEA-02**: Pain points section (things AI could help with in daily research)
+- [ ] **IDEA-03**: Edit-on-GitHub link for participant contributions
+
+### Resources
+
+- [ ] **RSRC-01**: Git & GitHub resources (cheat sheet, GitHub Skills, Oh Shit Git, Pro Git)
+- [ ] **RSRC-02**: AI coding tool links (Copilot docs, Claude Code docs, Cursor)
+- [ ] **RSRC-03**: Learning resources (DeepLearning.AI courses, tutorials)
+
+## v2 Requirements
+
+### Post-Event
+
+- **POST-01**: Recording/video embed (if event is recorded)
+- **POST-02**: Participant feedback form link
+- **POST-03**: Gallery of completed pull requests from the hands-on session
+
+## Out of Scope
+
+| Feature | Reason |
+|---------|--------|
+| KidneyQuest game implementation | Separate repo, only referenced here |
+| User authentication / registration | Small lab group, RSVP via email |
+| Backend/API | Static site only, GitHub Pages |
+| Real-time collaboration features | Use GitHub Issues/PRs instead |
+| Internationalization (i18n) | English-only, international research group |
+| Embedded AI chatbot | Teach them to use their own tools instead |
+
+## Traceability
+
+| Requirement | Phase | Status |
+|-------------|-------|--------|
+| INFRA-01 | Phase 1 | Pending |
+| INFRA-02 | Phase 1 | Pending |
+| INFRA-03 | Phase 1 | Pending |
+| INFRA-04 | Phase 1 | Pending |
+| INFRA-05 | Phase 1 | Pending |
+| INFRA-06 | Phase 1 | Pending |
+| LAND-01 | Phase 2 | Pending |
+| LAND-02 | Phase 2 | Pending |
+| LAND-03 | Phase 2 | Pending |
+| SETUP-01 | Phase 2 | Pending |
+| SETUP-02 | Phase 2 | Pending |
+| SETUP-03 | Phase 2 | Pending |
+| SETUP-04 | Phase 2 | Pending |
+| SETUP-05 | Phase 2 | Pending |
+| AGND-01 | Phase 2 | Pending |
+| AGND-02 | Phase 2 | Pending |
+| AGND-03 | Phase 2 | Pending |
+| PRES-01 | Phase 3 | Pending |
+| PRES-02 | Phase 3 | Pending |
+| PRES-03 | Phase 3 | Pending |
+| PRES-04 | Phase 3 | Pending |
+| TOOL-01 | Phase 4 | Pending |
+| TOOL-02 | Phase 4 | Pending |
+| TOOL-03 | Phase 4 | Pending |
+| TOOL-04 | Phase 4 | Pending |
+| HAND-01 | Phase 4 | Pending |
+| HAND-02 | Phase 4 | Pending |
+| HAND-03 | Phase 4 | Pending |
+| IDEA-01 | Phase 5 | Pending |
+| IDEA-02 | Phase 5 | Pending |
+| IDEA-03 | Phase 5 | Pending |
+| RSRC-01 | Phase 5 | Pending |
+| RSRC-02 | Phase 5 | Pending |
+| RSRC-03 | Phase 5 | Pending |
+
+**Coverage:**
+- v1 requirements: 33 total
+- Mapped to phases: 33
+- Unmapped: 0 ✓
+
+---
+*Requirements defined: 2026-02-16*
+*Last updated: 2026-02-16 after initial definition*
