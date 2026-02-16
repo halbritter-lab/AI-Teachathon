@@ -27,23 +27,26 @@
 **Plans:** 2 plans
 
 Plans:
-- [ ] 01-01-PLAN.md — Initialize VitePress + Tailwind v4 with dark theme
-- [ ] 01-02-PLAN.md — Create placeholder pages + GitHub Actions deployment
+- [x] 01-01-PLAN.md — Initialize VitePress + Tailwind v4 with dark theme *(complete)*
+- [ ] 01-02-PLAN.md — Create placeholder pages + GitHub Actions deployment *(tasks 1-2 done, awaiting checkpoint)*
 
 **Success Criteria:**
-1. `npm run dev` serves site locally with hot reload
-2. `npm run build` produces static output without errors
+1. `npm run docs:dev` serves site locally with hot reload and auto-open
+2. `npm run docs:build` produces static output without errors
 3. GitHub Actions workflow builds and deploys on push to main
 4. Site loads at berntpopp.github.io/AI-Teachathon/ with dark theme
 5. Search bar appears and indexes placeholder content
 6. Sidebar navigation shows correct page order
+7. `make check` passes (lint + format + build)
 
 **Key tasks:**
 - Initialize VitePress project
 - Install and configure Tailwind CSS v4 via @tailwindcss/vite
-- Configure dark color scheme with CeRKiD accent colors
+- Configure dark color scheme with playful purple/pink/cyan accents
+- Configure modern dev server (auto-open, HMR overlay, lastUpdated, metaChunk)
 - Create GitHub Actions workflow for Pages deployment
 - Create placeholder .md files for all pages with correct nav ordering
+- Add Makefile, Prettier, and markdownlint for DX quality
 - Push and verify live deployment
 
 ---
@@ -147,4 +150,4 @@ Plans:
 
 ---
 *Roadmap created: 2026-02-16*
-*Last updated: 2026-02-16 after Phase 2 planning*
+*Last updated: 2026-02-16 during Phase 1 execution*

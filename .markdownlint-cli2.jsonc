@@ -1,0 +1,19 @@
+{
+  "config": {
+    "default": true,
+    // Allow long lines in markdown (prose wrapping handled by editors)
+    "MD013": false,
+    // Allow duplicate headings in different files
+    "MD024": { "siblings_only": true },
+    // Allow raw HTML (needed for VitePress features)
+    "MD033": false,
+    // Allow bare URLs
+    "MD034": false
+  },
+  "ignores": [
+    "node_modules",
+    ".planning/**",
+    "docs/.vitepress/cache/**",
+    "docs/.vitepress/dist/**"
+  ]
+}

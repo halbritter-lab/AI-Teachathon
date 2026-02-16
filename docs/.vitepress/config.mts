@@ -6,20 +6,42 @@ export default defineConfig({
   description: 'Learn Git, GitHub & AI Tools — Hands On',
   base: '/AI-Teachathon/',
 
-  vite: {
-    plugins: [tailwindcss()]
-  },
+  // Git-based last updated timestamps on every page
+  lastUpdated: true,
 
-  appearance: 'dark',  // Default to dark mode
+  // Extract page metadata into separate chunks for better caching
+  metaChunk: true,
+
+  appearance: 'dark',
+
+  vite: {
+    plugins: [tailwindcss()],
+
+    server: {
+      // Auto-open browser on dev server start
+      open: '/AI-Teachathon/',
+
+      // HMR over WebSocket — enabled by default, overlay shows build errors
+      hmr: {
+        overlay: true,
+      },
+
+      // File watcher config (chokidar)
+      watch: {
+        // Ignore dirs that don't affect the site
+        ignored: ['**/.planning/**', '**/node_modules/**', '**/.git/**'],
+      },
+    },
+  },
 
   themeConfig: {
     search: {
-      provider: 'local'
+      provider: 'local',
     },
 
     siteTitle: 'AI-Teachathon | Halbritter Lab',
 
-    nav: [],  // No top nav bar -- sidebar only. Top bar shows site title only.
+    nav: [],
 
     sidebar: [
       { text: 'Setup', link: '/setup' },
@@ -27,16 +49,17 @@ export default defineConfig({
       { text: 'AI Tools', link: '/ai-tools' },
       { text: 'Hands-On', link: '/hands-on' },
       { text: 'Ideas', link: '/ideas' },
-      { text: 'Resources', link: '/resources' }
+      { text: 'Resources', link: '/resources' },
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/berntpopp/AI-Teachathon' }
+      { icon: 'github', link: 'https://github.com/berntpopp/AI-Teachathon' },
     ],
 
     footer: {
       message: 'Halbritter Lab · CeRKiD · Charite Berlin',
-      copyright: '<a href="https://github.com/berntpopp/AI-Teachathon">Contribute on GitHub</a>'
-    }
-  }
+      copyright:
+        '<a href="https://github.com/berntpopp/AI-Teachathon">Contribute on GitHub</a>',
+    },
+  },
 })

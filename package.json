@@ -6,10 +6,16 @@
   "scripts": {
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
-    "docs:preview": "vitepress preview docs"
+    "docs:preview": "vitepress preview docs",
+    "lint": "markdownlint-cli2 \"docs/**/*.md\"",
+    "lint:fix": "markdownlint-cli2 --fix \"docs/**/*.md\"",
+    "format": "prettier --write \"docs/**/*.{md,ts,css,json,yml}\" \"*.{json,js,ts}\" \".github/**/*.yml\"",
+    "format:check": "prettier --check \"docs/**/*.{md,ts,css,json,yml}\" \"*.{json,js,ts}\" \".github/**/*.yml\""
   },
   "devDependencies": {
     "@tailwindcss/vite": "^4.0.0",
+    "markdownlint-cli2": "^0.21.0",
+    "prettier": "^3.8.1",
     "tailwindcss": "^4.0.0",
     "vitepress": "^1.5.0"
   }
