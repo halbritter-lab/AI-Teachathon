@@ -12,4 +12,12 @@ hero:
     - theme: alt
       text: View Agenda
       link: /agenda
+
+features:
+  - title: Hands-On Learning
+    details: Build a real project using Git, GitHub, and AI coding assistants in a guided workshop.
+  - title: AI Tool Landscape
+    details: Explore the spectrum of AI tools from chatbots to autonomous agents — and learn when to use each.
+  - title: Collaborative Projects
+    details: Contribute ideas and code to open-source projects like KidneyQuest.
 ---
