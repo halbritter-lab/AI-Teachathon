@@ -46,6 +46,7 @@ export default defineConfig({
     sidebar: [
       { text: 'Setup', link: '/setup' },
       { text: 'Agenda', link: '/agenda' },
+      { text: 'Slides', link: '/presentation.html' },
       { text: 'AI Tools', link: '/ai-tools' },
       { text: 'Hands-On', link: '/hands-on' },
       { text: 'Ideas', link: '/ideas' },

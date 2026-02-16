@@ -3,3 +3,5 @@ docs/.vitepress/cache
 docs/.vitepress/dist
 package-lock.json
 .planning
+docs/public/presentation.html
+docs/presentation/slides.md

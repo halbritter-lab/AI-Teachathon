@@ -14,6 +14,7 @@
     "node_modules",
     ".planning/**",
     "docs/.vitepress/cache/**",
-    "docs/.vitepress/dist/**"
+    "docs/.vitepress/dist/**",
+    "docs/presentation/**"
   ]
 }

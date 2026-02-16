@@ -92,15 +92,15 @@ Download the LTS version from [nodejs.org](https://nodejs.org) and run the insta
 
 Let's make sure everything is working. Open a terminal (Terminal app on macOS/Linux, Git Bash or Command Prompt on Windows) and run each command:
 
-| Command            | Expected Output                              |
-| ------------------ | -------------------------------------------- |
-| `git --version`    | `git version 2.x.x` (any 2.x version is fine) |
-| `code --version`   | A version number like `1.x.x`                |
-| `node --version`   | `v20.x.x` or higher (only if you installed Node.js) |
+| Command          | Expected Output                                     |
+| ---------------- | --------------------------------------------------- |
+| `git --version`  | `git version 2.x.x` (any 2.x version is fine)       |
+| `code --version` | A version number like `1.x.x`                       |
+| `node --version` | `v20.x.x` or higher (only if you installed Node.js) |
 
 If any command says "not found" or doesn't work, try closing and reopening your terminal. Sometimes you need to restart your terminal for new installations to work.
 
-## Ready to Go!
+## Ready to Go
 
 Here's your final checklist:
 

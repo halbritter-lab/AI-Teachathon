@@ -44,7 +44,8 @@ section::after {
   font-weight: 600;
 }
 
-header, footer {
+header,
+footer {
   color: var(--color-header);
 }
 

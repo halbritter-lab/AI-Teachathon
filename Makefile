@@ -1,4 +1,4 @@
-.PHONY: install dev build preview lint lint-fix format format-check check clean help
+.PHONY: install dev build build-marp preview lint lint-fix format format-check check clean help
 
 ## —— Setup ——————————————————————————————————————————————
 
@@ -9,6 +9,9 @@ install: ## Install dependencies
 
 dev: ## Start dev server with hot reload
 	npm run docs:dev
+
+build-marp: ## Build Marp presentation
+	npm run build:marp
 
 build: ## Build static site for production
 	npm run docs:build
@@ -35,7 +38,7 @@ check: lint format-check build ## Run all checks (lint + format + build)
 ## —— Maintenance ————————————————————————————————————————
 
 clean: ## Remove build artifacts and caches
-	rm -rf docs/.vitepress/cache docs/.vitepress/dist node_modules
+	rm -rf docs/.vitepress/cache docs/.vitepress/dist docs/public/presentation.html node_modules
 
 ## —— Help ——————————————————————————————————————————————
 

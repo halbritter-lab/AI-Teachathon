@@ -5,8 +5,10 @@
   "type": "module",
   "scripts": {
     "docs:dev": "vitepress dev docs",
-    "docs:build": "vitepress build docs",
+    "docs:build": "npm run build:marp && vitepress build docs",
     "docs:preview": "vitepress preview docs",
+    "build:marp": "marp docs/presentation/slides.md -o docs/public/presentation.html --theme docs/.vitepress/theme/marp-theme.css --html",
+    "dev:marp": "marp docs/presentation/slides.md -o docs/public/presentation.html --theme docs/.vitepress/theme/marp-theme.css --html --watch",
     "lint": "markdownlint-cli2 \"docs/**/*.md\"",
     "lint:fix": "markdownlint-cli2 --fix \"docs/**/*.md\"",
     "format": "prettier --write \"docs/**/*.{md,ts,css,json,yml}\" \"*.{json,js,ts}\" \".github/**/*.yml\"",

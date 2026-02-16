@@ -2,8 +2,6 @@
 title: Agenda
 ---
 
-# Agenda
-
 The AI-Teachathon runs on **February 17, 2026** from **17:00 to approximately 20:00**. Here's what the evening looks like.
 
 Times are approximate — this is an interactive session, not a rigid schedule. Feel free to ask questions at any point.
@@ -54,13 +52,13 @@ Times are approximate — this is an interactive session, not a rigid schedule. 
 
 Below is a quick text summary for accessibility:
 
-| Time | What |
-|------|------|
+| Time  | What                  |
+| ----- | --------------------- |
 | 17:00 | Welcome & Setup Check |
-| 17:15 | Presentation |
-| 17:45 | AI Tool Landscape |
-| 18:05 | Break |
-| 18:15 | Hands-On Session |
-| 19:45 | Wrap-Up |
+| 17:15 | Presentation          |
+| 17:45 | AI Tool Landscape     |
+| 18:05 | Break                 |
+| 18:15 | Hands-On Session      |
+| 19:45 | Wrap-Up               |
 
 Bring your laptop with the [setup guide](/setup) completed, and you're good to go!
