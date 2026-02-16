@@ -2,19 +2,19 @@
 
 ## Current Position
 
-Phase: 2 of 5 (Core Content) — COMPLETE
-Plan: 3 of 3 in phase (all complete)
-Status: Phase 2 verified and complete
-Last activity: 2026-02-16 — Phase 2 verification passed (18/18 must-haves)
+Phase: 3 of 5 (Presentation)
+Plan: 1 of 2 in phase
+Status: In progress
+Last activity: 2026-02-16 — Completed 03-01-PLAN.md (Marp Toolchain)
 
-Progress: [████████░░] 38% (5/13 plans complete across all phases)
+Progress: [████████░░] 46% (6/13 plans complete across all phases)
 
 ## Project Reference
 
 See: .planning/PROJECT.md (updated 2026-02-16)
 
 **Core value:** Participants arrive prepared and leave with practical knowledge
-**Current focus:** Phase 2 complete — core content pages verified, ready for Phase 3 (Presentation)
+**Current focus:** Phase 3 in progress — Marp toolchain complete, slide content next
 
 ## What's Been Built
 
@@ -30,6 +30,9 @@ See: .planning/PROJECT.md (updated 2026-02-16)
 - Modern dev server config (auto-open, HMR overlay, lastUpdated, metaChunk)
 - Makefile with build/lint/format/check targets
 - Prettier + markdownlint-cli2 for code quality
+- Marp CLI 4.2.3 with custom dark theme (teal accents on dark background)
+- Presentation build pipeline integrated into npm and Make workflows
+- Test slides verify Marp toolchain works end-to-end
 
 ## Decisions
 
@@ -50,6 +53,10 @@ See: .planning/PROJECT.md (updated 2026-02-16)
 | content-voice | 02-02 | Friendly and casual tone with brief inline jargon definitions | Reduces intimidation for non-technical participants | 2026-02-16 |
 | timeline-styling | 02-03 | VitePress CSS variables for theme compatibility | Ensures Timeline works in both light and dark modes without hardcoded colors | 2026-02-16 |
 | component-registration | 02-03 | Global component registration via theme enhanceApp | Allows Timeline to be used in markdown without imports | 2026-02-16 |
+| marp-theme-base | 03-01 | Extend Gaia invert theme | Gaia provides professional baseline, invert gives dark mode, custom vars add project identity | 2026-02-16 |
+| theme-colors | 03-01 | Dark background (#1a1a1a) with teal accents (#02c797) | Matches site's dark aesthetic, teal differentiates from purple site branding | 2026-02-16 |
+| build-coordination | 03-01 | Run marp before vitepress in docs:build | Presentation HTML must exist before VitePress copies public/ directory | 2026-02-16 |
+| lint-exclusion | 03-01 | Exclude docs/presentation/ from markdownlint | Marp slides have different markdown conventions (multiple H1s, special directives) | 2026-02-16 |
 
 ## Blockers & Concerns
 
@@ -58,5 +65,5 @@ None
 ## Session Continuity
 
 Last session: 2026-02-16
-Stopped at: Phase 2 complete — all 3 plans executed and verified
+Stopped at: Completed 03-01-PLAN.md
 Resume file: None
