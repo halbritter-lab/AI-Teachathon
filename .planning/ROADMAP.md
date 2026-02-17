@@ -114,6 +114,12 @@ Plans:
 
 **Requirements:** TOOL-01, TOOL-02, TOOL-03, TOOL-04, HAND-01, HAND-02, HAND-03
 
+**Plans:** 2 plans
+
+Plans:
+- [ ] 04-01-PLAN.md — AI tool landscape: 4-level evolution spectrum, 10 tool cards, 5 practical tips
+- [ ] 04-02-PLAN.md — Hands-on guide: Git workflow steps, KidneyQuest framing, AI prompting guide
+
 **Success Criteria:**
 1. AI tool landscape shows 4-level spectrum with examples at each level
 2. Comparison table lists tools with type, best for, cost, and recommendation
@@ -137,7 +143,7 @@ Plans:
 1. Ideas page has 3-4 starter project ideas relevant to nephrology/genetics research
 2. Ideas page has an edit-on-GitHub link
 3. Resources page has curated links organized by category
-4. All internal cross-links work (agenda → presentation, setup → GitHub, etc.)
+4. All internal cross-links work (agenda -> presentation, setup -> GitHub, etc.)
 5. All external links are valid and load correctly
 6. Site is readable on mobile (test at 375px width)
 7. Presentation works in fullscreen on 1024x768 viewport
@@ -156,4 +162,4 @@ Plans:
 
 ---
 *Roadmap created: 2026-02-16*
-*Last updated: 2026-02-16 after Phase 2 execution complete*
+*Last updated: 2026-02-17 after Phase 4 planning complete*
