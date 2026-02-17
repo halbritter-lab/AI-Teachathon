@@ -41,7 +41,7 @@ test: ## Run Playwright E2E tests
 ## -- Maintenance ----------------------------------------
 
 clean: ## Remove build artifacts and caches
-	rm -rf docs/.vitepress/cache docs/.vitepress/dist docs/public/presentation.html node_modules
+	rm -rf docs/.vitepress/cache docs/.vitepress/dist docs/public/presentation.html docs/public/images node_modules
 
 ## -- Help ----------------------------------------------
 
