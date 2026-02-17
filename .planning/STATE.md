@@ -3,18 +3,18 @@
 ## Current Position
 
 Phase: 5 of 5 (Community & Polish)
-Plan: 3 of 3 in phase (05-01 and 05-02 already complete, 05-03 QA remaining)
-Status: In progress
-Last activity: 2026-02-17 - Phase 4 verified (14/14 must-haves passed), Phase 5 plans 01-02 completed as bonus
+Plan: 3 of 3 in phase (all complete)
+Status: Complete
+Last activity: 2026-02-17 - Phase 5 verified (15/15 must-haves passed), milestone v1.0 complete
 
-Progress: [█████████░] 85% (11/13 plans complete across all phases)
+Progress: [██████████] 100% (13/13 plans complete across all phases)
 
 ## Project Reference
 
 See: .planning/PROJECT.md (updated 2026-02-16)
 
 **Core value:** Participants arrive prepared and leave with practical knowledge
-**Current focus:** Phase 5 nearly complete - only 05-03 (Playwright QA) remaining
+**Current focus:** Milestone v1.0 complete - all 5 phases executed and verified
 
 ## What's Been Built
 
@@ -28,7 +28,7 @@ See: .planning/PROJECT.md (updated 2026-02-16)
 - Sidebar navigation in event flow order
 - GitHub Actions deployment workflow (.github/workflows/deploy.yml)
 - Modern dev server config (auto-open, HMR overlay, lastUpdated, metaChunk)
-- Makefile with build/lint/format/check targets
+- Makefile with build/lint/format/check/test targets
 - Prettier + markdownlint-cli2 for code quality
 - Marp CLI 4.2.3 with custom dark theme (teal accents on dark background)
 - Presentation build pipeline integrated into npm and Make workflows
@@ -48,6 +48,8 @@ See: .planning/PROJECT.md (updated 2026-02-16)
 - Site-wide edit-on-GitHub links via VitePress editLink configuration
 - Complete resources page (docs/resources.md) with 60+ curated links organized by event timeline
 - Cross-linked resources to setup, AI tools, and hands-on guides
+- Playwright E2E test suite with 13 tests across 3 device viewports (desktop, mobile, presentation)
+- All internal cross-links validated, mobile responsive design verified, Marp presentation rendering confirmed
 
 ## Decisions
 
@@ -88,6 +90,9 @@ See: .planning/PROJECT.md (updated 2026-02-16)
 | editlink-config | 05-01 | Enable edit-on-GitHub links globally via VitePress editLink | Lowers contribution barrier, demonstrates GitHub workflow participants will learn | 2026-02-17 |
 | timeline-resource-org | 05-02 | Resources organized by journey timeline (Before/During/After Event) | Context-appropriate learning - participants find relevant links when they need them | 2026-02-17 |
 | title-only-links | 05-02 | Links with titles only, no descriptions | Cleaner scanning, section headers provide context | 2026-02-17 |
+| chromium-only-tests | 05-03 | Only install chromium for Playwright (no firefox/webkit) | Fast install, sufficient for cross-link and responsive validation | 2026-02-17 |
+| port-4321 | 05-03 | Standardize dev server to port 4321 | Non-standard port avoids conflicts, consistent across dev/test/CI | 2026-02-17 |
+| local-only-tests | 05-03 | Playwright tests in .playwright/ (gitignored) | Local development tooling, not CI artifacts | 2026-02-17 |
 
 ## Blockers & Concerns
 
@@ -96,5 +101,5 @@ None
 ## Session Continuity
 
 Last session: 2026-02-17
-Stopped at: Phase 4 complete and verified. Phase 5 plans 01-02 also completed. Only 05-03 (Playwright QA) remains.
+Stopped at: Milestone v1.0 complete - all 13 plans executed, all phases verified
 Resume file: None
