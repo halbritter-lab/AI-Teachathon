@@ -1,0 +1,17 @@
+# Screenshot Directory
+
+This directory holds real tool screenshots for the AI-Teachathon presentation.
+
+## Expected Files
+
+- `chatgpt-interface.png` - ChatGPT conversation UI showing a coding question
+- `copilot-vscode.png` - GitHub Copilot autocomplete suggestion visible in VS Code
+- `claude-code-terminal.png` - Claude Code running in a terminal with visible output
+
+## Capture Guidelines
+
+- Resolution: 1920x1080 or similar HD quality
+- Theme: Dark mode (matches presentation theme)
+- Format: PNG
+- Size: Under 500KB each if possible
+- Crop: Focus on relevant UI area, exclude unnecessary desktop elements
