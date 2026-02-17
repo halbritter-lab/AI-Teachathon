@@ -9,11 +9,11 @@ Requirements for presentation revision. Each maps to roadmap phases.
 
 ### Content Additions
 
-- [ ] **CONT-01**: Add concise private vs public repos slide (when to use which, medical research default)
-- [ ] **CONT-02**: Add concise .gitignore slide (what it is, what to ignore, first defense against data leaks)
-- [ ] **CONT-03**: Add concise PII management slide (never commit patient data, API keys, what-if-you-do)
-- [ ] **CONT-04**: Expand commit messages slide with conventional commits format (feat/fix/docs types)
-- [ ] **CONT-05**: Add concise semantic versioning slide (MAJOR.MINOR.PATCH, why researchers care)
+- [x] **CONT-01**: Add concise private vs public repos slide (when to use which, medical research default)
+- [x] **CONT-02**: Add concise .gitignore slide (what it is, what to ignore, first defense against data leaks)
+- [x] **CONT-03**: Add concise PII management slide (never commit patient data, API keys, what-if-you-do)
+- [x] **CONT-04**: Expand commit messages slide with conventional commits format (feat/fix/docs types)
+- [x] **CONT-05**: Add concise semantic versioning slide (MAJOR.MINOR.PATCH, why researchers care)
 
 ### Visual Elements
 
@@ -25,24 +25,24 @@ Requirements for presentation revision. Each maps to roadmap phases.
 
 ### Learning Objectives
 
-- [ ] **OBJ-01**: Add "What You'll Learn Today" slide after title slide
-- [ ] **OBJ-02**: Add "What You Now Know" recap slide before closing CTA
+- [x] **OBJ-01**: Add "What You'll Learn Today" slide after title slide
+- [x] **OBJ-02**: Add "What You Now Know" recap slide before closing CTA
 
 ### Engagement
 
-- [ ] **ENG-01**: Add 3-4 engagement moments as speaker note prompts (show of hands, audience questions, pair discussion)
-- [ ] **ENG-02**: Add at least 1 dedicated question slide with large text
+- [x] **ENG-01**: Add 3-4 engagement moments as speaker note prompts (show of hands, audience questions, pair discussion)
+- [x] **ENG-02**: Add at least 1 dedicated question slide with large text
 
 ### Structure
 
-- [ ] **STRC-01**: Merge Part 3 (AI Timeline) into Part 2 (VC + AI) - eliminate single-slide section
-- [ ] **STRC-02**: Combine Steps 1-2 (clone + branch) into single slide
-- [ ] **STRC-03**: Expand Step 3 ("Code with AI") with example prompt and expected output
-- [ ] **STRC-04**: Move "Choose Your Tool" before tool category detail slides
+- [x] **STRC-01**: Merge Part 3 (AI Timeline) into Part 2 (VC + AI) - eliminate single-slide section
+- [x] **STRC-02**: Combine Steps 1-2 (clone + branch) into single slide
+- [x] **STRC-03**: Expand Step 3 ("Code with AI") with example prompt and expected output
+- [x] **STRC-04**: Move "Choose Your Tool" before tool category detail slides
 
 ### Slide Titles
 
-- [ ] **TITL-01**: Revise slide titles from topic labels to takeaway statements per review recommendations
+- [x] **TITL-01**: Revise slide titles from topic labels to takeaway statements per review recommendations
 
 ### Marp Features
 
@@ -74,25 +74,25 @@ Deferred to later milestones.
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| CONT-01 | Phase 6 | Pending |
-| CONT-02 | Phase 6 | Pending |
-| CONT-03 | Phase 6 | Pending |
-| CONT-04 | Phase 6 | Pending |
-| CONT-05 | Phase 6 | Pending |
+| CONT-01 | Phase 6 | Complete |
+| CONT-02 | Phase 6 | Complete |
+| CONT-03 | Phase 6 | Complete |
+| CONT-04 | Phase 6 | Complete |
+| CONT-05 | Phase 6 | Complete |
 | VIS-01 | Phase 7 | Pending |
 | VIS-02 | Phase 7 | Pending |
 | VIS-03 | Phase 7 | Pending |
 | VIS-04 | Phase 7 | Pending |
 | VIS-05 | Phase 7 | Pending |
-| OBJ-01 | Phase 6 | Pending |
-| OBJ-02 | Phase 6 | Pending |
-| ENG-01 | Phase 6 | Pending |
-| ENG-02 | Phase 6 | Pending |
-| STRC-01 | Phase 6 | Pending |
-| STRC-02 | Phase 6 | Pending |
-| STRC-03 | Phase 6 | Pending |
-| STRC-04 | Phase 6 | Pending |
-| TITL-01 | Phase 6 | Pending |
+| OBJ-01 | Phase 6 | Complete |
+| OBJ-02 | Phase 6 | Complete |
+| ENG-01 | Phase 6 | Complete |
+| ENG-02 | Phase 6 | Complete |
+| STRC-01 | Phase 6 | Complete |
+| STRC-02 | Phase 6 | Complete |
+| STRC-03 | Phase 6 | Complete |
+| STRC-04 | Phase 6 | Complete |
+| TITL-01 | Phase 6 | Complete |
 | MARP-01 | Phase 7 | Pending |
 | MARP-02 | Phase 7 | Pending |
 | MARP-03 | Phase 7 | Pending |
@@ -105,4 +105,4 @@ Deferred to later milestones.
 
 ---
 *Requirements defined: 2026-02-17*
-*Last updated: 2026-02-17 after roadmap creation (phase mapping complete)*
+*Last updated: 2026-02-17 - Phase 6 requirements complete (14/14)*
