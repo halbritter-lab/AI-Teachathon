@@ -26,11 +26,10 @@ Strengths:
 
 Issues:
 
-- Hero area feels sparse. No hero image, illustration, or visual element. Large blank space between nav and gradient text feels empty compared to leading workshop/conference sites that use an event photo, pattern, or illustration.
-- Feature cards lack visual differentiation. All three cards look identical - same border, same layout, same weight. Without icons or color accents, users scan past them. The previous emoji icons were removed for being "unprofessional" - the solution should be better icons (SVG/line icons), not no icons.
+- Hero area feels sparse. No illustration or visual element. Large blank space between nav and gradient text feels empty. A subtle CSS pattern or geometric accent would help without requiring branding assets.
+- Feature cards lack visual differentiation. All three cards look identical - same border, same layout, same weight. Without icons or color accents, users scan past them. The previous emoji icons were removed for being "unprofessional" - the solution is clean SVG line icons (Lucide), not no icons.
 - "What to Expect" section is below the fold on most viewports. The most reassuring copy for anxious beginners ("No prior experience required") is hidden below the card grid.
-- No social proof or institutional branding. No Charite logo, no lab logo, no "Organized by" section. First-time visitors lack trust signals.
-- Footer is minimal. "Halbritter Lab . CeRKiD . Charite Berlin" is plain text. Feels like a placeholder.
+- Footer is minimal. "Halbritter Lab . CeRKiD . Charite Berlin" is plain text. Functional but could link to relevant pages.
 
 ---
 
@@ -129,22 +128,23 @@ Issues:
 
 ### 6. Ideas (ideas.md)
 
-**Design: 7 | Content: 7 | Combined: 7.0/10**
+**Design: 8 | Content: 7 | Combined: 7.5/10**
 
 Strengths:
 
 - KidneyQuest featured project with CeRKiD zebra context is charming and mission-connected
-- Alternative projects cover diverse interests (genomics, desktop apps, writing, RNAseq)
-- "What Could AI Help With?" section addresses common pain points - relatable
+- Featured card has accent left border - immediately distinguishes it from alternative projects
+- Alternative projects in a responsive 2-column card grid with hover effects - scannable and engaging
+- Tech stack badges (pill-shaped, with accent variant) replace plain-text "Stack:" lines - much cleaner
+- Pain points restructured into a responsive 3-column card grid with mini-cards - no longer a dense bullet list
+- Card styles reuse the same `--vp-c-*` variables and border-radius as the Home page feature cards - visual consistency
 - "Contribute Your Ideas" CTA with direct edit link demonstrates the GitHub workflow being taught
-- Each project includes stack and "Good for" annotations
 
 Issues:
 
 - Alternative projects are highly technical for a "no prior experience required" audience. "AlphaGenome API", "Electron/Vue/SQLite", "LLM-as-judge approach" - these assume significant background knowledge.
 - No difficulty indicators. Projects should be tagged (Beginner / Intermediate / Advanced) so participants can self-select.
 - KidneyQuest section lacks a visual. A screenshot, mockup, or even a simple pixel-art zebra would make the featured project far more engaging.
-- "Common Research Pain Points" bullet list is dense. Could use icons or visual cards to make each pain point scannable.
 - No link to the actual KidneyQuest repository on this page. Users are told to wait for the session.
 
 ---
@@ -185,9 +185,9 @@ Issues:
 | Agenda | 9 | 8 | 8.5 |
 | AI Tools | 5 | 8 | 6.5 |
 | Hands-On | 6 | 9 | 7.5 |
-| Ideas | 7 | 7 | 7.0 |
+| Ideas | 8 | 7 | 7.5 |
 | Resources | 6 | 7 | 6.5 |
-| **Average** | **6.9** | **7.9** | **7.4** |
+| **Average** | **7.0** | **7.9** | **7.5** |
 
 ---
 
@@ -195,13 +195,13 @@ Issues:
 
 | Category | Weight | Score | Weighted |
 |----------|--------|-------|----------|
-| Visual Design | 20% | 6.9 | 1.38 |
+| Visual Design | 20% | 7.0 | 1.40 |
 | Content Quality | 30% | 7.9 | 2.37 |
 | Usability | 25% | 7.0 | 1.75 |
 | Accessibility | 25% | 6.5 | 1.63 |
-| **Total** | **100%** | | **7.1/10** |
+| **Total** | **100%** | | **7.2/10** |
 
-**Overall: 7.1/10 - Good.** Content is genuinely strong; design and accessibility are the primary areas for improvement.
+**Overall: 7.2/10 - Good.** Content is genuinely strong; design and accessibility are the primary areas for improvement.
 
 ---
 
@@ -233,17 +233,15 @@ Issues:
 
 1. **Add visual breaks to long pages.** AI Tools, Hands-On, and Setup are walls of text. Insert horizontal rules, colored section dividers, or alternating subtle background sections. VitePress custom containers could be styled differently.
 
-2. **Add icons to section headings.** Line icons (Lucide or inline SVGs) next to H2/H3 headings would dramatically improve scannability. Especially needed on Home (feature cards), AI Tools (tool listings), and Ideas (project cards).
+2. **Add Lucide SVG icons to key elements.** Clean monochrome stroke icons using `currentColor` for automatic dark/light theme adaptation. Use `lucide-vue-next` Vue components in markdown or SVG files in `docs/public/icons/` for frontmatter. See "Icon Strategy" appendix below for details. Priority targets: Home feature cards, AI Tools tool headings, Ideas project cards.
 
 3. **Improve information density on mobile.** Multiple pages scroll excessively. Use collapsible sections for platform-specific instructions and secondary content.
 
-4. **Add a visual identity element.** No logo, illustration, or mascot graphic anywhere. A simple event logo or CeRKiD zebra illustration in the hero section would improve trust and memorability.
+4. **Typography contrast fix.** Bump --vp-c-text-3 from #6c6c80 to at least #8a8a9e for AA compliance. Consider bumping --vp-c-text-2 from #a6a6b8 to #b4b4c6.
 
-5. **Typography contrast fix.** Bump --vp-c-text-3 from #6c6c80 to at least #8a8a9e for AA compliance. Consider bumping --vp-c-text-2 from #a6a6b8 to #b4b4c6.
+5. **Consistent end-of-page navigation.** Some pages end with "Head to the hands-on guide" CTAs, others do not. Every page should end with a clear "Next step" pointing to the next page in sidebar flow.
 
-6. **Consistent end-of-page navigation.** Some pages end with "Head to the hands-on guide" CTAs, others do not. Every page should end with a clear "Next step" pointing to the next page in sidebar flow.
-
-7. **Add learning objectives at page tops.** Brief "By the end of this page, you will..." boxes on Setup, AI Tools, Hands-On, and Ideas pages.
+6. **Add learning objectives at page tops.** Brief "By the end of this page, you will..." boxes on Setup, AI Tools, Hands-On, and Ideas pages.
 
 ---
 
@@ -256,11 +254,11 @@ Issues:
 - Add a simple visual diagram for the 4-level spectrum
 - Use styled card containers around each tool
 
-### Priority 2: Home page hero enhancement
+### Priority 2: Home page feature cards + icons
 
-- Add a hero image or illustration (gradient mesh, geometric pattern, or CeRKiD zebra)
-- Restore icons to feature cards using SVG line icons instead of emojis
+- Add Lucide SVG icons to feature cards via VitePress `icon` frontmatter (SVG files in `docs/public/icons/`, `stroke="currentColor"`, styled with `--vp-c-brand-1`)
 - Move "No prior experience required" reassurance above the fold (into hero tagline or as a badge)
+- Optionally add a subtle CSS geometric accent to the hero area (no external assets needed)
 
 ### Priority 3: Hands-On page navigation
 
@@ -280,6 +278,71 @@ Issues:
 - Fix --vp-c-text-3 contrast ratio (currently fails WCAG AA)
 - Bump --vp-c-text-2 for better readability
 - Add skip-to-content link via VitePress layout slot
+
+---
+
+## Appendix: Icon Strategy
+
+### Why Lucide Icons
+
+Emojis render inconsistently across OS/browser and look unprofessional on dark themes. AI-generated or multicolor icons clash with a monochrome design system. The solution is **Lucide** - clean, open-source, stroke-based SVG icons that use `currentColor` for automatic theme adaptation.
+
+| Criterion | Lucide | Heroicons | Phosphor | Tabler |
+|---|---|---|---|---|
+| Icons | 1,500+ | 292 | 9,000+ | 5,900+ |
+| Style | Stroke, adjustable width | 4 size variants | 6 weights incl. duotone | Stroke, adjustable width |
+| License | ISC (MIT-compatible) | MIT | MIT | MIT |
+| Vue 3 package | `lucide-vue-next` | `@heroicons/vue` | `@phosphor-icons/vue` | `@tabler/icons-vue` |
+| Tree-shakable | Yes | Yes | Yes | Yes |
+| `currentColor` default | Yes | Yes | Yes | Yes |
+| Ecosystem fit | shadcn/vue default, dominant in Vue/Vite | Made by Tailwind team | Largest set, duotone unique | Dashboard-focused |
+
+**Lucide is the top pick.** Dominant in the Vue/Vite ecosystem (shadcn/vue default), 1,500+ icons is more than sufficient, active development, consistent 24x24 grid with 2px stroke. Clean and professional without being corporate.
+
+### Integration Approach (two methods)
+
+**Home page feature cards** - SVG files in `docs/public/icons/`. Download individual SVGs from lucide.dev with `stroke="currentColor"`. Reference via VitePress `icon.src` frontmatter. Style with CSS: `.VPFeatures .VPImage { color: var(--vp-c-brand-1); }`.
+
+**Content pages (inline icons)** - Install `lucide-vue-next`, import icons in markdown `<script setup>` blocks:
+
+```md
+<script setup>
+import { GitBranch, Bot } from 'lucide-vue-next'
+</script>
+
+## <GitBranch :size="20" class="inline-block align-text-bottom" /> Version Control
+```
+
+For frequent use, register a global `<Icon>` wrapper in `docs/.vitepress/theme/index.ts`.
+
+### Sizing Convention
+
+| Context | Size | Example |
+|---|---|---|
+| Inline with body text | 16px | Tool names, badge labels |
+| Section headings (h2/h3) | 20px | Page section icons |
+| Feature cards, hero elements | 32-48px | Home page cards |
+
+### Color Rules
+
+- **Body text icons**: inherit text color via `currentColor` (no extra styling)
+- **Brand-accent icons**: `color: var(--vp-c-brand-1)` (adapts to light/dark automatically)
+- **Muted/secondary icons**: inherit from `--vp-c-text-2` parent
+- Never use multicolor. Never mix stroke widths. Keep it monochrome.
+
+### Accessibility
+
+- Lucide ships `aria-hidden="true"` by default - correct for decorative icons next to text
+- Standalone icons (no adjacent label) need `aria-label="Description"`
+- No icon fonts - SVG components only (sharper, accessible, tree-shakable)
+
+### What NOT to Do
+
+- No emojis in professional sections (inconsistent rendering, no theme adaptation)
+- No AI-generated icon assets (inconsistent style, uncanny quality)
+- No multicolor or filled icons (clashes with stroke-based dark theme aesthetic)
+- No full-library imports (always tree-shake individual icons)
+- No icon fonts like Font Awesome web font (legacy approach, poor accessibility)
 
 ---
 

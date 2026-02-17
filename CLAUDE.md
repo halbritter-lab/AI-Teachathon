@@ -35,7 +35,7 @@ Marp watch mode: `npm run dev:marp`
 
 ### Testing
 
-Playwright tests live in `tests/`. Config: `tests/playwright.config.ts`. Run with `make test` or `npm test`. The webServer config auto-starts VitePress on port 4321.
+Playwright tests live in `.playwright/`. Config: `.playwright/playwright.config.ts`. Run with `make test` or `npm test`. The webServer config auto-starts VitePress on port 4321. All Playwright artifacts (screenshots, test results, temporary captures) go in `.playwright/` - never in project root or `/tmp`.
 
 ## Architecture
 

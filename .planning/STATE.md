@@ -2,97 +2,38 @@
 
 ## Current Position
 
-Phase: 5 of 5 (Community & Polish)
-Plan: 3 of 3 in phase (all complete)
-Status: Complete
-Last activity: 2026-02-17 - Phase 5 verified (15/15 must-haves passed), milestone v1.0 complete
+Phase: 5 of 5 (all v1.0 phases complete)
+Plan: N/A - milestone complete
+Status: v1.0 shipped
+Last activity: 2026-02-17 - v1.0 milestone archived
 
-Progress: [██████████] 100% (13/13 plans complete across all phases)
+Progress: [##########] 100% (v1.0 complete, 12/12 plans shipped)
 
 ## Project Reference
 
-See: .planning/PROJECT.md (updated 2026-02-16)
+See: .planning/PROJECT.md (updated 2026-02-17)
 
 **Core value:** Participants arrive prepared and leave with practical knowledge
-**Current focus:** Milestone v1.0 complete - all 5 phases executed and verified
+**Current focus:** v1.0 shipped - planning next milestone
 
 ## What's Been Built
 
 - VitePress 1.6.4 + Tailwind CSS v4 (CSS-first, no config files)
 - Dark theme with purple/pink/cyan gradient
-- Landing page (docs/index.md) with event info hero, three CTA feature cards, What to Expect section
-- Complete setup guide (docs/setup.md) with platform-specific instructions and verification checklist
-- Agenda timeline (docs/agenda.md) with 6 event segments and navigation links
-- Reusable Timeline.vue component with dark/light mode support
-- Prominent CSS card styling with borders and hover effects
-- Sidebar navigation in event flow order
-- GitHub Actions deployment workflow (.github/workflows/deploy.yml)
-- Modern dev server config (auto-open, HMR overlay, lastUpdated, metaChunk)
+- 7 content pages (landing, setup, agenda, slides, AI tools, hands-on, ideas, resources)
+- 32-slide Marp presentation with custom dark theme
+- Marp CLI build pipeline integrated into npm and Make workflows
+- Custom Vite middleware for presentation.html serving
+- Reusable Timeline.vue component
+- GitHub Actions deployment workflow
 - Makefile with build/lint/format/check/test targets
 - Prettier + markdownlint-cli2 for code quality
-- Marp CLI 4.2.3 with custom dark theme (teal accents on dark background)
-- Presentation build pipeline integrated into npm and Make workflows
-- 32-slide presentation covering full workshop narrative arc
-- Custom Vite middleware to serve presentation.html (VitePress SPA router workaround)
-- Redirect page (docs/slides.md) for sidebar navigation to presentation
-- Emojis removed from homepage feature cards for professional tone
-- Complete AI tool landscape page (docs/ai-tools.md) with 4-level evolution spectrum (2023-2026+)
-- 10 tool comparison cards with consistent structure and recommendation badges
-- 5 practical tips for working with AI coding tools
-- Complete hands-on coding guide (docs/hands-on.md) with 8-step Git workflow and AI prompting principles
-- Two-phase workshop structure (Follow Along on AI-Teachathon repo, On Your Own with KidneyQuest)
-- 8 collapsible troubleshooting sections for Git workflow steps
-- AI prompting guide with 4 principles and model-specific tips (Claude 4-block, Gemini concise)
-- 6 ready-to-use example prompts covering workflow and project tasks
-- Complete ideas page (docs/ideas.md) with KidneyQuest featured, 4 alternative projects, 6 research pain points
-- Site-wide edit-on-GitHub links via VitePress editLink configuration
-- Complete resources page (docs/resources.md) with 60+ curated links organized by event timeline
-- Cross-linked resources to setup, AI tools, and hands-on guides
-- Playwright E2E test suite with 13 tests across 3 device viewports (desktop, mobile, presentation)
-- All internal cross-links validated, mobile responsive design verified, Marp presentation rendering confirmed
+- 13 Playwright E2E tests across 3 viewports
+- Site-wide edit-on-GitHub links
 
 ## Decisions
 
-| ID | Phase | Decision | Rationale | Date |
-|----|-------|----------|-----------|------|
-| color-scheme | 01-01 | Purple (#7c3aed) primary with pink-purple-cyan gradient | Playful-energetic hackathon vibe, fresh identity not tied to institutional colors | 2026-02-16 |
-| nav-structure | 01-01 | Sidebar-only navigation, flat list following event flow | Simpler for small site, natural reading order for event schedule | 2026-02-16 |
-| tailwind-integration | 01-01 | Tailwind v4 CSS-first via @tailwindcss/vite plugin | Modern approach, no config files needed, cleaner project structure | 2026-02-16 |
-| dx-tooling | 01-02 | Makefile + Prettier + markdownlint-cli2 | Best-practice DX: consistent formatting, markdown quality, single `make check` command | 2026-02-16 |
-| dev-config | 01-02 | Auto-open, HMR overlay, lastUpdated, metaChunk | Modern Vite best practices for dev experience and build performance | 2026-02-16 |
-| landing-structure | 02-01 | VitePress layout: home with hero and features frontmatter | Leverages framework capabilities, keeps implementation simple | 2026-02-16 |
-| event-info-placement | 02-01 | Event date/time/location in hero tagline field | Makes critical event details immediately visible above the fold | 2026-02-16 |
-| icon-strategy | 02-01 | Emoji icons instead of icon library | Avoid dependency for just 3 icons, cleaner dependency tree | 2026-02-16 |
-| card-styling | 02-01 | CSS-only hover effects for feature cards | Prominent appearance without JavaScript or animation libraries | 2026-02-16 |
-| content-tone | 02-01 | Friendly, casual tone ("like a colleague explaining over coffee") | Use "you" and contractions, no research analogies, reduces intimidation | 2026-02-16 |
-| link-and-verify | 02-02 | Official download link + verify command pattern for setup instructions | Self-service approach - users validate their own setup without screenshots | 2026-02-16 |
-| platform-visibility | 02-02 | Use H3 headings for Windows/macOS/Linux (not tabs) | All platforms visible at once for easier scanning | 2026-02-16 |
-| content-voice | 02-02 | Friendly and casual tone with brief inline jargon definitions | Reduces intimidation for non-technical participants | 2026-02-16 |
-| timeline-styling | 02-03 | VitePress CSS variables for theme compatibility | Ensures Timeline works in both light and dark modes without hardcoded colors | 2026-02-16 |
-| component-registration | 02-03 | Global component registration via theme enhanceApp | Allows Timeline to be used in markdown without imports | 2026-02-16 |
-| marp-theme-base | 03-01 | Extend Gaia invert theme | Gaia provides professional baseline, invert gives dark mode, custom vars add project identity | 2026-02-16 |
-| theme-colors | 03-01 | Dark background (#1a1a1a) with teal accents (#02c797) | Matches site's dark aesthetic, teal differentiates from purple site branding | 2026-02-16 |
-| build-coordination | 03-01 | Run marp before vitepress in docs:build | Presentation HTML must exist before VitePress copies public/ directory | 2026-02-16 |
-| lint-exclusion | 03-01 | Exclude docs/presentation/ from markdownlint | Marp slides have different markdown conventions (multiple H1s, special directives) | 2026-02-16 |
-| no-fragments | 03-02 | Use `-` bullets instead of `*` (no fragment animations) | `*` hides content until clicked - looks broken in static view, unprofessional | 2026-02-17 |
-| theme-selector | 03-02 | Use `section` selector instead of `:root.invert` in Marp CSS | Marp renders in SVG foreignObject, `:root.invert` never matches | 2026-02-17 |
-| presentation-routing | 03-02 | Vite middleware + redirect page for presentation.html | VitePress SPA router 404s static HTML from public/ (known issue #360) | 2026-02-17 |
-| no-emojis-homepage | 03-02 | Remove emoji icons from index.md feature cards | User feedback: emojis look unprofessional | 2026-02-17 |
-| spectrum-structure | 04-01 | 4-level AI tool spectrum: Chat (2023-2024), IDE (2024-2025), CLI (2025-2026), Autonomous (Emerging) | Shows rapid field evolution, helps participants understand capability differences | 2026-02-17 |
-| tool-selection | 04-01 | 10 tools: ChatGPT, Claude.ai, Gemini, GitHub Copilot, Cursor, Windsurf, Claude Code, Gemini CLI, Aider, Codex CLI | Most relevant for workshop participants, prioritized free tiers and student discounts | 2026-02-17 |
-| recommendation-badges | 04-01 | Highlight GitHub Copilot (students), Claude Code (power users), Gemini CLI (free CLI option) | Matches workshop participant demographics and budget constraints | 2026-02-17 |
-| git-workflow-steps | 04-02 | 8-step Git workflow covers full GitHub Flow (fork to merge) | Complete learning path from forking through pull request merge | 2026-02-17 |
-| troubleshooting-inline | 04-02 | Troubleshooting inline after each step for self-service learning | Participants solve problems independently, instructors float around | 2026-02-17 |
-| phase1-familiar-repo | 04-02 | Phase 1 uses AI-Teachathon repo itself (familiar environment) | Reduces cognitive load - participants work on website they're already reading | 2026-02-17 |
-| kidneyquest-minimal | 04-02 | KidneyQuest introduced with minimal context (CeRKiD zebra, Chrome dino style) | Brief framing per CONTEXT.md user decision, avoids overwhelming participants | 2026-02-17 |
-| prompting-principles-first | 04-02 | Prompting guide teaches 4 generic principles before model-specific application | Transferable skills work across any AI tool, then show Claude/Gemini specifics | 2026-02-17 |
-| featured-project-structure | 05-01 | Feature KidneyQuest as main project with CeRKiD zebra mascot connection | Emphasizes workshop's primary hands-on project, connects to lab's rare disease focus | 2026-02-17 |
-| editlink-config | 05-01 | Enable edit-on-GitHub links globally via VitePress editLink | Lowers contribution barrier, demonstrates GitHub workflow participants will learn | 2026-02-17 |
-| timeline-resource-org | 05-02 | Resources organized by journey timeline (Before/During/After Event) | Context-appropriate learning - participants find relevant links when they need them | 2026-02-17 |
-| title-only-links | 05-02 | Links with titles only, no descriptions | Cleaner scanning, section headers provide context | 2026-02-17 |
-| chromium-only-tests | 05-03 | Only install chromium for Playwright (no firefox/webkit) | Fast install, sufficient for cross-link and responsive validation | 2026-02-17 |
-| port-4321 | 05-03 | Standardize dev server to port 4321 | Non-standard port avoids conflicts, consistent across dev/test/CI | 2026-02-17 |
-| local-only-tests | 05-03 | Playwright tests in .playwright/ (gitignored) | Local development tooling, not CI artifacts | 2026-02-17 |
+See PROJECT.md Key Decisions table for full list.
 
 ## Blockers & Concerns
 
@@ -101,5 +42,5 @@ None
 ## Session Continuity
 
 Last session: 2026-02-17
-Stopped at: Milestone v1.0 complete - all 13 plans executed, all phases verified
+Stopped at: v1.0 milestone complete and archived
 Resume file: None

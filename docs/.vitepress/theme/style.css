@@ -96,3 +96,100 @@
   color: var(--vp-c-brand-1);
   font-weight: 500;
 }
+
+/* === Ideas Page: Project Cards === */
+
+/* Featured project - accent left border, larger padding */
+.featured-card {
+  border: 1px solid var(--vp-c-divider);
+  border-left: 4px solid var(--vp-c-brand-1);
+  border-radius: 12px;
+  padding: 1.5rem 2rem;
+  margin: 1rem 0;
+  transition:
+    border-color 0.25s,
+    box-shadow 0.25s;
+}
+
+/* 2-column responsive grid for project cards */
+.card-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.25rem;
+  margin: 1rem 0;
+}
+@media (min-width: 768px) {
+  .card-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Individual project card */
+.project-card {
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 12px;
+  padding: 1.25rem 1.5rem;
+  transition:
+    border-color 0.25s,
+    box-shadow 0.25s;
+}
+.project-card:hover {
+  border-color: var(--vp-c-brand-1);
+  box-shadow: 0 2px 12px rgba(124, 58, 237, 0.15);
+}
+.dark .project-card:hover {
+  box-shadow: 0 2px 12px rgba(167, 139, 250, 0.15);
+}
+
+/* Stack/tag badges */
+.card-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.75rem;
+}
+.card-badge {
+  font-size: 0.8rem;
+  padding: 0.15rem 0.6rem;
+  border-radius: 9999px;
+  border: 1px solid var(--vp-c-divider);
+  color: var(--vp-c-text-2);
+}
+.card-badge-accent {
+  border-color: var(--vp-c-brand-1);
+  color: var(--vp-c-brand-1);
+}
+
+/* Pain points - 3-column on large, 2-col on medium */
+.pain-point-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+@media (min-width: 640px) {
+  .pain-point-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (min-width: 960px) {
+  .pain-point-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Pain point mini-card */
+.pain-point-card {
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 12px;
+  padding: 1rem 1.25rem;
+}
+.pain-point-card h4 {
+  margin: 0 0 0.5rem;
+  font-size: 1rem;
+}
+.pain-point-card p {
+  margin: 0;
+  font-size: 0.95rem;
+  color: var(--vp-c-text-2);
+}

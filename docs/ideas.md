@@ -4,6 +4,8 @@ These are real project ideas from participants. Pick one that sounds interesting
 
 ## Featured Project: KidneyQuest
 
+<div class="featured-card">
+
 **An educational game about rare kidney diseases, built with web technologies and AI assistance.**
 
 KidneyQuest is an interactive game that teaches players about rare kidney diseases. It connects to the CeRKiD zebra mascot (because rare diseases are like zebras -- not horses). We'll build it together during the workshop using modern web tools and AI assistance.
@@ -17,49 +19,81 @@ This is the main project everyone will work on together. Follow the [hands-on gu
 - Building interactive features step by step
 - Debugging and iterating with AI assistance
 
+</div>
+
 ## Alternative Project Ideas
 
 Looking to explore something different? These ideas come from fellow participants.
 
-### Genomic Variant Effect Prediction with AlphaGenome
+<div class="card-grid">
 
-Use Google DeepMind's AlphaGenome API to predict how patient variants affect gene expression and chromatin accessibility. Great for learning API integration and working with genomic data.
+<div class="project-card">
+
+### Genomic Variant Effect Prediction
+
+Use Google DeepMind's AlphaGenome API to predict how patient variants affect gene expression and chromatin accessibility.
 
 This project starts from a Colab notebook, so you can run it entirely in your browser without installing anything locally. You'll learn how to call external APIs, handle genomic coordinate systems, and interpret AI predictions for clinical variants.
 
-**Stack:** Python, Google Colab, AlphaGenome API
+<div class="card-badges">
+  <span class="card-badge">Python</span>
+  <span class="card-badge">Google Colab</span>
+  <span class="card-badge card-badge-accent">API Integration</span>
+</div>
 
-**Good for:** Learning API integration, working with genomic data formats, understanding AI predictions
+</div>
+
+<div class="project-card">
 
 ### Research Data Management Dashboard
 
 Build a desktop app that handles data entry, stores everything in a local database, runs automated analysis, and displays results in visual dashboards.
 
-This project is perfect if you work with structured research data and want a custom solution for your lab's workflow. You'll learn how to build cross-platform desktop apps, work with databases, and create interactive visualizations. AI can help generate forms, write SQL queries, and create chart configurations.
+Perfect if you work with structured research data and want a custom solution for your lab's workflow. You'll learn how to build cross-platform desktop apps, work with databases, and create interactive visualizations.
 
-**Stack:** Electron, Vue/Vite, SQLite
+<div class="card-badges">
+  <span class="card-badge">Electron</span>
+  <span class="card-badge">Vue/Vite</span>
+  <span class="card-badge">SQLite</span>
+  <span class="card-badge card-badge-accent">Desktop Tools</span>
+</div>
 
-**Good for:** Building desktop tools, database design, creating custom lab workflows
+</div>
+
+<div class="project-card">
 
 ### AI-Assisted Academic Writing Pipeline
 
 Combine Zotero (for managing references), QuillBot (for paraphrasing), and GPTZero (for checking AI detection) into a streamlined research writing workflow.
 
-Learn how to chain different AI tools together and build a personal writing assistant. This project focuses on the practical workflow of writing papers: organizing references, improving clarity without plagiarism, and ensuring your writing sounds human. Great for anyone who writes academic papers.
+Learn how to chain different AI tools together and build a personal writing assistant. This project focuses on the practical workflow of writing papers: organizing references, improving clarity without plagiarism, and ensuring your writing sounds human.
 
-**Stack:** Zotero, QuillBot, GPTZero, markdown editor
+<div class="card-badges">
+  <span class="card-badge">Zotero</span>
+  <span class="card-badge">QuillBot</span>
+  <span class="card-badge">GPTZero</span>
+  <span class="card-badge card-badge-accent">Academic Writing</span>
+</div>
 
-**Good for:** Academic writing workflows, tool integration, understanding AI detection
+</div>
+
+<div class="project-card">
 
 ### AI-Powered RNAseq Enrichment Summarizer
 
 Feed enrichment analysis results to an LLM via API, get plain-language summaries of what the results mean, then validate those summaries using an LLM-as-judge approach.
 
-This project covers the full LLM workflow: designing prompts, handling structured data, avoiding hallucinations, and validating outputs. You'll learn how to use AI APIs programmatically, not just through chat interfaces. Perfect for researchers who want to automate interpretation of analysis results.
+Covers the full LLM workflow: designing prompts, handling structured data, avoiding hallucinations, and validating outputs. You'll learn how to use AI APIs programmatically, not just through chat interfaces.
 
-**Stack:** Python, OpenAI/Anthropic API
+<div class="card-badges">
+  <span class="card-badge">Python</span>
+  <span class="card-badge">OpenAI/Anthropic API</span>
+  <span class="card-badge card-badge-accent">Prompt Engineering</span>
+</div>
 
-**Good for:** LLM API usage, prompt engineering, validating AI outputs, automating research workflows
+</div>
+
+</div>
 
 ## What Could AI Help With?
 
@@ -67,17 +101,57 @@ Don't have a specific project yet? Here are common research pain points where AI
 
 ### Common Research Pain Points
 
-- **Literature review and summarization** -- Ask AI to read papers, extract key findings, and compare methodologies across studies. Great for getting up to speed on a new topic or identifying gaps in the literature.
+<div class="pain-point-grid">
 
-- **Data cleaning and reformatting** -- Transform messy datasets into tidy formats, handle missing values, or convert between file types. AI can write scripts to automate tedious data prep tasks.
+<div class="pain-point-card">
 
-- **Writing and editing manuscripts** -- Generate first drafts of methods sections, improve clarity, or adapt tone for different audiences. AI can help overcome writer's block and polish rough drafts.
+#### Literature Review
 
-- **Debugging code and scripts** -- Paste error messages and get explanations, suggested fixes, and prevention strategies. AI excels at pattern matching in error logs and suggesting solutions.
+Ask AI to read papers, extract key findings, and compare methodologies across studies. Great for getting up to speed on a new topic.
 
-- **Generating boilerplate code** -- Create starter templates for common tasks like data visualization, statistical tests, or file I/O. Save time on repetitive coding patterns.
+</div>
 
-- **Creating visualizations from data** -- Describe what you want to show, and AI can suggest plot types and generate the code. Useful for exploratory data analysis or preparing figures for publications.
+<div class="pain-point-card">
+
+#### Data Cleaning
+
+Transform messy datasets into tidy formats, handle missing values, or convert between file types. AI can write scripts to automate tedious data prep.
+
+</div>
+
+<div class="pain-point-card">
+
+#### Manuscript Writing
+
+Generate first drafts of methods sections, improve clarity, or adapt tone for different audiences. Overcome writer's block and polish rough drafts.
+
+</div>
+
+<div class="pain-point-card">
+
+#### Debugging Code
+
+Paste error messages and get explanations, suggested fixes, and prevention strategies. AI excels at pattern matching in error logs.
+
+</div>
+
+<div class="pain-point-card">
+
+#### Boilerplate Code
+
+Create starter templates for common tasks like data visualization, statistical tests, or file I/O. Save time on repetitive patterns.
+
+</div>
+
+<div class="pain-point-card">
+
+#### Data Visualization
+
+Describe what you want to show, and AI can suggest plot types and generate the code. Useful for exploratory analysis or publication figures.
+
+</div>
+
+</div>
 
 ## Contribute Your Ideas
 
