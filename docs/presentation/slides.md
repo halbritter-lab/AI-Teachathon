@@ -208,6 +208,8 @@ Think of commits as save points in a game. You can always go back.
 
 ---
 
+![bg left](images/diagrams/git-branching.svg)
+
 # Branches Let You Experiment Without Risk
 
 - A **branch** is like running a parallel experiment
@@ -290,6 +292,8 @@ Why Git matters more when AI writes your code
 <!-- This is the key insight. Version control unlocks AI's potential because you can experiment without fear. -->
 
 ---
+
+![bg left](images/diagrams/ai-timeline.svg)
 
 # AI Coding Tools Evolved Rapidly Since 2022
 
@@ -425,6 +429,8 @@ From clone to merge in five steps
 
 ---
 
+![bg left](images/diagrams/workflow-5-step.svg)
+
 # Five Steps from Clone to Merge
 
 1. **Clone the repo:** Get the code on your computer
@@ -439,6 +445,11 @@ From clone to merge in five steps
 
 ---
 
+<style scoped>
+pre { font-size: 2.2rem; line-height: 1.6; }
+code { font-weight: 600; }
+</style>
+
 # Steps 1-2: Get the Code and Create Your Branch
 
 **Clone the repository:**
@@ -452,6 +463,11 @@ Now you have the code and your own safe workspace. Main is untouched.
 <!-- Two quick commands, paired together. We'll walk through this together. No one gets left behind. -->
 
 ---
+
+<style scoped>
+blockquote { border-left: 4px solid #02c797; background: rgba(2, 199, 151, 0.1); padding: 0.8rem 1.2rem; font-size: 1.6rem; }
+li { font-size: 1.5rem; margin-bottom: 0.2rem; }
+</style>
 
 # Step 3: Let AI Write Code While You Steer
 
