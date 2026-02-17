@@ -10,24 +10,24 @@ See: .planning/PROJECT.md (updated 2026-02-17)
 ## Current Position
 
 Phase: 6 of 7 (Structure, Content, and Engagement)
-Plan: 0 of TBD in current phase
-Status: Ready to plan
-Last activity: 2026-02-17 - Roadmap created for v1.1 milestone
+Plan: 1 of 2 in current phase
+Status: In progress
+Last activity: 2026-02-17 - Completed 06-01-PLAN.md (restructure and content)
 
-Progress: [..........] 0%
+Progress: [█████.....] 50% (Phase 6: 1/2 plans complete)
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 0 (v1.1 milestone)
-- Average duration: -
-- Total execution time: -
+- Total plans completed: 1 (v1.1 milestone)
+- Average duration: 4 minutes
+- Total execution time: 4 minutes
 
 **By Phase:**
 
 | Phase | Plans | Total | Avg/Plan |
 |-------|-------|-------|----------|
-| - | - | - | - |
+| 6 | 1/2 | 4m | 4m |
 
 *Updated after each plan completion*
 
@@ -40,6 +40,10 @@ Recent decisions affecting current work:
 
 - v1.1 Roadmap: 2 phases (6-7) derived from 23 requirements across 7 categories
 - v1.1 Roadmap: Content/structure first (Phase 6), then visuals/Marp (Phase 7)
+- 06-01 STRC-01: Merge Part 3 (AI Timeline) into Part 2 for better narrative cohesion
+- 06-01 STRC-04: Reorder "Choose Your Tool" before category detail slides (pedagogical flow)
+- 06-01 CONT-01: Add private repos slide (Charite context, unpublished research safety)
+- 06-01 CONT-03: Add PII management slide (zero-tolerance for patient data commits)
 
 ### Pending Todos
 
@@ -51,6 +55,6 @@ None.
 
 ## Session Continuity
 
-Last session: 2026-02-17
-Stopped at: Roadmap created, ready to plan Phase 6
-Resume file: None
+Last session: 2026-02-17 13:49 UTC
+Stopped at: Completed 06-01-PLAN.md, ready for 06-02-PLAN.md
+Resume file: .planning/phases/06-structure-content-and-engagement/06-01-SUMMARY.md
