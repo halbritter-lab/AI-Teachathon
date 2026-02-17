@@ -20,6 +20,20 @@ February 17, 2026
 
 ---
 
+# What You'll Learn Today
+
+By the end of this session, you'll be able to:
+
+- **Understand** Git basics: repos, commits, branches, and PRs
+- **Protect** your research: .gitignore, private repos, and PII management
+- **Explain** why version control is essential when using AI tools
+- **Navigate** the AI tool landscape and choose what fits your workflow
+- **Follow** the complete Git workflow hands-on with KidneyQuest
+
+<!-- This primes the audience for what matters. Keep to 5 objectives max. Use action verbs. Revisit these at the end to close the loop. -->
+
+---
+
 # We've All Been Here
 
 final_v3.docx
@@ -458,6 +472,21 @@ Now you have the code and your own safe workspace. Main is untouched.
 **Congratulations. You've contributed to the project.**
 
 <!-- This is the full cycle. Clone, branch, code, PR, merge. You'll repeat this pattern for every feature. -->
+
+---
+
+# What You Now Know
+
+You've learned:
+- **Git** tracks every change safely - repos, commits, branches
+- **Branches and PRs** let you experiment and collaborate without risk
+- **.gitignore and private repos** protect sensitive research data
+- **AI + version control** = safe, fast iteration
+- **The workflow:** clone, branch, code with AI, PR, merge
+
+**Next up:** Apply all of this hands-on with KidneyQuest
+
+<!-- Bridge between theory and practice. Reinforce key takeaways. Point back to the objectives from the beginning - they've now covered each one. -->
 
 ---
 
