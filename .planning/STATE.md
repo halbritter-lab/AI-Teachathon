@@ -39,6 +39,8 @@ See: .planning/PROJECT.md (updated 2026-02-16)
 - Complete AI tool landscape page (docs/ai-tools.md) with 4-level evolution spectrum (2023-2026+)
 - 10 tool comparison cards with consistent structure and recommendation badges
 - 5 practical tips for working with AI coding tools
+- Complete ideas page (docs/ideas.md) with KidneyQuest featured, 4 alternative projects, 6 research pain points
+- Site-wide edit-on-GitHub links via VitePress editLink configuration
 - Complete resources page (docs/resources.md) with 60+ curated links organized by event timeline
 - Cross-linked resources to setup, AI tools, and hands-on guides
 
