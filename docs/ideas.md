@@ -23,21 +23,33 @@ Looking to explore something different? These ideas come from fellow participant
 
 ### Genomic Variant Effect Prediction with AlphaGenome
 
-Use Google DeepMind's AlphaGenome API to predict how patient variants affect gene expression and chromatin accessibility. Great for learning API integration and working with genomic data. Starts from a Colab notebook, so you can run it entirely in your browser.
+Use Google DeepMind's AlphaGenome API to predict how patient variants affect gene expression and chromatin accessibility. Great for learning API integration and working with genomic data.
+
+This project starts from a Colab notebook, so you can run it entirely in your browser without installing anything locally. You'll learn how to call external APIs, handle genomic coordinate systems, and interpret AI predictions for clinical variants.
 
 **Stack:** Python, Google Colab, AlphaGenome API
 
+**Good for:** Learning API integration, working with genomic data formats, understanding AI predictions
+
 ### Research Data Management Dashboard
 
-Build a desktop app that handles data entry, stores everything in a local database, runs automated analysis, and displays results in visual dashboards. Perfect if you work with structured research data and want a custom solution for your lab's workflow.
+Build a desktop app that handles data entry, stores everything in a local database, runs automated analysis, and displays results in visual dashboards.
+
+This project is perfect if you work with structured research data and want a custom solution for your lab's workflow. You'll learn how to build cross-platform desktop apps, work with databases, and create interactive visualizations. AI can help generate forms, write SQL queries, and create chart configurations.
 
 **Stack:** Electron, Vue/Vite, SQLite
 
+**Good for:** Building desktop tools, database design, creating custom lab workflows
+
 ### AI-Assisted Academic Writing Pipeline
 
-Combine Zotero (for managing references), QuillBot (for paraphrasing), and GPTZero (for checking AI detection) into a streamlined research writing workflow. Learn how to chain different AI tools together and build a personal writing assistant.
+Combine Zotero (for managing references), QuillBot (for paraphrasing), and GPTZero (for checking AI detection) into a streamlined research writing workflow.
+
+Learn how to chain different AI tools together and build a personal writing assistant. This project focuses on the practical workflow of writing papers: organizing references, improving clarity without plagiarism, and ensuring your writing sounds human. Great for anyone who writes academic papers.
 
 **Stack:** Zotero, QuillBot, GPTZero, markdown editor
+
+**Good for:** Academic writing workflows, tool integration, understanding AI detection
 
 ### AI-Powered RNAseq Enrichment Summarizer
 
