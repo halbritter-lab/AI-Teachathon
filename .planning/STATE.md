@@ -74,6 +74,8 @@ See: .planning/PROJECT.md (updated 2026-02-16)
 | spectrum-structure | 04-01 | 4-level AI tool spectrum: Chat (2023-2024), IDE (2024-2025), CLI (2025-2026), Autonomous (Emerging) | Shows rapid field evolution, helps participants understand capability differences | 2026-02-17 |
 | tool-selection | 04-01 | 10 tools: ChatGPT, Claude.ai, Gemini, GitHub Copilot, Cursor, Windsurf, Claude Code, Gemini CLI, Aider, Codex CLI | Most relevant for workshop participants, prioritized free tiers and student discounts | 2026-02-17 |
 | recommendation-badges | 04-01 | Highlight GitHub Copilot (students), Claude Code (power users), Gemini CLI (free CLI option) | Matches workshop participant demographics and budget constraints | 2026-02-17 |
+| featured-project-structure | 05-01 | Feature KidneyQuest as main project with CeRKiD zebra mascot connection | Emphasizes workshop's primary hands-on project, connects to lab's rare disease focus | 2026-02-17 |
+| editlink-config | 05-01 | Enable edit-on-GitHub links globally via VitePress editLink | Lowers contribution barrier, demonstrates GitHub workflow participants will learn | 2026-02-17 |
 | timeline-resource-org | 05-02 | Resources organized by journey timeline (Before/During/After Event) | Context-appropriate learning - participants find relevant links when they need them | 2026-02-17 |
 | title-only-links | 05-02 | Links with titles only, no descriptions | Cleaner scanning, section headers provide context | 2026-02-17 |
 
@@ -84,5 +86,5 @@ None
 ## Session Continuity
 
 Last session: 2026-02-17
-Stopped at: Completed 05-02-PLAN.md (resources page)
+Stopped at: Completed 05-01-PLAN.md (ideas page and edit links)
 Resume file: None
