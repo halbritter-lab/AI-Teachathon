@@ -357,6 +357,14 @@ Each has strengths. Choose based on your workflow.
 
 ---
 
+![bg left fit](images/screenshots/chatgpt-interface.png)
+
+<style scoped>
+h1 { font-size: 2.4rem; margin-bottom: 0.5rem; }
+li { font-size: 1.5rem; margin-bottom: 0.2rem; }
+p { font-size: 1.5rem; }
+</style>
+
 # Chat Tools Are Best for Learning and Quick Questions
 
 **Examples:** ChatGPT, Claude.ai, Gemini
@@ -373,6 +381,14 @@ Each has strengths. Choose based on your workflow.
 
 ---
 
+![bg left fit](images/screenshots/copilot-vscode-sidebar.png)
+
+<style scoped>
+h1 { font-size: 2.4rem; margin-bottom: 0.5rem; }
+li { font-size: 1.5rem; margin-bottom: 0.2rem; }
+p { font-size: 1.5rem; }
+</style>
+
 # Sidebar Tools Integrate AI Into Your Editor
 
 **Examples:** GitHub Copilot, Cursor, Cody
@@ -388,6 +404,14 @@ Each has strengths. Choose based on your workflow.
 <!-- Sidebar tools are the sweet spot for many developers. Suggestions appear as you type. You stay in your editor. This is what most people use daily. -->
 
 ---
+
+![bg left fit](images/screenshots/claude-code-terminal.png)
+
+<style scoped>
+h1 { font-size: 2.4rem; margin-bottom: 0.5rem; }
+li { font-size: 1.5rem; margin-bottom: 0.2rem; }
+p { font-size: 1.5rem; }
+</style>
 
 # CLI Agents Automate Entire Tasks
 
