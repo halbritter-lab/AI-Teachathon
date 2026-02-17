@@ -9,25 +9,30 @@ export default defineConfig({
   reporter: 'html',
 
   use: {
-    baseURL: 'http://localhost:5173/AI-Teachathon/',
+    baseURL: 'http://localhost:5555',
     trace: 'on-first-retry',
   },
 
   webServer: {
-    command: 'npm run docs:dev -- --port 5173',
-    url: 'http://localhost:5173/AI-Teachathon/',
+    command: 'npx vitepress dev docs --port 5555',
+    url: 'http://localhost:5555/AI-Teachathon/',
     reuseExistingServer: !process.env.CI,
-    timeout: 30000,
+    timeout: 120000,
+    stdout: 'pipe',
+    stderr: 'pipe',
   },
 
   projects: [
     {
       name: 'desktop',
       use: { ...devices['Desktop Chrome'] },
+      testMatch: 'links.spec.ts',
     },
     {
       name: 'mobile',
       use: { ...devices['Pixel 5'] },
+      testMatch: 'responsive.spec.ts',
+      testIgnore: '**/Presentation/**',
     },
     {
       name: 'presentation',
@@ -35,6 +40,8 @@ export default defineConfig({
         viewport: { width: 1024, height: 768 },
         deviceScaleFactor: 1,
       },
+      testMatch: 'responsive.spec.ts',
+      grep: /Presentation/,
     },
   ],
 })
