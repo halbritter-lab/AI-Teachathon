@@ -53,20 +53,31 @@ Learn how to chain different AI tools together and build a personal writing assi
 
 ### AI-Powered RNAseq Enrichment Summarizer
 
-Feed enrichment analysis results to an LLM via API, get plain-language summaries of what the results mean, then validate those summaries using an LLM-as-judge approach. Covers prompt design, hallucination avoidance, validation techniques, and API usage.
+Feed enrichment analysis results to an LLM via API, get plain-language summaries of what the results mean, then validate those summaries using an LLM-as-judge approach.
+
+This project covers the full LLM workflow: designing prompts, handling structured data, avoiding hallucinations, and validating outputs. You'll learn how to use AI APIs programmatically, not just through chat interfaces. Perfect for researchers who want to automate interpretation of analysis results.
 
 **Stack:** Python, OpenAI/Anthropic API
 
+**Good for:** LLM API usage, prompt engineering, validating AI outputs, automating research workflows
+
 ## What Could AI Help With?
 
-Don't have a specific project yet? Here are common research pain points where AI tools can help:
+Don't have a specific project yet? Here are common research pain points where AI tools can help. Pick one that matches your daily frustrations and explore it during the hands-on session.
 
-- **Literature review and summarization** -- Ask AI to read papers, extract key findings, and compare methodologies across studies.
-- **Data cleaning and reformatting** -- Transform messy datasets into tidy formats, handle missing values, or convert between file types.
-- **Writing and editing manuscripts** -- Generate first drafts of methods sections, improve clarity, or adapt tone for different audiences.
-- **Debugging code and scripts** -- Paste error messages and get explanations, suggested fixes, and prevention strategies.
-- **Generating boilerplate code** -- Create starter templates for common tasks like data visualization, statistical tests, or file I/O.
-- **Creating visualizations from data** -- Describe what you want to show, and AI can suggest plot types and generate the code.
+### Common Research Pain Points
+
+- **Literature review and summarization** -- Ask AI to read papers, extract key findings, and compare methodologies across studies. Great for getting up to speed on a new topic or identifying gaps in the literature.
+
+- **Data cleaning and reformatting** -- Transform messy datasets into tidy formats, handle missing values, or convert between file types. AI can write scripts to automate tedious data prep tasks.
+
+- **Writing and editing manuscripts** -- Generate first drafts of methods sections, improve clarity, or adapt tone for different audiences. AI can help overcome writer's block and polish rough drafts.
+
+- **Debugging code and scripts** -- Paste error messages and get explanations, suggested fixes, and prevention strategies. AI excels at pattern matching in error logs and suggesting solutions.
+
+- **Generating boilerplate code** -- Create starter templates for common tasks like data visualization, statistical tests, or file I/O. Save time on repetitive coding patterns.
+
+- **Creating visualizations from data** -- Describe what you want to show, and AI can suggest plot types and generate the code. Useful for exploratory data analysis or preparing figures for publications.
 
 ## Contribute Your Ideas
 
