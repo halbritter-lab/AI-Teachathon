@@ -513,6 +513,8 @@ From clone to merge in five steps
 
 ---
 
+![bg right:35% fit](images/kidney-quest-zebra.svg)
+
 # KidneyQuest Teaches the Full Git Workflow
 
 **A simple browser game where the CeRKiD zebra collects genes.**
