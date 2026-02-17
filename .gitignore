@@ -1,6 +1,8 @@
 node_modules
 docs/.vitepress/cache
 docs/.vitepress/dist
-.playwright/
+.playwright/docs/
+.playwright/screenshots/
+.playwright/test-results/
 playwright-report/
 test-results/

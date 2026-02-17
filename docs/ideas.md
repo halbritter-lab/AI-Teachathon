@@ -1,6 +1,6 @@
 # Project Ideas
 
-These are real project ideas from participants. Pick one that sounds interesting, or bring your own -- the goal is to learn Git, GitHub, and AI tools by building something you care about.
+These are real project ideas from participants. Pick one that sounds interesting, or bring your own - the goal is to learn Git, GitHub, and AI tools by building something you care about.
 
 ## Featured Project: KidneyQuest
 
@@ -8,7 +8,7 @@ These are real project ideas from participants. Pick one that sounds interesting
 
 **An educational game about rare kidney diseases, built with web technologies and AI assistance.**
 
-KidneyQuest is an interactive game that teaches players about rare kidney diseases. It connects to the CeRKiD zebra mascot (because rare diseases are like zebras -- not horses). We'll build it together during the workshop using modern web tools and AI assistance.
+KidneyQuest is an interactive game that teaches players about rare kidney diseases. It connects to the CeRKiD zebra mascot (because rare diseases are like zebras - not horses). We'll build it together during the workshop using modern web tools and AI assistance.
 
 This is the main project everyone will work on together. Follow the [hands-on guide](/hands-on) to get started.
 
@@ -155,4 +155,4 @@ Describe what you want to show, and AI can suggest plot types and generate the c
 
 ## Contribute Your Ideas
 
-Have a project idea? [Edit this page](https://github.com/berntpopp/AI-Teachathon/edit/main/docs/ideas.md) and add it -- that's what contributing on GitHub looks like.
+Have a project idea? [Edit this page](https://github.com/halbritter-lab/AI-Teachathon/edit/main/docs/ideas.md) and add it - that's what contributing on GitHub looks like.

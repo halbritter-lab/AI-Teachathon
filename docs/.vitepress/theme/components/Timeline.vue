@@ -9,13 +9,17 @@
         <!-- Timeline dot -->
         <span
           class="absolute -start-[11px] flex h-5 w-5 items-center justify-center rounded-full ring-4 ring-[var(--vp-c-bg)]"
-          :class="segment.highlight
-            ? 'bg-[var(--vp-c-brand-1)]'
-            : 'bg-[var(--vp-c-divider)]'"
+          :class="
+            segment.highlight
+              ? 'bg-[var(--vp-c-brand-1)]'
+              : 'bg-[var(--vp-c-divider)]'
+          "
         />
 
         <!-- Time label -->
-        <time class="mb-1 block text-sm font-normal leading-none text-[var(--vp-c-text-3)]">
+        <time
+          class="mb-1 block text-sm font-normal leading-none text-[var(--vp-c-text-3)]"
+        >
           {{ segment.time }}
         </time>
 
@@ -32,7 +36,7 @@
         <!-- Optional link -->
         <a
           v-if="segment.link"
-          :href="segment.link"
+          :href="withBase(segment.link)"
           class="mt-2 inline-flex items-center text-sm font-medium text-[var(--vp-c-brand-1)] hover:underline"
         >
           {{ segment.linkText || 'Learn more' }} →
@@ -43,6 +47,8 @@
 </template>
 
 <script setup lang="ts">
+import { withBase } from 'vitepress'
+
 interface TimelineSegment {
   time: string
   title: string

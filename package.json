@@ -4,15 +4,15 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "docs:dev": "vitepress dev docs",
+    "docs:dev": "vitepress dev docs --port 4321",
     "docs:build": "npm run build:marp && vitepress build docs",
     "docs:preview": "vitepress preview docs",
     "build:marp": "marp docs/presentation/slides.md -o docs/public/presentation.html --theme docs/.vitepress/theme/marp-theme.css --html",
     "dev:marp": "marp docs/presentation/slides.md -o docs/public/presentation.html --theme docs/.vitepress/theme/marp-theme.css --html --watch",
     "lint": "markdownlint-cli2 \"docs/**/*.md\"",
     "lint:fix": "markdownlint-cli2 --fix \"docs/**/*.md\"",
-    "format": "prettier --write \"docs/**/*.{md,ts,css,json,yml}\" \"*.{json,js,ts}\" \".github/**/*.yml\"",
-    "format:check": "prettier --check \"docs/**/*.{md,ts,css,json,yml}\" \"*.{json,js,ts}\" \".github/**/*.yml\"",
+    "format": "prettier --write \"docs/**/*.{md,vue,ts,css,json,yml}\" \"*.{json,js,ts}\" \".github/**/*.yml\"",
+    "format:check": "prettier --check \"docs/**/*.{md,vue,ts,css,json,yml}\" \"*.{json,js,ts}\" \".github/**/*.yml\"",
     "test": "playwright test --config .playwright/playwright.config.ts",
     "test:ui": "playwright test --config .playwright/playwright.config.ts --ui"
   },
