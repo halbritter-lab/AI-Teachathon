@@ -19,10 +19,15 @@ make lint-fix         # Lint and auto-fix markdown
 make format           # Format all source files with Prettier
 make format-check     # Check formatting without writing
 make check            # Run all checks (lint + format + build)
+make test             # Run Playwright E2E tests
 make clean            # Remove build artifacts, caches, and node_modules
 ```
 
 Marp watch mode: `npm run dev:marp`
+
+### Testing
+
+Playwright tests live in `.playwright/` (gitignored). Config: `.playwright/playwright.config.ts`. Run with `make test` or `npm test`. The webServer config auto-starts VitePress on port 5555.
 
 ## Architecture
 

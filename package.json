@@ -13,8 +13,8 @@
     "lint:fix": "markdownlint-cli2 --fix \"docs/**/*.md\"",
     "format": "prettier --write \"docs/**/*.{md,ts,css,json,yml}\" \"*.{json,js,ts}\" \".github/**/*.yml\"",
     "format:check": "prettier --check \"docs/**/*.{md,ts,css,json,yml}\" \"*.{json,js,ts}\" \".github/**/*.yml\"",
-    "test": "playwright test",
-    "test:ui": "playwright test --ui"
+    "test": "playwright test --config .playwright/playwright.config.ts",
+    "test:ui": "playwright test --config .playwright/playwright.config.ts --ui"
   },
   "devDependencies": {
     "@marp-team/marp-cli": "^4.2.3",
