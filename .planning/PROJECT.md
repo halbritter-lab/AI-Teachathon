@@ -64,7 +64,7 @@ Shipped v1.0 with ~2,562 lines across 71 files.
 Tech stack: VitePress 1.6.4, Tailwind CSS v4, Marp CLI 4.2.3, Playwright.
 7 content pages + 1 standalone presentation (32 slides).
 13 Playwright E2E tests validating cross-links, responsive design, and presentation.
-Deployed to GitHub Pages at berntpopp.github.io/AI-Teachathon/.
+Deployed to GitHub Pages at halbritter-lab.github.io/AI-Teachathon/.
 
 Detailed presentation review completed (`.planning/PRESENTATION-REVIEW.md`) with per-slide scores, weighted dimension ratings, and 7 priority improvement areas.
 

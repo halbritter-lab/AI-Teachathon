@@ -145,7 +145,7 @@ AI-Teachathon/
 
 **Flat page structure (no subdirectories for pages):** With only ~8 pages, a flat structure is simpler and avoids Jekyll collection/permalink complexity. Each `.md` file lives at the root and uses `nav_order` in front matter for sidebar ordering.
 
-**`presentation.html` has NO front matter:** Jekyll treats files without YAML front matter as static assets and copies them to the output directory unchanged. This is exactly what we want -- reveal.js needs a complete, unprocessed HTML document. The file will be accessible at `https://berntpopp.github.io/AI-Teachathon/presentation.html`.
+**`presentation.html` has NO front matter:** Jekyll treats files without YAML front matter as static assets and copies them to the output directory unchanged. This is exactly what we want -- reveal.js needs a complete, unprocessed HTML document. The file will be accessible at `https://halbritter-lab.github.io/AI-Teachathon/presentation.html`.
 
 **`_sass/color_schemes/teachathon.scss`:** Custom color scheme that extends the built-in dark scheme. This is where the shared color palette lives for the docs side. The presentation.html file mirrors these colors in its own inline `<style>` block.
 
@@ -182,7 +182,7 @@ Author writes content
   GitHub Actions uploads artifact
         |
         v
-  GitHub Pages serves at berntpopp.github.io/AI-Teachathon/
+  GitHub Pages serves at halbritter-lab.github.io/AI-Teachathon/
         |
         +---> /index.html          (landing page)
         +---> /setup/              (setup guide)
@@ -348,7 +348,7 @@ Jekyll produces a `_site/` directory containing:
 ### Deployment URL Structure
 
 ```
-https://berntpopp.github.io/AI-Teachathon/
+https://halbritter-lab.github.io/AI-Teachathon/
   |-- /                         -> index.html (landing page)
   |-- /setup/                   -> setup.html
   |-- /agenda/                  -> agenda.html

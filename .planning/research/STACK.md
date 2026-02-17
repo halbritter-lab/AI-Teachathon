@@ -405,7 +405,7 @@ jobs:
 
 This deploys the entire repository root as a static site. No build step. No npm. No Node.js.
 
-**Base URL:** The site will be at `https://berntpopp.github.io/AI-Teachathon/`
+**Base URL:** The site will be at `https://halbritter-lab.github.io/AI-Teachathon/`
 All internal links must account for the `/AI-Teachathon/` base path.
 
 ---

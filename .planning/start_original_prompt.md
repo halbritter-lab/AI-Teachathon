@@ -28,7 +28,7 @@ _config.yml spec:
 yamltitle: "AI Teachathon"
 description: "Halbritter Lab Workshop on AI-Assisted Coding, Git & GitHub"
 remote_theme: just-the-docs/just-the-docs
-url: "https://berntpopp.github.io"
+url: "https://halbritter-lab.github.io"
 baseurl: "/AI-Teachathon"
 color_scheme: dark               # or light, your choice
 search_enabled: true
@@ -36,7 +36,7 @@ heading_anchors: true
 
 aux_links:
   "GitHub Repo":
-    - "https://github.com/berntpopp/AI-Teachathon"
+    - "https://github.com/halbritter-lab/AI-Teachathon"
   "KidneyQuest":
     - "https://github.com/berntpopp/KidneyQuest"
 

@@ -21,7 +21,7 @@ We'll start with this website's repository - the one you've been reading. You'll
 
 A fork creates your personal copy of the repository on GitHub. This way you can make changes without affecting the original project.
 
-1. Go to [github.com/berntpopp/AI-Teachathon](https://github.com/berntpopp/AI-Teachathon)
+1. Go to [github.com/halbritter-lab/AI-Teachathon](https://github.com/halbritter-lab/AI-Teachathon)
 2. Click the "Fork" button in the top-right corner
 3. GitHub will create a copy at `github.com/YOUR-USERNAME/AI-Teachathon`
 
@@ -63,7 +63,7 @@ You should see your fork's URL listed as `origin`.
 ::: details If something went wrong
 
 **Problem:** "repository not found" error
-**Solution:** Double-check the URL. Make sure you're using YOUR username, not "berntpopp". The URL should be `https://github.com/YOUR-USERNAME/AI-Teachathon.git`.
+**Solution:** Double-check the URL. Make sure you're using YOUR username, not "halbritter-lab". The URL should be `https://github.com/YOUR-USERNAME/AI-Teachathon.git`.
 
 **Problem:** Authentication error (username/password prompt)
 **Solution:** GitHub no longer accepts passwords for Git operations. Use a personal access token instead:

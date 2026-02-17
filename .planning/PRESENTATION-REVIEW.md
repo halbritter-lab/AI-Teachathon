@@ -277,7 +277,7 @@ The presentation underwent a substantial revision addressing all 7 priority area
 
 - (+) Clear bridge to self-study
 - (-) No QR code for mobile access
-- (!) **BUG: Wrong URL** - says `berntpopp.github.io/AI-Teachathon/` but site is at `halbritter-lab.github.io/AI-Teachathon/`
+- (!) **BUG: Wrong URL** - says `halbritter-lab.github.io/AI-Teachathon/` but site is at `halbritter-lab.github.io/AI-Teachathon/`
 
 ### Part 4: What We'll Do Today (Slides 30-38)
 
@@ -367,7 +367,7 @@ The presentation underwent a substantial revision addressing all 7 priority area
 - Tool descriptions remain somewhat generic
 
 **Bug:**
-- Course site URL is wrong on slides 29 and 38: `berntpopp.github.io` should be `halbritter-lab.github.io`
+- Course site URL is wrong on slides 29 and 38: `halbritter-lab.github.io` should be `halbritter-lab.github.io`
 
 ### 2. Didactic Flow & Structure: 8/10 (weight: 20%)
 
@@ -470,7 +470,7 @@ The presentation underwent a substantial revision addressing all 7 priority area
 
 ## Bugs to Fix
 
-1. **Wrong course site URL** (slides 29 and 38): `https://berntpopp.github.io/AI-Teachathon/` should be `https://halbritter-lab.github.io/AI-Teachathon/`
+1. **Wrong course site URL** (slides 29 and 38): `https://halbritter-lab.github.io/AI-Teachathon/` should be `https://halbritter-lab.github.io/AI-Teachathon/`
 2. **Unused screenshot**: `copilot-vscode-autocomplete.png` exists in the screenshots directory but is not referenced in any slide
 
 ---

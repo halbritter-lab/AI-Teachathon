@@ -14,15 +14,15 @@ Mistakes that cause the site to be unusable at event time. These are the ones th
 
 ### Pitfall 1: Base Path / `baseurl` Misconfiguration (Broken Site on GitHub Pages)
 
-**What goes wrong:** The site works perfectly on `localhost` but every CSS file, JS script, image, and internal link is broken when deployed to `https://berntpopp.github.io/AI-Teachathon/`. The page loads as unstyled HTML or shows a blank white page.
+**What goes wrong:** The site works perfectly on `localhost` but every CSS file, JS script, image, and internal link is broken when deployed to `https://halbritter-lab.github.io/AI-Teachathon/`. The page loads as unstyled HTML or shows a blank white page.
 
-**Why it happens:** GitHub Pages project sites serve from a subpath (`/AI-Teachathon/`), not from root (`/`). Locally, you develop at `localhost:4000/` with no subpath. Any absolute path like `/assets/css/style.css` resolves to `berntpopp.github.io/assets/css/style.css` instead of `berntpopp.github.io/AI-Teachathon/assets/css/style.css`. This is the single most common GitHub Pages deployment failure.
+**Why it happens:** GitHub Pages project sites serve from a subpath (`/AI-Teachathon/`), not from root (`/`). Locally, you develop at `localhost:4000/` with no subpath. Any absolute path like `/assets/css/style.css` resolves to `halbritter-lab.github.io/assets/css/style.css` instead of `halbritter-lab.github.io/AI-Teachathon/assets/css/style.css`. This is the single most common GitHub Pages deployment failure.
 
 **Consequences:** Site appears completely broken -- no styling, no images, broken navigation. To anyone visiting, the site looks like it failed to load. Panic ensues the night before the event.
 
 **Prevention:**
 - Set `baseurl: "/AI-Teachathon"` in `_config.yml` (with the leading slash, no trailing slash)
-- Set `url: "https://berntpopp.github.io"` in `_config.yml`
+- Set `url: "https://halbritter-lab.github.io"` in `_config.yml`
 - In all templates and markdown, use `{{ site.baseurl }}` prefix or relative paths, never bare absolute paths
 - For the just-the-docs theme: the theme handles this internally if `baseurl` is set correctly
 - For the standalone Reveal.js `presentation.html`: use only CDN URLs (absolute external) and relative paths for any local assets -- do NOT use root-relative paths like `/assets/...`
@@ -109,7 +109,7 @@ Using `theme: just-the-docs` without the gem in the Gemfile works locally if you
 **Prevention:**
 - Use the jsDelivr CDN with a specific version pin: `https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.js` (verify the exact latest version)
 - Do NOT add any Jekyll front matter to the HTML file. A raw `.html` file with no front matter is passed through by Jekyll as-is. Adding `---` at the top triggers Liquid processing, which can break JavaScript template literals.
-- Test the presentation URL directly after deploy: `https://berntpopp.github.io/AI-Teachathon/presentation.html`
+- Test the presentation URL directly after deploy: `https://halbritter-lab.github.io/AI-Teachathon/presentation.html`
 - Load reveal.js CSS AND JS from CDN -- do not mix local and CDN resources
 - Test in an incognito window to avoid cache issues
 
@@ -509,7 +509,7 @@ These pitfalls are specifically amplified when building the night before.
 
 Run through this checklist on the morning of Feb 17, before the event:
 
-- [ ] Site loads at `https://berntpopp.github.io/AI-Teachathon/`
+- [ ] Site loads at `https://halbritter-lab.github.io/AI-Teachathon/`
 - [ ] All navigation links work (click every sidebar item)
 - [ ] Presentation loads at `.../AI-Teachathon/presentation.html`
 - [ ] Presentation works in fullscreen (press F)

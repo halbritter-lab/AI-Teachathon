@@ -66,7 +66,7 @@ tests/
 export default defineConfig({
   themeConfig: {
     editLink: {
-      pattern: 'https://github.com/berntpopp/AI-Teachathon/edit/main/docs/:path',
+      pattern: 'https://github.com/halbritter-lab/AI-Teachathon/edit/main/docs/:path',
       text: 'Edit this page on GitHub'
     }
   }
@@ -505,7 +505,7 @@ export default defineConfig({
     // ... existing themeConfig
 
     editLink: {
-      pattern: 'https://github.com/berntpopp/AI-Teachathon/edit/main/docs/:path',
+      pattern: 'https://github.com/halbritter-lab/AI-Teachathon/edit/main/docs/:path',
       text: 'Edit this page on GitHub'
     },
   },
