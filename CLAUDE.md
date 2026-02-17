@@ -57,4 +57,4 @@ Marp watch mode: `npm run dev:marp`
 
 ## Deployment
 
-GitHub Actions on push to main: checkout (full history for lastUpdated), Node 22, `npm ci`, `npm run docs:build`, deploy to GitHub Pages. Single concurrent deployment (cancel-in-progress: false).
+GitHub Actions on push to main: checkout (full history for lastUpdated), Node 24, `npm ci`, `npm run docs:build`, deploy to GitHub Pages. Single concurrent deployment (cancel-in-progress: false).
