@@ -1,6 +1,6 @@
 @import 'tailwindcss';
 
-@source "../../docs/**/*.md";
+@source "../../**/*.md";
 @source "../**/*.{vue,ts}";
 
 /* === Dark Theme: Playful Hackathon Energy === */

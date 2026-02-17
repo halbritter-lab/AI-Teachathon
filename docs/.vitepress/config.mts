@@ -63,7 +63,8 @@ export default defineConfig({
     },
 
     editLink: {
-      pattern: 'https://github.com/berntpopp/AI-Teachathon/edit/main/docs/:path',
+      pattern:
+        'https://github.com/halbritter-lab/AI-Teachathon/edit/main/docs/:path',
       text: 'Edit this page on GitHub',
     },
 
@@ -82,13 +83,16 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/berntpopp/AI-Teachathon' },
+      {
+        icon: 'github',
+        link: 'https://github.com/halbritter-lab/AI-Teachathon',
+      },
     ],
 
     footer: {
       message: 'Halbritter Lab · CeRKiD · Charite Berlin',
       copyright:
-        '<a href="https://github.com/berntpopp/AI-Teachathon">Contribute on GitHub</a>',
+        '<a href="https://github.com/halbritter-lab/AI-Teachathon">Contribute on GitHub</a>',
     },
   },
 })
