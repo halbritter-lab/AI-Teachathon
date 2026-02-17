@@ -74,35 +74,35 @@ Deferred to later milestones.
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| CONT-01 | Pending | Pending |
-| CONT-02 | Pending | Pending |
-| CONT-03 | Pending | Pending |
-| CONT-04 | Pending | Pending |
-| CONT-05 | Pending | Pending |
-| VIS-01 | Pending | Pending |
-| VIS-02 | Pending | Pending |
-| VIS-03 | Pending | Pending |
-| VIS-04 | Pending | Pending |
-| VIS-05 | Pending | Pending |
-| OBJ-01 | Pending | Pending |
-| OBJ-02 | Pending | Pending |
-| ENG-01 | Pending | Pending |
-| ENG-02 | Pending | Pending |
-| STRC-01 | Pending | Pending |
-| STRC-02 | Pending | Pending |
-| STRC-03 | Pending | Pending |
-| STRC-04 | Pending | Pending |
-| TITL-01 | Pending | Pending |
-| MARP-01 | Pending | Pending |
-| MARP-02 | Pending | Pending |
-| MARP-03 | Pending | Pending |
-| MARP-04 | Pending | Pending |
+| CONT-01 | Phase 6 | Pending |
+| CONT-02 | Phase 6 | Pending |
+| CONT-03 | Phase 6 | Pending |
+| CONT-04 | Phase 6 | Pending |
+| CONT-05 | Phase 6 | Pending |
+| VIS-01 | Phase 7 | Pending |
+| VIS-02 | Phase 7 | Pending |
+| VIS-03 | Phase 7 | Pending |
+| VIS-04 | Phase 7 | Pending |
+| VIS-05 | Phase 7 | Pending |
+| OBJ-01 | Phase 6 | Pending |
+| OBJ-02 | Phase 6 | Pending |
+| ENG-01 | Phase 6 | Pending |
+| ENG-02 | Phase 6 | Pending |
+| STRC-01 | Phase 6 | Pending |
+| STRC-02 | Phase 6 | Pending |
+| STRC-03 | Phase 6 | Pending |
+| STRC-04 | Phase 6 | Pending |
+| TITL-01 | Phase 6 | Pending |
+| MARP-01 | Phase 7 | Pending |
+| MARP-02 | Phase 7 | Pending |
+| MARP-03 | Phase 7 | Pending |
+| MARP-04 | Phase 7 | Pending |
 
 **Coverage:**
-- v1.1 requirements: 22 total
-- Mapped to phases: 0
-- Unmapped: 22
+- v1.1 requirements: 23 total
+- Mapped to phases: 23
+- Unmapped: 0
 
 ---
 *Requirements defined: 2026-02-17*
-*Last updated: 2026-02-17 after initial definition*
+*Last updated: 2026-02-17 after roadmap creation (phase mapping complete)*

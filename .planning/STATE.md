@@ -1,46 +1,56 @@
-# State
-
-## Current Position
-
-Phase: Not started (defining requirements)
-Plan: -
-Status: Defining requirements
-Last activity: 2026-02-17 - Milestone v1.1 started
-
-Progress: [..........] 0%
+# Project State
 
 ## Project Reference
 
 See: .planning/PROJECT.md (updated 2026-02-17)
 
 **Core value:** Participants arrive prepared and leave with practical knowledge
-**Current focus:** v1.1 Presentation Revision - full revision targeting 8.5+/10
+**Current focus:** v1.1 Presentation Revision - Phase 6 (Structure, Content, and Engagement)
 
-## What's Been Built
+## Current Position
 
-- VitePress 1.6.4 + Tailwind CSS v4 (CSS-first, no config files)
-- Dark theme with purple/pink/cyan gradient
-- 7 content pages (landing, setup, agenda, slides, AI tools, hands-on, ideas, resources)
-- 32-slide Marp presentation with custom dark theme
-- Marp CLI build pipeline integrated into npm and Make workflows
-- Custom Vite middleware for presentation.html serving
-- Reusable Timeline.vue component
-- GitHub Actions deployment workflow
-- Makefile with build/lint/format/check/test targets
-- Prettier + markdownlint-cli2 for code quality
-- 13 Playwright E2E tests across 3 viewports
-- Site-wide edit-on-GitHub links
+Phase: 6 of 7 (Structure, Content, and Engagement)
+Plan: 0 of TBD in current phase
+Status: Ready to plan
+Last activity: 2026-02-17 - Roadmap created for v1.1 milestone
 
-## Decisions
+Progress: [..........] 0%
 
-See PROJECT.md Key Decisions table for full list.
+## Performance Metrics
 
-## Blockers & Concerns
+**Velocity:**
+- Total plans completed: 0 (v1.1 milestone)
+- Average duration: -
+- Total execution time: -
 
-None
+**By Phase:**
+
+| Phase | Plans | Total | Avg/Plan |
+|-------|-------|-------|----------|
+| - | - | - | - |
+
+*Updated after each plan completion*
+
+## Accumulated Context
+
+### Decisions
+
+Decisions are logged in PROJECT.md Key Decisions table.
+Recent decisions affecting current work:
+
+- v1.1 Roadmap: 2 phases (6-7) derived from 23 requirements across 7 categories
+- v1.1 Roadmap: Content/structure first (Phase 6), then visuals/Marp (Phase 7)
+
+### Pending Todos
+
+None yet.
+
+### Blockers/Concerns
+
+None.
 
 ## Session Continuity
 
 Last session: 2026-02-17
-Stopped at: Starting v1.1 milestone
+Stopped at: Roadmap created, ready to plan Phase 6
 Resume file: None
