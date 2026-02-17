@@ -70,9 +70,12 @@ final_v3_REALLY_final_reviewed_comments_addressed.docx
 
 ---
 
-<!-- _class: lead -->
+<!-- _paginate: false -->
+<!-- _class: lead section-git -->
 
-# Part 1: Git Basics
+# <!-- fit --> Part 1: Git Basics
+
+Your foundation for version control
 
 ---
 
@@ -252,9 +255,12 @@ This is how teams collaborate.
 
 ---
 
-<!-- _class: lead -->
+<!-- _paginate: false -->
+<!-- _class: lead section-ai -->
 
-# Part 2: Version Control in the AI Era
+# <!-- fit --> Part 2: Version Control in the AI Era
+
+Why Git matters more when AI writes your code
 
 ---
 
@@ -299,9 +305,12 @@ This is how teams collaborate.
 
 ---
 
-<!-- _class: lead -->
+<!-- _paginate: false -->
+<!-- _class: lead section-tools -->
 
-# Part 3: The Tool Landscape
+# <!-- fit --> Part 3: The Tool Landscape
+
+Navigate AI coding tools with confidence
 
 ---
 
@@ -394,9 +403,12 @@ Each has strengths. Choose based on your workflow.
 
 ---
 
-<!-- _class: lead -->
+<!-- _paginate: false -->
+<!-- _class: lead section-workflow -->
 
-# Part 4: What We'll Do Today
+# <!-- fit --> Part 4: What We'll Do Today
+
+From clone to merge in five steps
 
 ---
 
