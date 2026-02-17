@@ -72,11 +72,12 @@ MARP-03, MARP-04
   4. Section break slides use `<!-- fit -->` for auto-sized titles and each section break is visually differentiated (unique color, icon, or styling)
   5. At least 2 slides use `<style scoped>` blocks for per-slide adjustments (e.g., larger code blocks, custom spacing)
 
-**Plans**: TBD
+**Plans:** 3 plans
 
 Plans:
-- [ ] 07-01: TBD
-- [ ] 07-02: TBD
+- [ ] 07-01-PLAN.md - Theme utility classes (section colors, code readability, density) and section break restyling with fit directive
+- [ ] 07-02-PLAN.md - SVG diagrams (branching, workflow, timeline), split layouts on 3+ slides, scoped styles on 2+ slides
+- [ ] 07-03-PLAN.md - Tool screenshot capture (user checkpoint) and embedding in tool category slides
 
 ## Progress
 
@@ -86,8 +87,8 @@ Phases execute in numeric order: 6 -> 6.x (if inserted) -> 7
 | Phase | Milestone | Plans Complete | Status | Completed |
 |-------|-----------|----------------|--------|-----------|
 | 6. Structure, Content, and Engagement | v1.1 | 2/2 | ✓ Complete | 2026-02-17 |
-| 7. Visual Elements and Marp Features | v1.1 | 0/TBD | Not started | - |
+| 7. Visual Elements and Marp Features | v1.1 | 0/3 | Not started | - |
 
 ---
 *Roadmap created: 2026-02-17*
-*Last updated: 2026-02-17 - Phase 6 complete*
+*Last updated: 2026-02-17 - Phase 7 planned (3 plans in 3 waves)*
