@@ -18,6 +18,9 @@ Ask a question, get code, copy-paste it into your editor. The AI can't see your 
   <span class="card-badge card-badge-accent">ChatGPT</span>
   <span class="card-badge card-badge-accent">Claude.ai</span>
   <span class="card-badge card-badge-accent">Gemini</span>
+  <span class="card-badge card-badge-accent">Grok</span>
+  <span class="card-badge card-badge-accent">DeepSeek</span>
+  <span class="card-badge card-badge-accent">Perplexity</span>
 </div>
 
 </div>
@@ -84,6 +87,9 @@ Pricing and models are accurate as of February 2026.
 | ChatGPT        | Chat | GPT-5.2             | GPT-5.2 Instant (limited)   | $20/mo Plus        | Broad knowledge, debugging     |
 | Claude.ai      | Chat | Opus 4.6 / Sonnet 5 | Sonnet 4.5 (limited)        | $20/mo Pro         | Deep explanations, code review |
 | Gemini         | Chat | Gemini 3 Pro        | **2.5 Flash** (limited Pro) | $19.99/mo AI Pro   | Quick questions, multimodal    |
+| Grok           | Chat | Grok 4              | Grok 3 (limited)            | $30/mo SuperGrok   | Real-time info, X integration  |
+| DeepSeek       | Chat | DeepSeek-V3         | **Unlimited** (V3 + R1)     | Free               | Open-source, reasoning, code   |
+| Perplexity     | Chat | Multi-model         | 5 Pro searches/day          | $20/mo Pro         | Research with cited sources    |
 | GitHub Copilot | IDE  | Multi-model         | 2,000 completions/mo        | $10/mo Pro         | Autocomplete in VS Code        |
 | Cursor         | IDE  | Multi-model         | 50 premium requests/mo      | $20/mo Pro         | All-in-one AI editor           |
 | Windsurf       | IDE  | Multi-model         | Unlimited autocomplete      | $15/mo Pro         | AI pair programming            |
@@ -157,6 +163,64 @@ The free tier (2.5 Flash) is plenty for a workshop. No credit card needed, just 
   <span class="card-badge card-badge-accent">Chat</span>
   <span class="card-badge card-badge-accent">Free tier</span>
   <span class="card-badge">Multimodal</span>
+</div>
+
+</div>
+
+<div class="project-card">
+
+### Grok
+
+xAI's chatbot with real-time access to X (Twitter) posts and web data. Powered by **Grok 4**, with the free tier running Grok 3. Good for questions that need current information.
+
+- **Free:** Grok 3 (~10 requests/2 hours), image generation
+- **SuperGrok ($30/mo):** Grok 4 access, higher limits, advanced reasoning
+- Requires an X (Twitter) account
+
+<div class="card-badges">
+  <span class="card-badge card-badge-accent">Chat</span>
+  <span class="card-badge">Free tier</span>
+  <span class="card-badge">Real-time data</span>
+</div>
+
+</div>
+
+<div class="project-card">
+
+### DeepSeek
+
+Chinese open-source AI with unlimited free chat - no rate limits, no subscription needed. **DeepSeek-V3** handles general coding, **R1** handles complex reasoning. All models are open-source (MIT license).
+
+- **Free:** Unlimited access to V3 and R1 models
+- **No paid tier needed** - everything is free
+- Also available to run locally on your own hardware
+
+::: tip Best Free Option for Coding
+Completely free with no real limits. Strong at reasoning and code. The open-source models can also be run locally for privacy.
+:::
+
+<div class="card-badges">
+  <span class="card-badge card-badge-accent">Chat</span>
+  <span class="card-badge card-badge-accent">Free</span>
+  <span class="card-badge">Open source</span>
+</div>
+
+</div>
+
+<div class="project-card">
+
+### Perplexity
+
+An AI-powered research engine rather than a general chatbot. Every answer comes with cited sources you can verify. Best for literature search, fact-checking, and exploring new topics.
+
+- **Free:** Unlimited basic searches, 5 Pro searches/day
+- **Pro ($20/mo):** Unlimited Pro searches, file analysis, code mode
+- Research-focused - not a general coding assistant
+
+<div class="card-badges">
+  <span class="card-badge card-badge-accent">Chat</span>
+  <span class="card-badge">Free tier</span>
+  <span class="card-badge">Cited sources</span>
 </div>
 
 </div>
