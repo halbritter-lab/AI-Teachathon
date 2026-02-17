@@ -378,7 +378,7 @@ This prevents the AI from writing an essay when you just need code, or vice vers
 
 First response not quite right? Refine it:
 
-```
+```text
 That's close, but also handle the case where the user is already jumping.
 ```
 
@@ -395,7 +395,7 @@ Claude works best with a structured 4-block pattern:
 
 Example prompt for KidneyQuest:
 
-```
+```text
 Context: I'm building KidneyQuest, a browser game using vanilla JavaScript and HTML5 Canvas. It's a side-scrolling jump game where a zebra character runs and jumps over obstacles.
 
 Task: Add a scoring system that increases by 1 point every second the zebra survives. Display the score in the top-right corner of the canvas.
@@ -413,7 +413,7 @@ Gemini prefers direct, concise instructions. Keep it to one clear sentence per i
 
 Example prompt for the same task:
 
-```
+```text
 Using vanilla JavaScript and HTML5 Canvas (no libraries), add a scoring system to this game. Increment the score by 1 every second. Display the score in the top-right corner using the fillText method. Return the code as a commented function.
 ```
 
@@ -425,37 +425,37 @@ Here are ready-to-use prompts you can copy and adapt. Replace the bracketed plac
 
 **1. Understanding a codebase:**
 
-```
+```text
 I just cloned [repository name]. Explain the project structure and what each file does. I'm new to [language/framework].
 ```
 
 **2. Writing a commit message:**
 
-```
+```text
 I changed [filename] to [describe what you did]. Write a clear, concise Git commit message following conventional commit format.
 ```
 
 **3. Fixing an error:**
 
-```
+```text
 I'm getting this error: [paste error message]. The file is [filename] written in [language]. What's causing this and how do I fix it?
 ```
 
 **4. Adding a game feature (KidneyQuest):**
 
-```
+```text
 I'm building KidneyQuest, a browser game using vanilla JavaScript and HTML5 Canvas. It's a side-scrolling jump game like Chrome's dino game. Add [specific feature - e.g., "a cloud parallax background" or "obstacle collision detection"]. Use only vanilla JavaScript, no libraries.
 ```
 
 **5. Writing documentation:**
 
-```
+```text
 I added [feature description] to [project name]. Write a brief description for the README explaining what it does and how to use it.
 ```
 
 **6. Reviewing code:**
 
-```
+```text
 Review this code for bugs, readability, and best practices. Suggest improvements:
 
 [paste code here]

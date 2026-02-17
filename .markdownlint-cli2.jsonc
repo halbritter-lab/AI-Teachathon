@@ -8,7 +8,9 @@
     // Allow raw HTML (needed for VitePress features)
     "MD033": false,
     // Allow bare URLs
-    "MD034": false
+    "MD034": false,
+    // Allow pages without H1 (VitePress home pages use frontmatter for title)
+    "MD041": false
   },
   "ignores": [
     "node_modules",
