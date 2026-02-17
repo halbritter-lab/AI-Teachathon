@@ -117,8 +117,8 @@ Plans:
 **Plans:** 2 plans
 
 Plans:
-- [ ] 04-01-PLAN.md - AI tool landscape: 4-level evolution spectrum, 10 tool cards, 5 practical tips
-- [ ] 04-02-PLAN.md - Hands-on guide: Git workflow steps, KidneyQuest framing, AI prompting guide
+- [x] 04-01-PLAN.md - AI tool landscape: 4-level evolution spectrum, 10 tool cards, 5 practical tips *(complete)*
+- [x] 04-02-PLAN.md - Hands-on guide: Git workflow steps, KidneyQuest framing, AI prompting guide *(complete)*
 
 **Success Criteria:**
 1. AI tool landscape shows 4-level spectrum with examples at each level
@@ -142,8 +142,8 @@ Plans:
 **Plans:** 3 plans
 
 Plans:
-- [ ] 05-01-PLAN.md - Ideas page (KidneyQuest featured, 4 project ideas, pain points) + editLink config
-- [ ] 05-02-PLAN.md - Resources page (journey-organized links: Before/During/After + Explore Further)
+- [x] 05-01-PLAN.md - Ideas page (KidneyQuest featured, 4 project ideas, pain points) + editLink config *(complete - done during Phase 4 execution)*
+- [x] 05-02-PLAN.md - Resources page (journey-organized links: Before/During/After + Explore Further) *(complete - done during Phase 4 execution)*
 - [ ] 05-03-PLAN.md - Playwright QA (link validation, responsive tests, presentation rendering)
 
 **Success Criteria:**
@@ -169,4 +169,4 @@ Plans:
 
 ---
 *Roadmap created: 2026-02-16*
-*Last updated: 2026-02-17 after Phase 5 planning complete*
+*Last updated: 2026-02-17 after Phase 4 execution complete (Phase 5 plans 01-02 also completed)*

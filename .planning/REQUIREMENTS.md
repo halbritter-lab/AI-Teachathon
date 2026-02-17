@@ -43,28 +43,28 @@
 
 ### AI Tool Landscape
 
-- [ ] **TOOL-01**: 4-level spectrum: chat interfaces, IDE-integrated, CLI agentic, autonomous agents
-- [ ] **TOOL-02**: Comparison table of tools (name, type, best for, cost, recommendation)
-- [ ] **TOOL-03**: 5 practical tips for working with AI coding tools
-- [ ] **TOOL-04**: Current as of Feb 2026 (Copilot agent mode, Cursor, Claude Code, Aider, Codex CLI)
+- [x] **TOOL-01**: 4-level spectrum: chat interfaces, IDE-integrated, CLI agentic, autonomous agents
+- [x] **TOOL-02**: Comparison table of tools (name, type, best for, cost, recommendation)
+- [x] **TOOL-03**: 5 practical tips for working with AI coding tools
+- [x] **TOOL-04**: Current as of Feb 2026 (Copilot agent mode, Cursor, Claude Code, Aider, Codex CLI)
 
 ### Hands-On Guide
 
-- [ ] **HAND-01**: KidneyQuest project description (CeRKiD zebra, HTML5 Canvas game concept)
-- [ ] **HAND-02**: Step-by-step Git workflow: clone, open in VS Code, pick issue, branch, code with AI, test, commit, push, PR
-- [ ] **HAND-03**: Example AI prompts participants can use for common tasks
+- [x] **HAND-01**: KidneyQuest project description (CeRKiD zebra, HTML5 Canvas game concept)
+- [x] **HAND-02**: Step-by-step Git workflow: clone, open in VS Code, pick issue, branch, code with AI, test, commit, push, PR
+- [x] **HAND-03**: Example AI prompts participants can use for common tasks
 
 ### Ideas Page
 
-- [ ] **IDEA-01**: Starter project ideas relevant to research (variant annotation, phenotype parser, lab website, data format conversion)
-- [ ] **IDEA-02**: Pain points section (things AI could help with in daily research)
-- [ ] **IDEA-03**: Edit-on-GitHub link for participant contributions
+- [x] **IDEA-01**: Starter project ideas relevant to research (variant annotation, phenotype parser, lab website, data format conversion)
+- [x] **IDEA-02**: Pain points section (things AI could help with in daily research)
+- [x] **IDEA-03**: Edit-on-GitHub link for participant contributions
 
 ### Resources
 
-- [ ] **RSRC-01**: Git & GitHub resources (cheat sheet, GitHub Skills, Oh Shit Git, Pro Git)
-- [ ] **RSRC-02**: AI coding tool links (Copilot docs, Claude Code docs, Cursor)
-- [ ] **RSRC-03**: Learning resources (DeepLearning.AI courses, tutorials)
+- [x] **RSRC-01**: Git & GitHub resources (cheat sheet, GitHub Skills, Oh Shit Git, Pro Git)
+- [x] **RSRC-02**: AI coding tool links (Copilot docs, Claude Code docs, Cursor)
+- [x] **RSRC-03**: Learning resources (DeepLearning.AI courses, tutorials)
 
 ## v2 Requirements
 
@@ -110,19 +110,19 @@
 | PRES-02 | Phase 3 | Pending |
 | PRES-03 | Phase 3 | Pending |
 | PRES-04 | Phase 3 | Pending |
-| TOOL-01 | Phase 4 | Pending |
-| TOOL-02 | Phase 4 | Pending |
-| TOOL-03 | Phase 4 | Pending |
-| TOOL-04 | Phase 4 | Pending |
-| HAND-01 | Phase 4 | Pending |
-| HAND-02 | Phase 4 | Pending |
-| HAND-03 | Phase 4 | Pending |
-| IDEA-01 | Phase 5 | Pending |
-| IDEA-02 | Phase 5 | Pending |
-| IDEA-03 | Phase 5 | Pending |
-| RSRC-01 | Phase 5 | Pending |
-| RSRC-02 | Phase 5 | Pending |
-| RSRC-03 | Phase 5 | Pending |
+| TOOL-01 | Phase 4 | Complete |
+| TOOL-02 | Phase 4 | Complete |
+| TOOL-03 | Phase 4 | Complete |
+| TOOL-04 | Phase 4 | Complete |
+| HAND-01 | Phase 4 | Complete |
+| HAND-02 | Phase 4 | Complete |
+| HAND-03 | Phase 4 | Complete |
+| IDEA-01 | Phase 5 | Complete |
+| IDEA-02 | Phase 5 | Complete |
+| IDEA-03 | Phase 5 | Complete |
+| RSRC-01 | Phase 5 | Complete |
+| RSRC-02 | Phase 5 | Complete |
+| RSRC-03 | Phase 5 | Complete |
 
 **Coverage:**
 - v1 requirements: 33 total
@@ -131,4 +131,4 @@
 
 ---
 *Requirements defined: 2026-02-16*
-*Last updated: 2026-02-16 after Phase 2 completion*
+*Last updated: 2026-02-17 after Phase 4 completion (Phase 5 plans 01-02 also completed)*
