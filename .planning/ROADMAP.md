@@ -133,11 +133,18 @@ Plans:
 
 ## Phase 5: Community & Polish
 
-**Goal:** Add the ideas page, resources page, ensure all cross-links work, and do final testing.
+**Goal:** Add the ideas page, resources page, enable edit-on-GitHub links, and run final QA with Playwright tests for cross-links, responsive design, and presentation rendering.
 
 **Why last:** These pages are lower priority and the polish pass ensures everything works together.
 
 **Requirements:** IDEA-01, IDEA-02, IDEA-03, RSRC-01, RSRC-02, RSRC-03
+
+**Plans:** 3 plans
+
+Plans:
+- [ ] 05-01-PLAN.md — Ideas page (KidneyQuest featured, 4 project ideas, pain points) + editLink config
+- [ ] 05-02-PLAN.md — Resources page (journey-organized links: Before/During/After + Explore Further)
+- [ ] 05-03-PLAN.md — Playwright QA (link validation, responsive tests, presentation rendering)
 
 **Success Criteria:**
 1. Ideas page has 3-4 starter project ideas relevant to nephrology/genetics research
@@ -162,4 +169,4 @@ Plans:
 
 ---
 *Roadmap created: 2026-02-16*
-*Last updated: 2026-02-17 after Phase 4 planning complete*
+*Last updated: 2026-02-17 after Phase 5 planning complete*
