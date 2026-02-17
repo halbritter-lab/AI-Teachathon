@@ -53,55 +53,59 @@ pre {
 
 /* === Utility classes === */
 
-/* Section color themes */
-.section-git {
-  background: linear-gradient(135deg, #0288d1 0%, #02c797 100%);
+/* Section color themes - use section.class for specificity over Gaia base */
+section.section-git {
+  background: linear-gradient(135deg, #0288d1 0%, #02c797 100%) !important;
+  background-color: #0288d1 !important;
 }
 
-.section-git h1 {
+section.section-git h1 {
   color: #ffffff;
 }
 
-.section-git p {
+section.section-git p {
   color: rgba(255, 255, 255, 0.85);
   font-size: 1.6rem;
 }
 
-.section-ai {
-  background: linear-gradient(135deg, #7b1fa2 0%, #02c797 100%);
+section.section-ai {
+  background: linear-gradient(135deg, #7b1fa2 0%, #02c797 100%) !important;
+  background-color: #7b1fa2 !important;
 }
 
-.section-ai h1 {
+section.section-ai h1 {
   color: #ffffff;
 }
 
-.section-ai p {
+section.section-ai p {
   color: rgba(255, 255, 255, 0.85);
   font-size: 1.6rem;
 }
 
-.section-tools {
-  background: linear-gradient(135deg, #24292e 0%, #02c797 100%);
+section.section-tools {
+  background: linear-gradient(135deg, #24292e 0%, #02c797 100%) !important;
+  background-color: #24292e !important;
 }
 
-.section-tools h1 {
+section.section-tools h1 {
   color: #ffffff;
 }
 
-.section-tools p {
+section.section-tools p {
   color: rgba(255, 255, 255, 0.85);
   font-size: 1.6rem;
 }
 
-.section-workflow {
-  background: linear-gradient(135deg, #f57c00 0%, #02c797 100%);
+section.section-workflow {
+  background: linear-gradient(135deg, #f57c00 0%, #02c797 100%) !important;
+  background-color: #f57c00 !important;
 }
 
-.section-workflow h1 {
+section.section-workflow h1 {
   color: #ffffff;
 }
 
-.section-workflow p {
+section.section-workflow p {
   color: rgba(255, 255, 255, 0.85);
   font-size: 1.6rem;
 }
