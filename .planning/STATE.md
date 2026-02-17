@@ -3,18 +3,18 @@
 ## Current Position
 
 Phase: 5 of 5 (Community & Polish)
-Plan: 2 of 2 in phase
+Plan: 1 of 3 in phase
 Status: In progress
-Last activity: 2026-02-17 - Completed 05-02-PLAN.md (resources page)
+Last activity: 2026-02-17 - Completed 05-01-PLAN.md (ideas page and edit links)
 
-Progress: [████████░░] 62% (8/13 plans complete across all phases)
+Progress: [████████░░] 69% (9/13 plans complete across all phases)
 
 ## Project Reference
 
 See: .planning/PROJECT.md (updated 2026-02-16)
 
 **Core value:** Participants arrive prepared and leave with practical knowledge
-**Current focus:** Phase 5 in progress - Resources page complete (63 lines), all core content pages finished
+**Current focus:** Phase 5 in progress - Ideas page complete (84 lines), edit-on-GitHub links enabled site-wide, resources page complete
 
 ## What's Been Built
 
