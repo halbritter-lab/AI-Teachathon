@@ -1,5 +1,10 @@
 import { defineConfig } from 'vitepress'
 import tailwindcss from '@tailwindcss/vite'
+import { readFileSync, existsSync } from 'node:fs'
+import { resolve, dirname } from 'node:path'
+import { fileURLToPath } from 'node:url'
+
+const __dirname = dirname(fileURLToPath(import.meta.url))
 
 export default defineConfig({
   title: 'AI-Teachathon | Halbritter Lab',
@@ -15,7 +20,25 @@ export default defineConfig({
   appearance: 'dark',
 
   vite: {
-    plugins: [tailwindcss()],
+    plugins: [
+      tailwindcss(),
+      {
+        name: 'serve-public-html',
+        configureServer(server) {
+          server.middlewares.use((req, res, next) => {
+            if (req.url?.endsWith('/presentation.html')) {
+              const filePath = resolve(__dirname, '../public/presentation.html')
+              if (existsSync(filePath)) {
+                res.setHeader('Content-Type', 'text/html')
+                res.end(readFileSync(filePath, 'utf-8'))
+                return
+              }
+            }
+            next()
+          })
+        },
+      },
+    ],
 
     server: {
       // Auto-open browser on dev server start
@@ -46,7 +69,7 @@ export default defineConfig({
     sidebar: [
       { text: 'Setup', link: '/setup' },
       { text: 'Agenda', link: '/agenda' },
-      { text: 'Slides', link: '/presentation.html' },
+      { text: 'Slides', link: '/slides' },
       { text: 'AI Tools', link: '/ai-tools' },
       { text: 'Hands-On', link: '/hands-on' },
       { text: 'Ideas', link: '/ideas' },

@@ -1,7 +1,7 @@
 /* @theme teachathon */
 @import 'gaia';
 
-:root.invert {
+section {
   --color-background: #1a1a1a;
   --color-background-code: #0d0d0d;
   --color-foreground: #ffffff;
@@ -9,9 +9,6 @@
   --color-highlight: #02c797;
   --color-highlight-hover: #04e6af;
   --color-dimmed: #c6c6c6;
-}
-
-section {
   background-color: var(--color-background);
   color: var(--color-foreground);
   font-size: 1.8rem;

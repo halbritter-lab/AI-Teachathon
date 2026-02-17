@@ -14,7 +14,7 @@ footer: 'Git, GitHub and AI Tools'
 # Git, GitHub and AI Tools
 
 AI-Teachathon | Halbritter Lab / CeRKiD
-February 17, 2025
+February 17, 2026
 
 <!-- Welcome everyone. We're going to spend the next 30 minutes talking about version control, AI tools, and why they work so well together. Then we'll jump into hands-on coding. -->
 
@@ -33,9 +33,9 @@ final_v3_REALLY_final_reviewed_comments_addressed.docx
 
 # There's a Better Way
 
-* And it's not just about avoiding filename chaos
-* It's the foundation for working effectively with AI
-* Version control lets you experiment, fail safely, and iterate fast
+- And it's not just about avoiding filename chaos
+- It's the foundation for working effectively with AI
+- Version control lets you experiment, fail safely, and iterate fast
 
 <!-- That's the hook. Version control is how you unlock AI's potential. You need to track what the AI changed, roll back when it makes mistakes, and maintain a clear history of your project. -->
 
@@ -45,9 +45,9 @@ final_v3_REALLY_final_reviewed_comments_addressed.docx
 
 **Scenario:** You need to reproduce results from 6 months ago.
 
-* Which version of the script did you use?
-* What were the exact parameters?
-* Which dataset version?
+- Which version of the script did you use?
+- What were the exact parameters?
+- Which dataset version?
 
 **Without version control:** Good luck.
 **With version control:** `git checkout` and you're there.
@@ -66,9 +66,9 @@ final_v3_REALLY_final_reviewed_comments_addressed.docx
 
 Think of it as a **lab notebook for your code**.
 
-* Every change is tracked automatically
-* You can see who changed what and when
-* You can jump back to any previous state
+- Every change is tracked automatically
+- You can see who changed what and when
+- You can jump back to any previous state
 
 A repository (or "repo") is just a folder with a `.git` directory that stores the history.
 
@@ -78,9 +78,9 @@ A repository (or "repo") is just a folder with a `.git` directory that stores th
 
 # Commits: Snapshots of Your Project
 
-* A **commit** is a save point
-* It captures the exact state of all files at that moment
-* Each commit has a unique ID and a message describing what changed
+- A **commit** is a save point
+- It captures the exact state of all files at that moment
+- Each commit has a unique ID and a message describing what changed
 
 Think of commits as save points in a game. You can always go back.
 
@@ -96,9 +96,9 @@ Think of commits as save points in a game. You can always go back.
 **Good commit message:**
 "fix: correct gene ID validation to handle ENSG format"
 
-* Commit messages tell the story of your project
-* They help you (and others) understand what changed and why
-* Write them for your future self
+- Commit messages tell the story of your project
+- They help you (and others) understand what changed and why
+- Write them for your future self
 
 <!-- You'll thank yourself later. Trust me. -->
 
@@ -106,13 +106,13 @@ Think of commits as save points in a game. You can always go back.
 
 # Branches: Parallel Experiments
 
-* A **branch** is like running a parallel experiment
-* The main branch stays safe and stable
-* You work on your branch, test your changes, then merge when ready
+- A **branch** is like running a parallel experiment
+- The main branch stays safe and stable
+- You work on your branch, test your changes, then merge when ready
 
 **Example:**
-* `main` branch: the stable version
-* `add-visualization` branch: your new feature
+- `main` branch: the stable version
+- `add-visualization` branch: your new feature
 
 <!-- This is the second and last research analogy. After this, we use real terms. Branches let you try things without breaking the main project. -->
 
@@ -120,14 +120,14 @@ Think of commits as save points in a game. You can always go back.
 
 # Pull Requests: Proposing Changes
 
-* You've finished work on your branch
-* Now you want to merge it into `main`
-* You open a **pull request** (PR)
+- You've finished work on your branch
+- Now you want to merge it into `main`
+- You open a **pull request** (PR)
 
 **What happens:**
-* Someone reviews your code
-* You discuss, make changes if needed
-* Once approved, you merge
+- Someone reviews your code
+- You discuss, make changes if needed
+- Once approved, you merge
 
 This is how teams collaborate.
 
@@ -138,14 +138,14 @@ This is how teams collaborate.
 # Git vs GitHub
 
 **Git:**
-* The version control tool on your computer
-* Tracks changes, creates commits, manages branches
-* Works offline
+- The version control tool on your computer
+- Tracks changes, creates commits, manages branches
+- Works offline
 
 **GitHub:**
-* A website for hosting Git repositories
-* Enables collaboration, pull requests, issue tracking
-* Where you share your code
+- A website for hosting Git repositories
+- Enables collaboration, pull requests, issue tracking
+- Where you share your code
 
 <!-- Brief, clear distinction. Git is the tool. GitHub is the platform. You need both. -->
 
@@ -159,14 +159,14 @@ This is how teams collaborate.
 
 # AI Generates Code Fast
 
-* AI tools can write hundreds of lines of code in seconds
-* You need to track what changed and why
-* You need to review AI-generated code carefully
+- AI tools can write hundreds of lines of code in seconds
+- You need to track what changed and why
+- You need to review AI-generated code carefully
 
 **Version control gives you:**
-* A clear history of what the AI added
-* The ability to roll back if something breaks
-* Confidence to try bold experiments
+- A clear history of what the AI added
+- The ability to roll back if something breaks
+- Confidence to try bold experiments
 
 <!-- AI is powerful but not perfect. Version control is your safety net. -->
 
@@ -174,9 +174,9 @@ This is how teams collaborate.
 
 # Experiment Freely, Fail Safely
 
-* AI makes suggestions. Some are great. Some are wrong.
-* With version control, you can try anything
-* If it doesn't work, `git reset` and you're back to safety
+- AI makes suggestions. Some are great. Some are wrong.
+- With version control, you can try anything
+- If it doesn't work, `git reset` and you're back to safety
 
 **The combination: Git + AI = you can be bold**
 
@@ -192,11 +192,11 @@ This is how teams collaborate.
 
 # 2022-2026: Rapid Acceleration
 
-* **November 2022:** ChatGPT launches, goes viral
-* **2022-2023:** GitHub Copilot gains adoption
-* **2023:** GPT-4, Claude, Gemini released
-* **2024-2025:** Cursor, Claude Code, Windsurf emerge
-* **2026:** AI writes significant portions of production code
+- **November 2022:** ChatGPT launches, goes viral
+- **2022-2023:** GitHub Copilot gains adoption
+- **2023:** GPT-4, Claude, Gemini released
+- **2024-2025:** Cursor, Claude Code, Windsurf emerge
+- **2026:** AI writes significant portions of production code
 
 **The pace is accelerating. That's why we're here today.**
 
@@ -228,10 +228,10 @@ Each has strengths. Choose based on your workflow.
 **Examples:** ChatGPT, Claude.ai, Gemini
 
 **Good for:**
-* Explaining concepts
-* Writing small code snippets
-* Debugging errors
-* Planning architecture
+- Explaining concepts
+- Writing small code snippets
+- Debugging errors
+- Planning architecture
 
 **Limitation:** You copy/paste code manually.
 
@@ -244,10 +244,10 @@ Each has strengths. Choose based on your workflow.
 **Examples:** GitHub Copilot, Cursor, Cody
 
 **Good for:**
-* Autocomplete while you type
-* Inline suggestions
-* Editing existing code
-* Staying in your editor
+- Autocomplete while you type
+- Inline suggestions
+- Editing existing code
+- Staying in your editor
 
 **Benefit:** Tight integration with your workflow.
 
@@ -260,10 +260,10 @@ Each has strengths. Choose based on your workflow.
 **Examples:** Claude Code, Codex CLI, Aider
 
 **Good for:**
-* Autonomous tasks ("build a login page")
-* Multi-file refactoring
-* Following complex instructions
-* Running terminal commands
+- Autonomous tasks ("build a login page")
+- Multi-file refactoring
+- Following complex instructions
+- Running terminal commands
 
 **Tradeoff:** Less control, more automation.
 
@@ -274,10 +274,10 @@ Each has strengths. Choose based on your workflow.
 # Choose Your Tool
 
 **For today's hands-on session:**
-* You can use any tool you prefer
-* Chat-based is fine
-* Sidebar is fine
-* CLI is fine
+- You can use any tool you prefer
+- Chat-based is fine
+- Sidebar is fine
+- CLI is fine
 
 **No single right answer.** Use what feels comfortable.
 
@@ -288,10 +288,10 @@ Each has strengths. Choose based on your workflow.
 # Where to Learn More
 
 **The AI Tools page on the course site has:**
-* Detailed comparisons
-* Setup instructions for each tool
-* Pros and cons
-* Recommendations based on experience level
+- Detailed comparisons
+- Setup instructions for each tool
+- Pros and cons
+- Recommendations based on experience level
 
 **Link:** https://berntpopp.github.io/AI-Teachathon/
 
@@ -309,10 +309,10 @@ Each has strengths. Choose based on your workflow.
 
 **A simple browser game where the CeRKiD zebra collects genes.**
 
-* Built with HTML, CSS, and JavaScript
-* Runs in your browser, no server needed
-* Simple enough to complete in 2 hours
-* Real enough to teach you the workflow
+- Built with HTML, CSS, and JavaScript
+- Runs in your browser, no server needed
+- Simple enough to complete in 2 hours
+- Real enough to teach you the workflow
 
 <!-- This is the hands-on project. It's simple but it covers all the concepts: cloning, branching, coding with AI, opening a PR, reviewing, and merging. -->
 
@@ -354,10 +354,10 @@ Now you're working on your own branch. Main is safe.
 
 # Step 3: Code with AI
 
-* Ask your AI tool to add a feature
-* Review the code it generates
-* Test it in the browser
-* Iterate until it works
+- Ask your AI tool to add a feature
+- Review the code it generates
+- Test it in the browser
+- Iterate until it works
 
 **You are the pilot. AI is the copilot.**
 
@@ -367,9 +367,9 @@ Now you're working on your own branch. Main is safe.
 
 # Step 4: Open a Pull Request
 
-* Push your branch to GitHub
-* Open a PR from your branch to main
-* Write a description of what you changed
+- Push your branch to GitHub
+- Open a PR from your branch to main
+- Write a description of what you changed
 
 **This is where collaboration happens.**
 
@@ -379,9 +379,9 @@ Now you're working on your own branch. Main is safe.
 
 # Step 5: Review and Merge
 
-* A partner reviews your PR
-* You discuss, make changes if needed
-* Once approved, merge into main
+- A partner reviews your PR
+- You discuss, make changes if needed
+- Once approved, merge into main
 
 **Congratulations. You've contributed to the project.**
 

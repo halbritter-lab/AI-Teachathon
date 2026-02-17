@@ -14,18 +14,15 @@ hero:
       link: /agenda
 
 features:
-  - icon: 🚀
-    title: Prepare Your Setup
+  - title: Prepare Your Setup
     details: Install VS Code, Git, and create a GitHub account before the event. Takes about 15 minutes.
     link: /setup
     linkText: Start setup
-  - icon: 📅
-    title: See the Agenda
+  - title: See the Agenda
     details: Check the timeline for the evening — from intro talk to hands-on coding session.
     link: /agenda
     linkText: View schedule
-  - icon: 💡
-    title: Explore Project Ideas
+  - title: Explore Project Ideas
     details: Browse starter project ideas for the hands-on session, including KidneyQuest.
     link: /ideas
     linkText: See ideas

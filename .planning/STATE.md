@@ -3,9 +3,9 @@
 ## Current Position
 
 Phase: 3 of 5 (Presentation)
-Plan: 1 of 2 in phase
+Plan: 2 of 2 in phase (checkpoint review in progress)
 Status: In progress
-Last activity: 2026-02-16 — Completed 03-01-PLAN.md (Marp Toolchain)
+Last activity: 2026-02-17 — 03-02 slides written, checkpoint fixes applied (theme, 404, emojis, fragments)
 
 Progress: [████████░░] 46% (6/13 plans complete across all phases)
 
@@ -14,7 +14,7 @@ Progress: [████████░░] 46% (6/13 plans complete across all p
 See: .planning/PROJECT.md (updated 2026-02-16)
 
 **Core value:** Participants arrive prepared and leave with practical knowledge
-**Current focus:** Phase 3 in progress — Marp toolchain complete, slide content next
+**Current focus:** Phase 3 in progress — Slide deck written (32 slides), checkpoint fixes applied, awaiting final approval
 
 ## What's Been Built
 
@@ -32,7 +32,10 @@ See: .planning/PROJECT.md (updated 2026-02-16)
 - Prettier + markdownlint-cli2 for code quality
 - Marp CLI 4.2.3 with custom dark theme (teal accents on dark background)
 - Presentation build pipeline integrated into npm and Make workflows
-- Test slides verify Marp toolchain works end-to-end
+- 32-slide presentation covering full workshop narrative arc
+- Custom Vite middleware to serve presentation.html (VitePress SPA router workaround)
+- Redirect page (docs/slides.md) for sidebar navigation to presentation
+- Emojis removed from homepage feature cards for professional tone
 
 ## Decisions
 
@@ -57,6 +60,10 @@ See: .planning/PROJECT.md (updated 2026-02-16)
 | theme-colors | 03-01 | Dark background (#1a1a1a) with teal accents (#02c797) | Matches site's dark aesthetic, teal differentiates from purple site branding | 2026-02-16 |
 | build-coordination | 03-01 | Run marp before vitepress in docs:build | Presentation HTML must exist before VitePress copies public/ directory | 2026-02-16 |
 | lint-exclusion | 03-01 | Exclude docs/presentation/ from markdownlint | Marp slides have different markdown conventions (multiple H1s, special directives) | 2026-02-16 |
+| no-fragments | 03-02 | Use `-` bullets instead of `*` (no fragment animations) | `*` hides content until clicked — looks broken in static view, unprofessional | 2026-02-17 |
+| theme-selector | 03-02 | Use `section` selector instead of `:root.invert` in Marp CSS | Marp renders in SVG foreignObject, `:root.invert` never matches | 2026-02-17 |
+| presentation-routing | 03-02 | Vite middleware + redirect page for presentation.html | VitePress SPA router 404s static HTML from public/ (known issue #360) | 2026-02-17 |
+| no-emojis-homepage | 03-02 | Remove emoji icons from index.md feature cards | User feedback: emojis look unprofessional | 2026-02-17 |
 
 ## Blockers & Concerns
 
@@ -64,6 +71,6 @@ None
 
 ## Session Continuity
 
-Last session: 2026-02-16
-Stopped at: Completed 03-01-PLAN.md
+Last session: 2026-02-17
+Stopped at: 03-02 checkpoint review — fixes applied, awaiting final approval
 Resume file: None
