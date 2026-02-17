@@ -1,0 +1,64 @@
+<svg viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    text {
+      fill: #ffffff;
+      font-family: system-ui, -apple-system, sans-serif;
+      font-size: 18px;
+    }
+    .label-main {
+      fill: #c6c6c6;
+      font-weight: 600;
+    }
+    .label-feature {
+      fill: #02c797;
+      font-weight: 600;
+    }
+    .label-merge {
+      fill: #04e6af;
+      font-weight: 600;
+    }
+    .main-line {
+      stroke: #c6c6c6;
+      stroke-width: 3;
+      fill: none;
+    }
+    .feature-line {
+      stroke: #02c797;
+      stroke-width: 3;
+      fill: none;
+    }
+    .commit-dot {
+      fill: #02c797;
+    }
+    .commit-dot-main {
+      fill: #c6c6c6;
+    }
+  </style>
+
+  <!-- Main branch line -->
+  <line class="main-line" x1="100" y1="250" x2="700" y2="250" />
+
+  <!-- Main branch commits -->
+  <circle class="commit-dot-main" cx="150" cy="250" r="8" />
+  <circle class="commit-dot-main" cx="280" cy="250" r="8" />
+  <circle class="commit-dot-main" cx="550" cy="250" r="8" />
+  <circle class="commit-dot-main" cx="680" cy="250" r="8" />
+
+  <!-- Feature branch diverge path -->
+  <path class="feature-line" d="M 280 250 Q 320 200, 360 150" />
+
+  <!-- Feature branch line -->
+  <line class="feature-line" x1="360" y1="150" x2="490" y2="150" />
+
+  <!-- Feature branch commits -->
+  <circle class="commit-dot" cx="390" cy="150" r="8" />
+  <circle class="commit-dot" cx="460" cy="150" r="8" />
+
+  <!-- Feature branch merge path -->
+  <path class="feature-line" d="M 490 150 Q 520 200, 550 250" />
+
+  <!-- Labels -->
+  <text class="label-main" x="100" y="290">main</text>
+  <text class="label-feature" x="360" y="130">feature branch</text>
+  <text class="label-merge" x="570" y="230">merge</text>
+</svg>
