@@ -8,13 +8,58 @@ header: 'AI-Teachathon | Halbritter Lab'
 footer: 'Git, GitHub and AI Tools'
 ---
 
-<!-- _class: lead -->
+<!-- _class: lead title-slide -->
 <!-- _paginate: false -->
+<!-- _header: "" -->
+
+<style scoped>
+section {
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 30%, #0f3460 60%, #02c797 100%) !important;
+  position: relative;
+  overflow: hidden;
+}
+section::before {
+  content: '';
+  position: absolute;
+  top: -20%;
+  right: -10%;
+  width: 600px;
+  height: 600px;
+  background: radial-gradient(circle, rgba(2, 199, 151, 0.15) 0%, transparent 70%);
+  border-radius: 50%;
+}
+section::after {
+  content: '';
+  position: absolute;
+  bottom: -30%;
+  left: -5%;
+  width: 500px;
+  height: 500px;
+  background: radial-gradient(circle, rgba(123, 31, 162, 0.12) 0%, transparent 70%);
+  border-radius: 50%;
+}
+h1 {
+  font-size: 4.5rem;
+  color: #ffffff;
+  text-shadow: 0 2px 20px rgba(2, 199, 151, 0.3);
+  margin-bottom: 0.2rem;
+}
+p {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 1.4rem;
+}
+p:first-of-type {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 1.6rem;
+  margin-bottom: 0.3rem;
+}
+</style>
 
 # Git, GitHub and AI Tools
 
-AI-Teachathon | Halbritter Lab / CeRKiD
-February 17, 2026
+Learn the tools that are changing how researchers code
+
+Halbritter Lab / CeRKiD | February 17, 2026
 
 <!-- Welcome everyone. We're going to spend the next 30 minutes talking about version control, AI tools, and why they work so well together. Then we'll jump into hands-on coding. -->
 
