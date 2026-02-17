@@ -453,7 +453,7 @@ p { font-size: 1.5rem; }
 - Pros and cons
 - Recommendations based on experience level
 
-**Link:** https://berntpopp.github.io/AI-Teachathon/
+**Link:** https://halbritter-lab.github.io/AI-Teachathon/
 
 <!-- We won't cover every detail now. The site has everything. Bookmark it. -->
 
@@ -588,6 +588,6 @@ You've learned:
 
 # Let's Get Started!
 
-**Course site:** https://berntpopp.github.io/AI-Teachathon/
+**Course site:** https://halbritter-lab.github.io/AI-Teachathon/
 
 <!-- Time to jump into the hands-on session. You've got this. -->
