@@ -208,7 +208,13 @@ Think of commits as save points in a game. You can always go back.
 
 ---
 
-![bg left](images/diagrams/git-branching.svg)
+![bg left fit](images/diagrams/git-branching.svg)
+
+<style scoped>
+h1 { font-size: 2.4rem; margin-bottom: 0.5rem; }
+li { font-size: 1.5rem; margin-bottom: 0.2rem; }
+p { font-size: 1.5rem; }
+</style>
 
 # Branches Let You Experiment Without Risk
 
@@ -293,7 +299,13 @@ Why Git matters more when AI writes your code
 
 ---
 
-![bg left](images/diagrams/ai-timeline.svg)
+![bg left fit](images/diagrams/ai-timeline.svg)
+
+<style scoped>
+h1 { font-size: 2.2rem; margin-bottom: 0.5rem; }
+li { font-size: 1.4rem; margin-bottom: 0.15rem; }
+p { font-size: 1.4rem; }
+</style>
 
 # AI Coding Tools Evolved Rapidly Since 2022
 
@@ -429,7 +441,13 @@ From clone to merge in five steps
 
 ---
 
-![bg left](images/diagrams/workflow-5-step.svg)
+![bg left fit](images/diagrams/workflow-5-step.svg)
+
+<style scoped>
+h1 { font-size: 2.4rem; margin-bottom: 0.5rem; }
+li { font-size: 1.4rem; margin-bottom: 0.15rem; }
+p { font-size: 1.4rem; }
+</style>
 
 # Five Steps from Clone to Merge
 
