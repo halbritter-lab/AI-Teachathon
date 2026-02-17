@@ -2,19 +2,19 @@
 
 ## Current Position
 
-Phase: 3 of 5 (Presentation)
-Plan: 2 of 2 in phase (checkpoint review in progress)
+Phase: 4 of 5 (Knowledge Pages)
+Plan: 1 of 2 in phase
 Status: In progress
-Last activity: 2026-02-17 - 03-02 slides written, checkpoint fixes applied (theme, 404, emojis, fragments)
+Last activity: 2026-02-17 - Completed 04-01-PLAN.md (AI tool landscape page)
 
-Progress: [████████░░] 46% (6/13 plans complete across all phases)
+Progress: [████████░░] 54% (7/13 plans complete across all phases)
 
 ## Project Reference
 
 See: .planning/PROJECT.md (updated 2026-02-16)
 
 **Core value:** Participants arrive prepared and leave with practical knowledge
-**Current focus:** Phase 3 in progress - Slide deck written (32 slides), checkpoint fixes applied, awaiting final approval
+**Current focus:** Phase 4 in progress - AI tool landscape page complete (243 lines), hands-on guide next
 
 ## What's Been Built
 
@@ -36,6 +36,9 @@ See: .planning/PROJECT.md (updated 2026-02-16)
 - Custom Vite middleware to serve presentation.html (VitePress SPA router workaround)
 - Redirect page (docs/slides.md) for sidebar navigation to presentation
 - Emojis removed from homepage feature cards for professional tone
+- Complete AI tool landscape page (docs/ai-tools.md) with 4-level evolution spectrum (2023-2026+)
+- 10 tool comparison cards with consistent structure and recommendation badges
+- 5 practical tips for working with AI coding tools
 
 ## Decisions
 
@@ -64,6 +67,9 @@ See: .planning/PROJECT.md (updated 2026-02-16)
 | theme-selector | 03-02 | Use `section` selector instead of `:root.invert` in Marp CSS | Marp renders in SVG foreignObject, `:root.invert` never matches | 2026-02-17 |
 | presentation-routing | 03-02 | Vite middleware + redirect page for presentation.html | VitePress SPA router 404s static HTML from public/ (known issue #360) | 2026-02-17 |
 | no-emojis-homepage | 03-02 | Remove emoji icons from index.md feature cards | User feedback: emojis look unprofessional | 2026-02-17 |
+| spectrum-structure | 04-01 | 4-level AI tool spectrum: Chat (2023-2024), IDE (2024-2025), CLI (2025-2026), Autonomous (Emerging) | Shows rapid field evolution, helps participants understand capability differences | 2026-02-17 |
+| tool-selection | 04-01 | 10 tools: ChatGPT, Claude.ai, Gemini, GitHub Copilot, Cursor, Windsurf, Claude Code, Gemini CLI, Aider, Codex CLI | Most relevant for workshop participants, prioritized free tiers and student discounts | 2026-02-17 |
+| recommendation-badges | 04-01 | Highlight GitHub Copilot (students), Claude Code (power users), Gemini CLI (free CLI option) | Matches workshop participant demographics and budget constraints | 2026-02-17 |
 
 ## Blockers & Concerns
 
@@ -72,5 +78,5 @@ None
 ## Session Continuity
 
 Last session: 2026-02-17
-Stopped at: 03-02 checkpoint review - fixes applied, awaiting final approval
+Stopped at: Completed 04-01-PLAN.md (AI tool landscape page)
 Resume file: None
