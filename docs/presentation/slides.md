@@ -45,7 +45,7 @@ final_v3_REALLY_final_reviewed_comments_addressed.docx
 
 ---
 
-# There's a Better Way
+# Version Control Unlocks AI's Potential
 
 - And it's not just about avoiding filename chaos
 - It's the foundation for working effectively with AI
@@ -55,7 +55,7 @@ final_v3_REALLY_final_reviewed_comments_addressed.docx
 
 ---
 
-# Real Consequences
+# Reproducibility Requires Version Control
 
 **Scenario:** You need to reproduce results from 6 months ago.
 
@@ -76,7 +76,7 @@ final_v3_REALLY_final_reviewed_comments_addressed.docx
 
 ---
 
-# What is a Repository?
+# A Repository Tracks Your Entire Project History
 
 Think of it as a **lab notebook for your code**.
 
@@ -90,7 +90,7 @@ A repository (or "repo") is just a folder with a `.git` directory that stores th
 
 ---
 
-# Commits: Snapshots of Your Project
+# Every Commit Is a Safe Restore Point
 
 - A **commit** is a save point
 - It captures the exact state of all files at that moment
@@ -102,7 +102,7 @@ Think of commits as save points in a game. You can always go back.
 
 ---
 
-# Why Commit Messages Matter
+# Good Commit Messages Tell Your Project's Story
 
 **Bad commit message:**
 "fixed stuff"
@@ -118,7 +118,7 @@ Think of commits as save points in a game. You can always go back.
 
 ---
 
-# Conventional Commits: Structured Messages
+# Conventional Commits Make History Machine-Readable
 
 **Format:** `type(scope): description`
 
@@ -135,7 +135,7 @@ Think of commits as save points in a game. You can always go back.
 
 ---
 
-# Semantic Versioning: MAJOR.MINOR.PATCH
+# Semantic Versioning Tells You What Changed
 
 **v1.2.3 means:**
 - **1** (MAJOR) - Breaking changes
@@ -166,7 +166,7 @@ Think of commits as save points in a game. You can always go back.
 
 ---
 
-# .gitignore: Your First Defense Against Data Leaks
+# .gitignore Prevents Accidents Before They Happen
 
 **What it is:** A file telling Git which files to never track
 
@@ -205,7 +205,7 @@ Think of commits as save points in a game. You can always go back.
 
 ---
 
-# Branches: Parallel Experiments
+# Branches Let You Experiment Without Risk
 
 - A **branch** is like running a parallel experiment
 - The main branch stays safe and stable
@@ -219,7 +219,7 @@ Think of commits as save points in a game. You can always go back.
 
 ---
 
-# Pull Requests: Proposing Changes
+# Pull Requests Are Where Collaboration Happens
 
 - You've finished work on your branch
 - Now you want to merge it into `main`
@@ -236,7 +236,7 @@ This is how teams collaborate.
 
 ---
 
-# Git vs GitHub
+# Git Is Local, GitHub Is Online
 
 **Git:**
 - The version control tool on your computer
@@ -258,7 +258,7 @@ This is how teams collaborate.
 
 ---
 
-# AI Generates Code Fast
+# AI Is Fast - Version Control Keeps You Safe
 
 - AI tools can write hundreds of lines of code in seconds
 - You need to track what changed and why
@@ -285,7 +285,7 @@ This is how teams collaborate.
 
 ---
 
-# 2022-2026: Rapid Acceleration
+# AI Coding Tools Evolved Rapidly Since 2022
 
 - **November 2022:** ChatGPT launches, goes viral
 - **2022-2023:** GitHub Copilot gains adoption
@@ -305,7 +305,7 @@ This is how teams collaborate.
 
 ---
 
-# The Spectrum of AI Coding Tools
+# Three Categories of AI Coding Tools
 
 **Three categories:**
 1. **Chat-based:** ChatGPT, Claude.ai
@@ -318,7 +318,7 @@ Each has strengths. Choose based on your workflow.
 
 ---
 
-# Choose Your Tool
+# Choose the Tool That Fits Your Workflow
 
 **For today's hands-on session:**
 - You can use any tool you prefer
@@ -332,7 +332,7 @@ Each has strengths. Choose based on your workflow.
 
 ---
 
-# Chat-Based Tools
+# Chat Tools Are Best for Learning and Quick Questions
 
 **Examples:** ChatGPT, Claude.ai, Gemini
 
@@ -348,7 +348,7 @@ Each has strengths. Choose based on your workflow.
 
 ---
 
-# IDE Sidebar Tools
+# Sidebar Tools Integrate AI Into Your Editor
 
 **Examples:** GitHub Copilot, Cursor, Cody
 
@@ -364,7 +364,7 @@ Each has strengths. Choose based on your workflow.
 
 ---
 
-# CLI Agent Tools
+# CLI Agents Automate Entire Tasks
 
 **Examples:** Claude Code, Codex CLI, Aider
 
@@ -380,7 +380,7 @@ Each has strengths. Choose based on your workflow.
 
 ---
 
-# Where to Learn More
+# The Course Site Has Everything You Need
 
 **The AI Tools page on the course site has:**
 - Detailed comparisons
@@ -400,7 +400,7 @@ Each has strengths. Choose based on your workflow.
 
 ---
 
-# KidneyQuest: The Project
+# KidneyQuest Teaches the Full Git Workflow
 
 **A simple browser game where the CeRKiD zebra collects genes.**
 
@@ -413,7 +413,7 @@ Each has strengths. Choose based on your workflow.
 
 ---
 
-# The Workflow You'll Follow
+# Five Steps from Clone to Merge
 
 1. **Clone the repo:** Get the code on your computer
 2. **Create a branch:** Work safely without affecting main
@@ -427,7 +427,7 @@ Each has strengths. Choose based on your workflow.
 
 ---
 
-# Steps 1-2: Clone the Repo and Create a Branch
+# Steps 1-2: Get the Code and Create Your Branch
 
 **Clone the repository:**
 `git clone https://github.com/berntpopp/KidneyQuest.git`
@@ -441,7 +441,7 @@ Now you have the code and your own safe workspace. Main is untouched.
 
 ---
 
-# Step 3: Code with AI
+# Step 3: Let AI Write Code While You Steer
 
 **Example prompt to your AI tool:**
 > "Add a scoreboard to KidneyQuest that displays the number of genes collected"
@@ -459,7 +459,7 @@ Now you have the code and your own safe workspace. Main is untouched.
 
 ---
 
-# Step 4: Open a Pull Request
+# Step 4: Propose Your Changes with a Pull Request
 
 - Push your branch to GitHub
 - Open a PR from your branch to main
@@ -471,7 +471,7 @@ Now you have the code and your own safe workspace. Main is untouched.
 
 ---
 
-# Step 5: Review and Merge
+# Step 5: Review, Discuss, and Merge
 
 - A partner reviews your PR
 - You discuss, make changes if needed
