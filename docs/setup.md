@@ -379,17 +379,54 @@ If any command says "not found", try closing and reopening your terminal. Someti
 
 ## Ready to Go
 
-Here's your final checklist:
-
-- [ ] VS Code installed and opens
-- [ ] Git installed and `git --version` works
-- [ ] Git configured with your name and email
-- [ ] GitHub account created
-- [ ] (Optional) GitHub Education Pack applied for Copilot access
-- [ ] (Optional) Node.js installed
-- [ ] (Optional) Google account ready for Gemini CLI
-- [ ] (Optional) AI subscription login tested (Claude, ChatGPT, etc.)
-
-If everything checks out, you're all set for the workshop! If you run into any issues, don't worry - **we'll have time at the start of the event to help with setup**.
+<div class="preflight">
+  <div class="preflight-header">
+    <span class="preflight-title">Pre-Workshop Checklist</span>
+    <span class="preflight-subtitle">Tick each item as you complete it</span>
+  </div>
+  <div class="preflight-body">
+    <div class="preflight-group">
+      <div class="preflight-group-label preflight-label-required">Required</div>
+      <label class="preflight-row">
+        <input type="checkbox" />
+        <span class="preflight-text"><strong>VS Code</strong> installed and opens</span>
+      </label>
+      <label class="preflight-row">
+        <input type="checkbox" />
+        <span class="preflight-text"><strong>Git</strong> installed and <code>git --version</code> works</span>
+      </label>
+      <label class="preflight-row">
+        <input type="checkbox" />
+        <span class="preflight-text"><strong>Git config</strong> set with your name and email</span>
+      </label>
+      <label class="preflight-row">
+        <input type="checkbox" />
+        <span class="preflight-text"><strong>GitHub</strong> account created</span>
+      </label>
+    </div>
+    <div class="preflight-group">
+      <div class="preflight-group-label preflight-label-optional">Optional extras</div>
+      <label class="preflight-row preflight-row-optional">
+        <input type="checkbox" />
+        <span class="preflight-text">GitHub Education Pack for Copilot access</span>
+      </label>
+      <label class="preflight-row preflight-row-optional">
+        <input type="checkbox" />
+        <span class="preflight-text">Node.js installed (<code>node --version</code>)</span>
+      </label>
+      <label class="preflight-row preflight-row-optional">
+        <input type="checkbox" />
+        <span class="preflight-text">Google account ready for Gemini CLI</span>
+      </label>
+      <label class="preflight-row preflight-row-optional">
+        <input type="checkbox" />
+        <span class="preflight-text">AI subscription login tested (Claude, ChatGPT, etc.)</span>
+      </label>
+    </div>
+  </div>
+  <div class="preflight-footer">
+    Don't worry if something isn't working yet - <strong>we'll have time at the start of the event to help with setup</strong>.
+  </div>
+</div>
 
 **Next step:** Check the [agenda](/agenda) to see what the evening looks like.

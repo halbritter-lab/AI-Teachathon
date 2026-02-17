@@ -31,14 +31,14 @@ Looking to explore something different? These ideas come from fellow participant
 
 ### Genomic Variant Effect Prediction
 
-Use Google DeepMind's AlphaGenome API to predict how patient variants affect gene expression and chromatin accessibility.
+Use Google DeepMind's AlphaGenome to predict how patient variants affect gene expression, chromatin accessibility, and histone modifications.
 
-This project starts from a Colab notebook, so you can run it entirely in your browser without installing anything locally. You'll learn how to call external APIs, handle genomic coordinate systems, and interpret AI predictions for clinical variants.
+The right starting point depends on your question. For a visual, no-code exploration, try [AlphaGenome Viewer](https://github.com/Abrar-Abir/alphagenome-viewer) - a web app that lets you query interval predictions, compare reference vs. alternate alleles, and score variants with point-and-click controls. For custom analyses or batch processing, the official [Colab notebooks](https://www.alphagenomedocs.com/colabs/) let you script against the AlphaGenome SDK directly.
 
 <div class="card-badges">
+  <span class="card-badge">AlphaGenome</span>
   <span class="card-badge">Python</span>
-  <span class="card-badge">Google Colab</span>
-  <span class="card-badge card-badge-accent">API Integration</span>
+  <span class="card-badge card-badge-accent">Variant Analysis</span>
 </div>
 
 </div>
@@ -49,7 +49,7 @@ This project starts from a Colab notebook, so you can run it entirely in your br
 
 Build a desktop app that handles data entry, stores everything in a local database, runs automated analysis, and displays results in visual dashboards.
 
-Perfect if you work with structured research data and want a custom solution for your lab's workflow. You'll learn how to build cross-platform desktop apps, work with databases, and create interactive visualizations.
+Perfect if you work with structured research data and want a custom solution for your lab's workflow. For a reference implementation with a very similar stack, see [VarLens](https://github.com/berntpopp/varlens) - an offline-first Electron + Vue + SQLite app for clinical variant analysis. You'll learn how to build cross-platform desktop apps, work with databases, and create interactive visualizations.
 
 <div class="card-badges">
   <span class="card-badge">Electron</span>
@@ -155,7 +155,7 @@ Describe what you want to show, and AI can suggest plot types and generate the c
 
 ## Project-Specific Resources
 
-- **AlphaGenome:** [Documentation](https://www.alphagenomedocs.com/) | [Colab Notebooks](https://www.alphagenomedocs.com/colabs/) | [GitHub](https://github.com/google-deepmind/alphagenome)
+- **AlphaGenome:** [Documentation](https://www.alphagenomedocs.com/) | [Colab Notebooks](https://www.alphagenomedocs.com/colabs/) | [GitHub](https://github.com/google-deepmind/alphagenome) | [AlphaGenome Viewer](https://github.com/Abrar-Abir/alphagenome-viewer)
 - **Electron/Vue:** [Electron Docs](https://www.electronjs.org/docs) | [Vue.js Guide](https://vuejs.org/guide/introduction)
 - **Zotero:** [Documentation](https://www.zotero.org/support/)
 - **AI Detection:** [QuillBot](https://quillbot.com/) | [GPTZero](https://gptzero.me/)

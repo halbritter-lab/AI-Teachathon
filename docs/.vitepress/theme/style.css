@@ -254,3 +254,145 @@
   border-color: var(--vp-c-brand-1);
   color: var(--vp-c-brand-1);
 }
+
+/* === Setup Page: Pre-flight Checklist === */
+
+.preflight {
+  border-radius: 16px;
+  overflow: hidden;
+  margin: 1.5rem 0;
+  border: 1px solid var(--vp-c-divider);
+  background: var(--vp-c-bg-alt);
+}
+
+.preflight-header {
+  background: linear-gradient(135deg, #7c3aed 0%, #06b6d4 100%);
+  padding: 1.25rem 1.75rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+.preflight-title {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #fff;
+}
+.preflight-subtitle {
+  font-size: 0.85rem;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.preflight-body {
+  padding: 1.25rem 1.75rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.preflight-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.preflight-group-label {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-bottom: 0.35rem;
+  padding-left: 0.25rem;
+}
+.preflight-label-required {
+  color: var(--vp-c-brand-1);
+}
+.preflight-label-optional {
+  color: var(--vp-c-text-3);
+}
+
+.preflight-row {
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+  padding: 0.6rem 0.85rem;
+  border-radius: 10px;
+  cursor: pointer;
+  border: 1px solid transparent;
+  transition:
+    background-color 0.15s,
+    border-color 0.15s;
+}
+.preflight-row:hover {
+  background: var(--vp-c-bg-soft);
+  border-color: var(--vp-c-divider);
+}
+
+.preflight-row input[type='checkbox'] {
+  appearance: none;
+  -webkit-appearance: none;
+  flex-shrink: 0;
+  width: 1.35rem;
+  height: 1.35rem;
+  border: 2px solid var(--vp-c-brand-1);
+  border-radius: 6px;
+  cursor: pointer;
+  position: relative;
+  background: transparent;
+  transition:
+    background-color 0.2s,
+    border-color 0.2s,
+    box-shadow 0.2s;
+}
+.preflight-row input[type='checkbox']:hover {
+  box-shadow: 0 0 0 3px var(--vp-c-brand-soft);
+}
+.preflight-row input[type='checkbox']:checked {
+  background: var(--vp-c-brand-1);
+  border-color: var(--vp-c-brand-1);
+}
+.preflight-row input[type='checkbox']:checked::after {
+  content: '';
+  position: absolute;
+  left: 4px;
+  top: 1px;
+  width: 6px;
+  height: 11px;
+  border: solid #fff;
+  border-width: 0 2.5px 2.5px 0;
+  transform: rotate(45deg);
+}
+
+.preflight-text {
+  font-size: 0.95rem;
+  color: var(--vp-c-text-1);
+  transition:
+    color 0.2s,
+    opacity 0.2s;
+}
+.preflight-row input[type='checkbox']:checked ~ .preflight-text {
+  color: var(--vp-c-text-3);
+  text-decoration: line-through;
+}
+
+.preflight-row-optional input[type='checkbox'] {
+  border-color: var(--vp-c-text-3);
+  border-width: 1.5px;
+}
+.preflight-row-optional input[type='checkbox']:hover {
+  box-shadow: 0 0 0 3px rgba(138, 138, 158, 0.15);
+}
+.preflight-row-optional input[type='checkbox']:checked {
+  background: var(--vp-c-text-3);
+  border-color: var(--vp-c-text-3);
+}
+.preflight-row-optional .preflight-text {
+  color: var(--vp-c-text-2);
+}
+
+.preflight-footer {
+  padding: 1rem 1.75rem;
+  font-size: 0.9rem;
+  color: var(--vp-c-text-2);
+  border-top: 1px solid var(--vp-c-divider);
+  background: var(--vp-c-bg-soft);
+}
