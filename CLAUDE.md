@@ -8,6 +8,14 @@ Workshop website for the AI-Teachathon event (Halbritter Lab, Charite Berlin). B
 
 Audience is non-technical researchers - content must be approachable, avoid developer jargon, and provide step-by-step instructions.
 
+## Dev Server
+
+**Always use port 4321.** Do NOT start new dev servers if one is already running — reuse the existing one. Kill orphaned servers before starting a new one.
+
+```bash
+npx vitepress dev docs --port 4321   # Manual start
+```
+
 ## Commands
 
 ```bash
@@ -27,7 +35,7 @@ Marp watch mode: `npm run dev:marp`
 
 ### Testing
 
-Playwright tests live in `.playwright/` (gitignored). Config: `.playwright/playwright.config.ts`. Run with `make test` or `npm test`. The webServer config auto-starts VitePress on port 5555.
+Playwright tests live in `tests/`. Config: `tests/playwright.config.ts`. Run with `make test` or `npm test`. The webServer config auto-starts VitePress on port 4321.
 
 ## Architecture
 
