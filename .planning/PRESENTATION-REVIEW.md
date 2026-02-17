@@ -1,10 +1,10 @@
-# AI-Teachathon Presentation Review (v2)
+# AI-Teachathon Presentation Review (v2.1)
 
 **Date:** 2026-02-17
 **Reviewer perspective:** Senior UI/UX designer, copywriter, senior academic lecturer
 **Framework:** PLOS "Ten Simple Rules" + AWSM (Applied Weighted Slide Metric) + Cognitive Load Theory + HKUST/Cornell academic rubrics
 **Method:** Source analysis of `docs/presentation/slides.md`, `docs/.vitepress/theme/marp-theme.css`, and all assets in `docs/presentation/images/`
-**Previous review:** v1 (2026-02-17) reviewed the 32-slide version. This review covers the revised 38-slide version after Phases 6-7.
+**Previous review:** v1 (2026-02-17) reviewed the 32-slide version. v2 covered the revised 38-slide version after Phases 6-7. This v2.1 update reflects the title slide redesign and URL fixes.
 **Sources:** See Appendix B for full bibliography
 
 **Rating scale:** 1-3 Poor | 4-5 Below average | 6 Acceptable | 7 Good | 8 Very good | 9 Excellent | 10 Outstanding
@@ -27,6 +27,8 @@ The presentation underwent a substantial revision addressing all 7 priority area
 
 **Net result:** 32 slides -> 38 slides, 0 visuals -> 8 visuals, 0 engagement moments -> 5 engagement moments.
 
+**v2.1 updates:** Title slide redesigned with gradient background, tagline, and radial glow effects. Course site URLs corrected across all slides. All `berntpopp/AI-Teachathon` references updated to `halbritter-lab/AI-Teachathon`.
+
 ---
 
 ## Presentation Structure Overview
@@ -46,20 +48,22 @@ The presentation underwent a substantial revision addressing all 7 priority area
 
 ### Opening (Slides 1-5)
 
-**Slide 1 - Title: "Git, GitHub and AI Tools"** | Score: 7.4/10
+**Slide 1 - Title: "Git, GitHub and AI Tools"** | Score: 8.6/10
 
 | Criterion | Score |
 |-----------|-------|
-| Single Message Clarity | 8 |
+| Single Message Clarity | 9 |
 | Text Economy | 9 |
-| Visual Effectiveness | 5 |
-| Readability | 8 |
-| Title as Takeaway | 7 |
+| Visual Effectiveness | 8 |
+| Readability | 9 |
+| Title as Takeaway | 8 |
 
-- (+) Clean, minimal, date and event name present
-- (-) Still no visual hook - plain text on dark background
-- (-) Subtitle remains organizational, not aspirational
-- Improvement: Add a tagline or simple visual element. Consider a subtle background image.
+- (+) **Redesigned in v2.1.** Navy-to-teal gradient background with radial glow effects
+- (+) New tagline: "Learn the tools that are changing how researchers code" - hooks the audience
+- (+) White title with teal text-shadow creates luminosity
+- (+) Header hidden on this slide for cleaner layout
+- (+) Visual energy now matches the section break slides
+- (-) Could still benefit from a subtle icon or motif (e.g., Git branch symbol)
 
 **Slide 2 - "What You'll Learn Today"** | Score: 8.4/10
 
@@ -277,7 +281,7 @@ The presentation underwent a substantial revision addressing all 7 priority area
 
 - (+) Clear bridge to self-study
 - (-) No QR code for mobile access
-- (!) **BUG: Wrong URL** - says `halbritter-lab.github.io/AI-Teachathon/` but site is at `halbritter-lab.github.io/AI-Teachathon/`
+- URL corrected in v2.1
 
 ### Part 4: What We'll Do Today (Slides 30-38)
 
@@ -347,7 +351,6 @@ The presentation underwent a substantial revision addressing all 7 priority area
 
 - (+) Clear CTA
 - (-) No QR code
-- (!) **BUG: Wrong URL** - same as slide 29
 
 ---
 
@@ -366,8 +369,8 @@ The presentation underwent a substantial revision addressing all 7 priority area
 - Staging area concept still skipped
 - Tool descriptions remain somewhat generic
 
-**Bug:**
-- Course site URL is wrong on slides 29 and 38: `halbritter-lab.github.io` should be `halbritter-lab.github.io`
+**Fixed in v2.1:**
+- Course site URLs on slides 29 and 38 corrected to `halbritter-lab.github.io`
 
 ### 2. Didactic Flow & Structure: 8/10 (weight: 20%)
 
@@ -383,9 +386,10 @@ The presentation underwent a substantial revision addressing all 7 priority area
 - Steps 4-5 remain underdeveloped relative to their importance
 - ~36 min estimated runtime may run tight for a 30-min slot
 
-### 3. Visual Design Quality: 7.5/10 (weight: 15%)
+### 3. Visual Design Quality: 8/10 (weight: 15%)
 
 **Strengths:**
+- **Title slide** now has a gradient background with radial glow effects, matching section break energy
 - **5 SVG diagrams** (git-branching, conventional-commit, ai-timeline, pr-workflow, workflow-5-step) - massive improvement from 0
 - **3 tool screenshots** break up the tool section monotony
 - **8 split-layout slides** using `bg left fit` create visual variety
@@ -394,7 +398,7 @@ The presentation underwent a substantial revision addressing all 7 priority area
 - `<!-- fit -->` on section break titles
 
 **Weaknesses:**
-- Opening 5 slides and closing 3 slides are still all text-only - the visual "bookends" are plain
+- Slides 2-5 (opening) and 37-38 (closing) are still text-only after the title slide
 - Git vs GitHub (slide 18) is one of the most important conceptual slides but has no visual
 - KidneyQuest (slide 31) has no preview image
 - No QR codes on course-site or CTA slides
@@ -457,20 +461,20 @@ The presentation underwent a substantial revision addressing all 7 priority area
 |-----------|----------|----------|--------|----------|
 | Content Accuracy & Depth | 6 | 8 | 20% | 1.60 |
 | Didactic Flow & Structure | 7 | 8 | 20% | 1.60 |
-| Visual Design Quality | 5 | 7.5 | 15% | 1.13 |
+| Visual Design Quality | 5 | 8 | 15% | 1.20 |
 | Audience Calibration | 8 | 8.5 | 15% | 1.28 |
 | Engagement & Interactivity | 4 | 7 | 10% | 0.70 |
 | Clarity of Learning Objectives | 5 | 8 | 10% | 0.80 |
 | Technical Execution | 8 | 9 | 10% | 0.90 |
-| **TOTAL** | **6.25** | | | **8.01/10** |
+| **TOTAL** | **6.25** | | | **8.08/10** |
 
-**Improvement: +1.76 points** (6.25 -> 8.01)
+**Improvement: +1.83 points** (6.25 -> 8.08)
 
 ---
 
 ## Bugs to Fix
 
-1. **Wrong course site URL** (slides 29 and 38): `https://halbritter-lab.github.io/AI-Teachathon/` should be `https://halbritter-lab.github.io/AI-Teachathon/`
+1. ~~**Wrong course site URL** (slides 29 and 38)~~ - Fixed in v2.1
 2. **Unused screenshot**: `copilot-vscode-autocomplete.png` exists in the screenshots directory but is not referenced in any slide
 
 ---
@@ -479,7 +483,7 @@ The presentation underwent a substantial revision addressing all 7 priority area
 
 ### Priority A: Quick Fixes (30 min effort, +0.3 points)
 
-1. Fix the two URL bugs above
+1. ~~Fix the two URL bugs~~ - Done
 2. Add `copilot-vscode-autocomplete.png` to the sidebar tools slide (slide 27) as a secondary image, or remove it from the repo
 
 ### Priority B: Visual Polish (2-3 hr effort, +0.5 points)
@@ -487,7 +491,7 @@ The presentation underwent a substantial revision addressing all 7 priority area
 1. **KidneyQuest preview** (slide 31): Add a game screenshot or conceptual mockup
 2. **Git vs GitHub** (slide 18): Add laptop/cloud icons or a simple comparison diagram
 3. **QR codes** on slides 29 and 38 for easy mobile access to the course site
-4. **Title slide** (slide 1): Add a subtle background image or gradient to match section break energy
+4. ~~**Title slide** (slide 1): Add gradient background~~ - Done in v2.1
 5. **Slides 7-8** (repos, commits): Add simple diagrams (folder icon, timeline checkpoints)
 
 ### Priority C: Structural Polish (1-2 hr effort, +0.3 points)
@@ -508,12 +512,12 @@ The presentation underwent a substantial revision addressing all 7 priority area
 |-----------|---------|-----------|--------|
 | Content Accuracy & Depth | 8 | 9 | +1 |
 | Didactic Flow & Structure | 8 | 9 | +1 |
-| Visual Design Quality | 7.5 | 9 | +1.5 |
+| Visual Design Quality | 8 | 9 | +1 |
 | Audience Calibration | 8.5 | 9 | +0.5 |
 | Engagement & Interactivity | 7 | 8.5 | +1.5 |
 | Clarity of Learning Objectives | 8 | 8.5 | +0.5 |
 | Technical Execution | 9 | 9.5 | +0.5 |
-| **Weighted Total** | **8.01** | **8.93** | **+0.92** |
+| **Weighted Total** | **8.08** | **8.93** | **+0.85** |
 
 ---
 
@@ -521,7 +525,7 @@ The presentation underwent a substantial revision addressing all 7 priority area
 
 | # | Title | Score | Visual |
 |---|-------|-------|--------|
-| 1 | Title: Git, GitHub and AI Tools | 7.4 | - |
+| 1 | Title: Git, GitHub and AI Tools | 8.6 | gradient + glow |
 | 2 | What You'll Learn Today | 8.4 | - |
 | 3 | We've All Been Here | 8.0 | - |
 | 4 | Version Control Unlocks AI's Potential | 7.4 | - |
@@ -549,7 +553,7 @@ The presentation underwent a substantial revision addressing all 7 priority area
 | 26 | Chat Tools Are Best for Learning | 8.4 | screenshot + split |
 | 27 | Sidebar Tools Integrate AI Into Your Editor | 8.4 | screenshot + split |
 | 28 | CLI Agents Automate Entire Tasks | 8.4 | screenshot + split |
-| 29 | The Course Site Has Everything You Need | 7.0 | - (BUG: wrong URL) |
+| 29 | The Course Site Has Everything You Need | 7.0 | - |
 | 30 | Part 4: What We'll Do Today (section break) | 9.0 | gradient |
 | 31 | KidneyQuest Teaches the Full Git Workflow | 7.0 | - |
 | 32 | Five Steps from Clone to Merge | 8.8 | SVG + split |
@@ -558,8 +562,8 @@ The presentation underwent a substantial revision addressing all 7 priority area
 | 35 | Step 4: Propose Your Changes with a Pull Request | 7.0 | - |
 | 36 | Step 5: Review, Discuss, and Merge | 7.0 | - |
 | 37 | What You Now Know | 8.4 | - |
-| 38 | Let's Get Started! | 7.2 | - (BUG: wrong URL) |
-| | **Average** | **7.9** | |
+| 38 | Let's Get Started! | 7.2 | - |
+| | **Average** | **8.0** | |
 
 ## Appendix B: Review Framework Sources
 
