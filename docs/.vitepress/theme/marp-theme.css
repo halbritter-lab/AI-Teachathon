@@ -50,3 +50,78 @@ pre {
   background-color: var(--color-background-code);
   border: 1px solid var(--color-highlight);
 }
+
+/* === Utility classes === */
+
+/* Section color themes - use section.class for specificity over Gaia base */
+section.section-git {
+  background: linear-gradient(135deg, #0288d1 0%, #02c797 100%) !important;
+  background-color: #0288d1 !important;
+}
+
+section.section-git h1 {
+  color: #ffffff;
+}
+
+section.section-git p {
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 1.6rem;
+}
+
+section.section-ai {
+  background: linear-gradient(135deg, #7b1fa2 0%, #02c797 100%) !important;
+  background-color: #7b1fa2 !important;
+}
+
+section.section-ai h1 {
+  color: #ffffff;
+}
+
+section.section-ai p {
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 1.6rem;
+}
+
+section.section-tools {
+  background: linear-gradient(135deg, #24292e 0%, #02c797 100%) !important;
+  background-color: #24292e !important;
+}
+
+section.section-tools h1 {
+  color: #ffffff;
+}
+
+section.section-tools p {
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 1.6rem;
+}
+
+section.section-workflow {
+  background: linear-gradient(135deg, #f57c00 0%, #02c797 100%) !important;
+  background-color: #f57c00 !important;
+}
+
+section.section-workflow h1 {
+  color: #ffffff;
+}
+
+section.section-workflow p {
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 1.6rem;
+}
+
+/* Code readability utility classes */
+.large-code pre {
+  font-size: 2.2rem;
+  line-height: 1.5;
+}
+
+/* Content density utility classes */
+.tight-spacing li {
+  margin-bottom: 0.3rem;
+}
+
+.compact h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}

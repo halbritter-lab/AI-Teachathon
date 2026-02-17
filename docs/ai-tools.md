@@ -1,243 +1,431 @@
 # AI Tools
 
-AI coding tools have evolved incredibly fast over the last few years. Understanding where they came from and how they work helps you pick the right one for what you're trying to do.
+AI coding tools range from simple chatbots to agents that can build entire features on their own. Understanding the landscape helps you pick the right tool for the job.
 
 ## The AI Coding Tool Spectrum
 
-AI coding assistants aren't all the same - they range from simple chatbots to agents that can build entire features on their own. Here's how the field has evolved.
+<div class="card-grid">
 
-### Level 1: Chat Interfaces (2023-2024)
+<div class="project-card">
 
-This is where most people start: you ask a chatbot a question, it gives you code, and you copy-paste it into your editor.
+### Level 1: Chat Interfaces
 
-**Tools:** ChatGPT, Claude.ai, Gemini
+Ask a question, get code, copy-paste it into your editor. The AI can't see your files - you're the bridge between the AI and your code.
 
-**Still useful for:**
+**Best for:** Explaining concepts, debugging errors, writing snippets
 
-- Explaining concepts you don't understand
-- Debugging error messages
-- Writing short code snippets
-- Learning new libraries or languages
+<div class="card-badges">
+  <span class="card-badge card-badge-accent">ChatGPT</span>
+  <span class="card-badge card-badge-accent">Claude.ai</span>
+  <span class="card-badge card-badge-accent">Gemini</span>
+  <span class="card-badge card-badge-accent">Grok</span>
+  <span class="card-badge card-badge-accent">DeepSeek</span>
+  <span class="card-badge card-badge-accent">Perplexity</span>
+</div>
 
-**Limitation:** It's all manual. You ask, copy, paste, test, repeat. The AI can't see your files or run commands - you're the bridge between the AI and your code.
+</div>
 
-### Level 2: IDE-Integrated (2024-2025)
+<div class="project-card">
 
-Instead of copy-pasting, the AI lives inside your code editor and suggests code as you type.
+### Level 2: IDE-Integrated
 
-**Tools:** GitHub Copilot, Cursor, Windsurf
+The AI lives inside your code editor and suggests code as you type. No copy-pasting - it autocompletes and refactors inline.
 
-**Best for:**
+**Best for:** Autocomplete, inline suggestions, chat within your editor
 
-- Autocomplete on steroids (it predicts what you're about to write)
-- Inline suggestions while you code
-- Chat panel right in your editor
-- Writing boilerplate code faster
+<div class="card-badges">
+  <span class="card-badge card-badge-accent">GitHub Copilot</span>
+  <span class="card-badge card-badge-accent">Cursor</span>
+  <span class="card-badge card-badge-accent">Windsurf</span>
+</div>
 
-**Limitation:** These tools usually work one file at a time. They can't run terminal commands or see your whole project structure - just the file you're editing.
+</div>
 
-### Level 3: CLI Agents (2025-2026)
+<div class="project-card">
 
-CLI agents work directly in your terminal. They can read and edit files across your entire project, run commands, and even use Git.
+### Level 3: CLI Agents
 
-**Tools:** Claude Code, Gemini CLI, Aider, Codex CLI
+Terminal-based agents that read and edit files across your whole project, run commands, and handle Git. They see your entire codebase, not just one file.
 
-**Best for:**
+**Best for:** Multi-file changes, running tests, Git workflows
 
-- Multi-file changes (like refactoring across 10 files)
-- Running tests and fixing failures
-- Git workflows (committing, branching, reviewing diffs)
-- Installing packages and debugging environment issues
+<div class="card-badges">
+  <span class="card-badge card-badge-accent">Claude Code</span>
+  <span class="card-badge card-badge-accent">Copilot CLI</span>
+  <span class="card-badge card-badge-accent">Codex CLI</span>
+  <span class="card-badge card-badge-accent">Gemini CLI</span>
+</div>
 
-**Key advance:** The AI sees your whole project, not just one file. It can check if a change in one file breaks something in another file.
+</div>
 
-### Level 4: Autonomous Agents (Emerging)
+<div class="project-card">
 
-Autonomous agents can plan and execute multi-step tasks with minimal supervision. You give them a feature request, and they build it - tests, documentation, everything.
+### Level 4: Autonomous Agents
 
-**Tools:** Devin, plan-mode features in Claude Code/Gemini CLI, orchestration plugins (like GSD)
+Give them a feature request and they plan, build, and test it with minimal supervision. Still early - think of them as junior developers who need oversight.
 
-**Still early:** These tools are expensive, sometimes make big mistakes, and work best with experienced developers who can review their work. Think of them as junior developers who need oversight.
+**Best for:** Experienced developers who can review AI-generated work
 
-**Where it's heading:** The goal is AI as a collaborator - you focus on design decisions, the AI handles implementation details.
+<div class="card-badges">
+  <span class="card-badge">Emerging</span>
+</div>
+
+</div>
+
+</div>
 
 ::: info During This Workshop
-You'll primarily use Level 1 (chat interfaces) and Level 2 (IDE-integrated tools like GitHub Copilot). Level 3 tools are available if you want to try them - check the [setup guide](/setup) for Node.js installation instructions.
+You'll primarily use **Level 1** (chat interfaces) and **Level 2** (IDE tools like GitHub Copilot). Level 3 CLI agents are available if you want to try them - check the [setup guide](/setup) for Node.js installation.
 :::
 
-## Tool Comparison
+## Quick Comparison
 
-Here's a closer look at the tools you're most likely to encounter. Pricing is accurate as of February 2026.
+Pricing and models are accurate as of February 2026.
 
-### ChatGPT / GPT-4
+| Tool           | Type | Frontier Model      | Free Tier                   | Paid               | Best For                       |
+| -------------- | ---- | ------------------- | --------------------------- | ------------------ | ------------------------------ |
+| ChatGPT        | Chat | GPT-5.2             | GPT-5.2 Instant (limited)   | $20/mo Plus        | Broad knowledge, debugging     |
+| Claude.ai      | Chat | Opus 4.6 / Sonnet 5 | Sonnet 4.5 (limited)        | $20/mo Pro         | Deep explanations, code review |
+| Gemini         | Chat | Gemini 3 Pro        | **2.5 Flash** (limited Pro) | $19.99/mo AI Pro   | Quick questions, multimodal    |
+| Grok           | Chat | Grok 4              | Grok 3 (limited)            | $30/mo SuperGrok   | Real-time info, X integration  |
+| DeepSeek       | Chat | DeepSeek-V3         | **Unlimited** (V3 + R1)     | Free               | Open-source, reasoning, code   |
+| Perplexity     | Chat | Multi-model         | 5 Pro searches/day          | $20/mo Pro         | Research with cited sources    |
+| GitHub Copilot | IDE  | Multi-model         | 2,000 completions/mo        | $10/mo Pro         | Autocomplete in VS Code        |
+| Cursor         | IDE  | Multi-model         | 50 premium requests/mo      | $20/mo Pro         | All-in-one AI editor           |
+| Windsurf       | IDE  | Multi-model         | Unlimited autocomplete      | $15/mo Pro         | AI pair programming            |
+| Claude Code    | CLI  | Opus 4.6 / Sonnet 5 | None                        | $20/mo (with Pro)  | Multi-file refactoring         |
+| Copilot CLI    | CLI  | Claude Sonnet 4.5   | None                        | $10/mo (with Pro)  | Terminal agent (multi-model)   |
+| Codex CLI      | CLI  | GPT-5.3-Codex       | None                        | $20/mo (with Plus) | Terminal agent (GPT models)    |
+| Gemini CLI     | CLI  | **Gemini 3 Flash**  | **1,000 requests/day**      | Free               | Free terminal AI agent         |
 
-**Type:** Chat
-**Best for:** Explaining concepts, debugging errors, writing short snippets
-**Cost:** Free tier (GPT-4o mini) / $20/month Plus (GPT-4o) / $200/month Pro (GPT-4o and o1-pro)
-**What you get:**
+::: tip Not Sure Where to Start?
+**Student?** Get GitHub Copilot free via the [GitHub Education Pack](https://education.github.com/pack) and Gemini AI Pro free for a year via [Google for Students](https://gemini.google/students/). **Want free tools?** Gemini (chat) and Gemini CLI (terminal) are completely free. **Just exploring?** All three chat tools (ChatGPT, Claude.ai, Gemini) have free tiers.
+:::
 
-- Free tier: GPT-4o mini with rate limits
-- Plus: GPT-4o with higher limits, access to Codex CLI (terminal agent)
-- Pro: Unlimited GPT-4o, access to o1-pro (advanced reasoning)
+## Chat Interfaces
+
+These are the simplest tools to start with - just open a website and ask a question.
+
+<div class="card-grid">
+
+<div class="project-card">
+
+### ChatGPT
+
+The most widely used AI chatbot. Good at explaining concepts, writing code snippets, and debugging errors. Strong general knowledge across programming languages. Currently powered by the **GPT-5.2** model family.
+
+- **Free:** GPT-5.2 Instant (~10 messages/5 hours, then falls back to mini)
+- **Plus ($20/mo):** GPT-5.2 Thinking mode, 5x limits, includes Codex CLI
+- **Pro ($200/mo):** Unlimited GPT-5.2 Pro, maximum reasoning compute
+
+<div class="card-badges">
+  <span class="card-badge card-badge-accent">Chat</span>
+  <span class="card-badge">Free tier</span>
+  <span class="card-badge">Most popular</span>
+</div>
+
+</div>
+
+<div class="project-card">
 
 ### Claude.ai
 
-**Type:** Chat
-**Best for:** Longer conversations, complex explanations, code review
-**Cost:** Free tier / $20/month Pro
-**What you get:**
+Known for detailed, thoughtful explanations and strong code review. Handles long conversations well thanks to large context windows. Frontier models: **Opus 4.6** (Feb 5) and **Sonnet 5** (Feb 3).
 
-- Free tier: Claude Sonnet (good quality, rate limited)
-- Pro: Claude Opus 4.6 (best model), ~45 prompts per 5-hour window, includes Claude Code CLI access
+- **Free:** Claude Sonnet 4.5 with dynamic capacity limits
+- **Pro ($20/mo):** Sonnet 5, 5x usage, includes Claude Code CLI, extended thinking
+- **Max ($100-200/mo):** Opus 4.6 access, agent features, 1M context
+
+<div class="card-badges">
+  <span class="card-badge card-badge-accent">Chat</span>
+  <span class="card-badge">Free tier</span>
+  <span class="card-badge">Best explanations</span>
+</div>
+
+</div>
+
+<div class="project-card">
+
+### Gemini
+
+Google's AI assistant with a generous free tier. Supports image and document understanding. The frontier model is **Gemini 3 Pro** (Nov 2025), available on paid plans. Free users get Gemini 2.5 Flash.
+
+- **Free:** Gemini 2.5 Flash + limited 2.5 Pro access
+- **AI Pro ($19.99/mo):** Gemini 3 Pro, Deep Search, 2 TB storage
+- **AI Ultra ($249.99/mo):** Highest access, video gen, Deep Research
+- **Free for students** via [Google for Students](https://gemini.google/students/) (AI Pro for one year)
 
 ::: tip Recommended for Workshop
-Claude.ai's free tier is great for learning. The explanations are detailed and easy to follow.
+The free tier (2.5 Flash) is plenty for a workshop. No credit card needed, just a Google account. Gemini CLI is also completely free.
 :::
 
-### Gemini (Google)
+<div class="card-badges">
+  <span class="card-badge card-badge-accent">Chat</span>
+  <span class="card-badge card-badge-accent">Free tier</span>
+  <span class="card-badge">Multimodal</span>
+</div>
 
-**Type:** Chat
-**Best for:** Quick questions, free access to multimodal AI
-**Cost:** Free with any Google account
-**What you get:**
+</div>
 
-- Gemini 2.0 Flash (fast, good quality)
-- Gemini 2.0 Pro (advanced reasoning, higher rate limits)
-- Access to Gemini CLI (terminal agent)
+<div class="project-card">
 
-::: tip Recommended for Workshop
-Gemini is completely free and works well. Great option if you don't want to pay for other tools.
+### Grok
+
+xAI's chatbot with real-time access to X (Twitter) posts and web data. Powered by **Grok 4**, with the free tier running Grok 3. Good for questions that need current information.
+
+- **Free:** Grok 3 (~10 requests/2 hours), image generation
+- **SuperGrok ($30/mo):** Grok 4 access, higher limits, advanced reasoning
+- Requires an X (Twitter) account
+
+<div class="card-badges">
+  <span class="card-badge card-badge-accent">Chat</span>
+  <span class="card-badge">Free tier</span>
+  <span class="card-badge">Real-time data</span>
+</div>
+
+</div>
+
+<div class="project-card">
+
+### DeepSeek
+
+Chinese open-source AI with unlimited free chat - no rate limits, no subscription needed. **DeepSeek-V3** handles general coding, **R1** handles complex reasoning. All models are open-source (MIT license).
+
+- **Free:** Unlimited access to V3 and R1 models
+- **No paid tier needed** - everything is free
+- Also available to run locally on your own hardware
+
+::: tip Best Free Option for Coding
+Completely free with no real limits. Strong at reasoning and code. The open-source models can also be run locally for privacy.
 :::
+
+<div class="card-badges">
+  <span class="card-badge card-badge-accent">Chat</span>
+  <span class="card-badge card-badge-accent">Free</span>
+  <span class="card-badge">Open source</span>
+</div>
+
+</div>
+
+<div class="project-card">
+
+### Perplexity
+
+An AI-powered research engine rather than a general chatbot. Every answer comes with cited sources you can verify. Best for literature search, fact-checking, and exploring new topics.
+
+- **Free:** Unlimited basic searches, 5 Pro searches/day
+- **Pro ($20/mo):** Unlimited Pro searches, file analysis, code mode
+- Research-focused - not a general coding assistant
+
+<div class="card-badges">
+  <span class="card-badge card-badge-accent">Chat</span>
+  <span class="card-badge">Free tier</span>
+  <span class="card-badge">Cited sources</span>
+</div>
+
+</div>
+
+</div>
+
+## IDE-Integrated Tools
+
+These tools live inside your code editor. They suggest code as you type and can chat about your codebase.
+
+<div class="card-grid">
+
+<div class="project-card">
 
 ### GitHub Copilot
 
-**Type:** IDE-integrated
-**Best for:** Autocomplete while coding, inline suggestions
-**Cost:** Free tier (2,000 completions/month) / $10/month Pro / Free for students via GitHub Education Pack
-**What you get:**
+The most popular AI coding assistant. Integrates directly into VS Code and suggests code as you type. The free tier is generous enough for learning.
 
-- AI code suggestions as you type
-- Chat panel in VS Code
-- Multi-file context awareness (Pro tier)
+- **Free:** 2,000 completions + 50 chat messages per month
+- **Pro ($10/mo):** Unlimited completions, premium models, coding agent
+- **Free for students** via [GitHub Education Pack](https://education.github.com/pack)
 
 ::: tip Recommended for Workshop
-If you're a student, get this for free with the GitHub Education Pack. It's the most popular AI coding assistant and works great for beginners.
+If you're a student, get this for free with the Education Pack. Works seamlessly inside VS Code - the editor you'll already be using.
 :::
+
+<div class="card-badges">
+  <span class="card-badge card-badge-accent">IDE</span>
+  <span class="card-badge">Free tier</span>
+  <span class="card-badge card-badge-accent">Free for students</span>
+</div>
+
+</div>
+
+<div class="project-card">
 
 ### Cursor
 
-**Type:** IDE-integrated
-**Best for:** All-in-one AI editor (based on VS Code)
-**Cost:** Free tier (limited usage) / $20/month Pro
-**What you get:**
+A VS Code fork with AI built into every interaction. Uses multiple AI models (Claude, GPT, Gemini) through a credit-based system. Powerful but usage-based pricing can add up.
 
-- VS Code fork with built-in AI
-- Chat with your codebase
-- AI-powered autocomplete and refactoring
-- Note: Usage-based costs can exceed the $20 subscription if you use it heavily
+- **Free:** 50 premium requests + 500 free model requests per month
+- **Pro ($20/mo):** ~225 Claude or ~500 GPT requests per month
+- Credits vary by model - Claude uses credits 2.4x faster than Gemini
+
+<div class="card-badges">
+  <span class="card-badge card-badge-accent">IDE</span>
+  <span class="card-badge">Free tier</span>
+  <span class="card-badge">Multi-model</span>
+</div>
+
+</div>
+
+<div class="project-card">
 
 ### Windsurf
 
-**Type:** IDE-integrated
-**Best for:** AI pair programming with flow mode
-**Cost:** Free tier / $15/month Pro
-**What you get:**
+VS Code-based editor with the best free tier among IDE tools - unlimited autocomplete forever. Cascade mode handles complex multi-step tasks automatically.
 
-- VS Code-based editor with AI co-pilot
-- Flow mode (AI suggests next steps)
-- Cascade mode (AI handles complex multi-step tasks)
+- **Free (forever):** Unlimited autocomplete and chat, 25 prompt credits per month
+- **Pro ($15/mo):** 500 prompt credits, premium models
+- Formerly known as Codeium
+
+<div class="card-badges">
+  <span class="card-badge card-badge-accent">IDE</span>
+  <span class="card-badge card-badge-accent">Best free tier</span>
+  <span class="card-badge">Cascade mode</span>
+</div>
+
+</div>
+
+</div>
+
+## CLI Agents
+
+Terminal-based agents for developers comfortable with the command line. They see your whole project and can edit files, run commands, and handle Git.
+
+<div class="card-grid">
+
+<div class="project-card">
 
 ### Claude Code
 
-**Type:** CLI agent
-**Best for:** Multi-file refactoring, running tests, Git workflows
-**Cost:** Included with Claude Pro ($20/month)
-**What you get:**
+Anthropic's official CLI agent. Reads and edits files across your entire project, runs terminal commands, and handles Git workflows. Powered by **Opus 4.6** and **Sonnet 5** for multi-file changes.
 
-- Terminal-based AI agent
-- Can read/edit files across your project
-- Runs commands and handles Git
-- Great for experienced developers
+- **Included with Claude Pro** ($20/mo) - not sold separately
+- Also available with Max, Team, and Enterprise plans
+- Requires Node.js
 
-::: tip Recommended for Power Users
-If you're comfortable with the command line and want to try an AI agent, Claude Code is excellent. Included with Claude Pro subscription.
-:::
+<div class="card-badges">
+  <span class="card-badge card-badge-accent">CLI</span>
+  <span class="card-badge">$20/mo (bundled)</span>
+</div>
+
+</div>
+
+<div class="project-card">
+
+### Copilot CLI
+
+GitHub's terminal agent that knows your repositories, issues, and pull requests. Uses Claude Sonnet 4.5 by default with other models available. The lowest-cost paid CLI agent at $10/mo.
+
+- **Included with Copilot Pro** ($10/mo) - also Pro+, Business, Enterprise
+- Each prompt draws from your plan's premium request allowance
+- Supports custom MCP servers for extensibility
+
+<div class="card-badges">
+  <span class="card-badge card-badge-accent">CLI</span>
+  <span class="card-badge">$10/mo (bundled)</span>
+  <span class="card-badge">GitHub-native</span>
+</div>
+
+</div>
+
+<div class="project-card">
+
+### Codex CLI
+
+OpenAI's official terminal agent, open-source and built in Rust. Powered by **GPT-5.3-Codex** - the most capable agentic coding model to date, 25% faster than its predecessor.
+
+- **Included with ChatGPT Plus** ($20/mo) - not sold separately
+- Also available with ChatGPT Pro ($200/mo) with higher limits
+- macOS and Linux support; Windows is experimental
+
+<div class="card-badges">
+  <span class="card-badge card-badge-accent">CLI</span>
+  <span class="card-badge">$20/mo (bundled)</span>
+  <span class="card-badge">Open source</span>
+</div>
+
+</div>
+
+<div class="project-card">
 
 ### Gemini CLI
 
-**Type:** CLI agent
-**Best for:** Free terminal AI agent
-**Cost:** Free with any Google account
-**What you get:**
+Google's free terminal AI agent. The most generous free CLI tool - 1,000 requests per day with **Gemini 3 Flash** and a 1M token context window. Just needs a Google account.
 
-- Terminal-based AI agent (similar to Claude Code)
-- Can read/edit files and run commands
-- Completely free (no subscription needed)
+- **Free:** 1,000 requests/day, 60 requests/minute, Gemini 3 Flash
+- No subscription or API key needed
+- Open-source, requires Node.js
 
-::: tip Recommended as Free CLI Option
-Want to try a CLI agent without paying? Gemini CLI is your best bet. Requires Node.js installation (see setup guide).
-:::
+<div class="card-badges">
+  <span class="card-badge card-badge-accent">CLI</span>
+  <span class="card-badge card-badge-accent">Free</span>
+  <span class="card-badge">1M context</span>
+</div>
 
-### Aider
+</div>
 
-**Type:** CLI agent
-**Best for:** Open-source AI coding assistant
-**Cost:** Free (bring your own API key)
-**What you get:**
+</div>
 
-- Open-source terminal AI tool
-- Works with multiple AI providers (OpenAI, Anthropic, etc.)
-- Note: You need to set up and pay for API keys separately
+## 6 Tips for Working with AI
 
-### Codex CLI (OpenAI)
+<div class="pain-point-grid">
 
-**Type:** CLI agent
-**Best for:** Terminal agent with GPT-4 models
-**Cost:** Included with ChatGPT Plus ($20/month), temporary free tier available
-**What you get:**
+<div class="pain-point-card">
 
-- Terminal-based AI agent using GPT models
-- Can edit files and run commands
-- Currently in beta
+### Plan before you code
 
-### Autonomous Agents
+Before writing a single line, tell the AI what you want to build and ask it to plan the approach. "Plan how to add a scoring system - what files need to change, what's the data flow?" Planning first prevents wasted effort and wrong turns.
 
-Tools like **Devin** ($20/month) and orchestration plugins are emerging, but they're still experimental. These agents can plan and build entire features independently, but they require developer experience to use effectively. They sometimes make expensive mistakes or go down the wrong path, so you need to supervise their work closely.
+</div>
 
-We mention them for completeness, but for this workshop (and most day-to-day coding), focus on Levels 1-3.
+<div class="pain-point-card">
 
-::: tip Not Sure Where to Start?
-**If you're a student:** Get GitHub Copilot for free with the GitHub Education Pack.
+### Be specific
 
-**Want to try a CLI agent?** Gemini CLI is free with any Google account.
+Instead of "improve my code," say "refactor this function to use async/await." Vague requests get vague answers.
 
-**Already have a Claude Pro subscription?** Try Claude Code - it's included.
+</div>
 
-**Just want to learn?** Use the free tiers of ChatGPT, Claude.ai, or Gemini.
-:::
+<div class="pain-point-card">
 
-## 5 Tips for Working with AI Coding Tools
+### Give context
 
-### 1. Start with a specific question, not "make this better"
+Tell the AI what language, framework, and goal you have. "I'm building a Flask REST API and need auth" beats "add authentication."
 
-Instead of "improve my code," try "refactor this function to use async/await instead of callbacks." The more specific you are, the better the AI can help. Vague requests get vague answers.
+</div>
 
-### 2. Give context about your project
+<div class="pain-point-card">
 
-Tell the AI what language you're using, what framework, and what you're trying to build. For example: "I'm building a REST API in Python with Flask. I need to add user authentication." Context helps the AI give you relevant suggestions instead of generic advice.
+### Always review
 
-### 3. Review AI output before using it
+AI makes confident mistakes. Read and test generated code before committing it. It might use deprecated libraries or miss edge cases.
 
-AI makes confident mistakes. It might suggest code that looks right but has bugs, uses deprecated libraries, or doesn't match your project's style. Always read and test AI-generated code before committing it.
+</div>
 
-### 4. Iterate - if the first response isn't right, refine your prompt
+<div class="pain-point-card">
 
-If the AI gives you something that's close but not quite right, don't start over. Say "that's good, but can you change X to Y?" or "this doesn't handle error cases - can you add error handling?" Treat it like a conversation.
+### Iterate
 
-### 5. Use AI for learning, not just output
+If the first response isn't right, refine: "That's close, but also handle the error case." Treat it like a conversation, not a single query.
 
-Don't just copy-paste code without understanding it. Ask the AI to explain what it wrote: "Can you walk me through how this works?" or "Why did you use a dictionary here instead of a list?" You'll learn faster and write better code.
+</div>
+
+<div class="pain-point-card">
+
+### Learn, don't just copy
+
+Ask "Why did you use a dictionary here instead of a list?" Understanding the code makes you a better developer, not just a faster one.
+
+</div>
+
+</div>
 
 ## Ready for the Hands-On Session?
 
-Now that you know the landscape - from simple chatbots to autonomous agents - it's time to put these tools to work. Head to the [hands-on guide](/hands-on) to start coding, or check out the [setup guide](/setup) if you need help installing any of these tools.
+Now that you know the landscape, it's time to put these tools to work. Head to the [hands-on guide](/hands-on) to start coding, or check the [setup guide](/setup) if you still need to install tools.

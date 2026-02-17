@@ -24,6 +24,13 @@ Participants arrive prepared and leave with practical knowledge of AI coding too
 
 ### Active
 
+- [ ] Presentation v2: Add 5 missing essential topics (private repos, .gitignore, PII, conventional commits, semver)
+- [ ] Presentation v2: Add visual elements (diagrams, real screenshots, split layouts)
+- [ ] Presentation v2: Add learning objectives and summary/recap slides
+- [ ] Presentation v2: Add engagement moments (audience questions, polls, discussion prompts)
+- [ ] Presentation v2: Rebalance structure (merge thin sections, expand hands-on steps)
+- [ ] Presentation v2: Improve slide titles to state takeaways, not topics
+- [ ] Presentation v2: Leverage Marp features (bg images, split layouts, scoped styles)
 - [ ] Recording/video embed (if event is recorded)
 - [ ] Participant feedback form link
 - [ ] Gallery of completed pull requests from the hands-on session
@@ -36,6 +43,21 @@ Participants arrive prepared and leave with practical knowledge of AI coding too
 - Internationalization - English-only, international research group
 - Embedded AI chatbot - teach them to use their own tools instead
 
+## Current Milestone: v1.1 Presentation Revision
+
+**Goal:** Full revision of the 32-slide Marp presentation based on expert review (6.25/10 -> 8.5+/10), addressing content gaps, visual design, structure, engagement, and Marp feature utilization.
+
+**Target features:**
+- 5 new essential topics for researchers (private repos, .gitignore, PII, conventional commits, semver)
+- Visual elements throughout (diagrams, live-captured screenshots, Marp split layouts)
+- Learning objectives + recap slides bookending the presentation
+- 3-4 engagement moments (audience questions, polls, discussion prompts)
+- Restructured flow (merge thin sections, expand hands-on depth)
+- Takeaway-style slide titles replacing topic labels
+- Full use of Marp capabilities (bg images, scoped styles, fit directive)
+
+**Review document:** `.planning/PRESENTATION-REVIEW.md`
+
 ## Context
 
 Shipped v1.0 with ~2,562 lines across 71 files.
@@ -43,6 +65,8 @@ Tech stack: VitePress 1.6.4, Tailwind CSS v4, Marp CLI 4.2.3, Playwright.
 7 content pages + 1 standalone presentation (32 slides).
 13 Playwright E2E tests validating cross-links, responsive design, and presentation.
 Deployed to GitHub Pages at berntpopp.github.io/AI-Teachathon/.
+
+Detailed presentation review completed (`.planning/PRESENTATION-REVIEW.md`) with per-slide scores, weighted dimension ratings, and 7 priority improvement areas.
 
 ## Constraints
 
@@ -64,4 +88,4 @@ Deployed to GitHub Pages at berntpopp.github.io/AI-Teachathon/.
 | Resources by journey timeline | Before/During/After event - participants find links when they need them. | Good |
 
 ---
-*Last updated: 2026-02-17 after v1.0 milestone*
+*Last updated: 2026-02-17 after v1.1 milestone start*

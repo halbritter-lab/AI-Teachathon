@@ -1,46 +1,70 @@
-# State
-
-## Current Position
-
-Phase: 5 of 5 (all v1.0 phases complete)
-Plan: N/A - milestone complete
-Status: v1.0 shipped
-Last activity: 2026-02-17 - v1.0 milestone archived
-
-Progress: [##########] 100% (v1.0 complete, 12/12 plans shipped)
+# Project State
 
 ## Project Reference
 
 See: .planning/PROJECT.md (updated 2026-02-17)
 
 **Core value:** Participants arrive prepared and leave with practical knowledge
-**Current focus:** v1.0 shipped - planning next milestone
+**Current focus:** v1.1 Presentation Revision - Phase 7 (Visual Elements and Marp Features)
 
-## What's Been Built
+## Current Position
 
-- VitePress 1.6.4 + Tailwind CSS v4 (CSS-first, no config files)
-- Dark theme with purple/pink/cyan gradient
-- 7 content pages (landing, setup, agenda, slides, AI tools, hands-on, ideas, resources)
-- 32-slide Marp presentation with custom dark theme
-- Marp CLI build pipeline integrated into npm and Make workflows
-- Custom Vite middleware for presentation.html serving
-- Reusable Timeline.vue component
-- GitHub Actions deployment workflow
-- Makefile with build/lint/format/check/test targets
-- Prettier + markdownlint-cli2 for code quality
-- 13 Playwright E2E tests across 3 viewports
-- Site-wide edit-on-GitHub links
+Phase: 7 of 7 (Visual Elements and Marp Features)
+Plan: 2 of TBD in current phase
+Status: In progress
+Last activity: 2026-02-17 - Completed 07-02-PLAN.md
 
-## Decisions
+Progress: [█████▓....] 60% (v1.1: Phase 6 complete, Phase 7 plans 01-02 complete)
 
-See PROJECT.md Key Decisions table for full list.
+## Performance Metrics
 
-## Blockers & Concerns
+**Velocity:**
+- Total plans completed: 4 (v1.1 milestone)
+- Average duration: 4.1 minutes
+- Total execution time: 16.5 minutes
 
-None
+**By Phase:**
+
+| Phase | Plans | Total | Avg/Plan |
+|-------|-------|-------|----------|
+| 6 | 2/2 | 11m | 5.5m |
+| 7 | 2/TBD | 5.5m | 2.75m |
+
+*Updated after each plan completion*
+
+## Accumulated Context
+
+### Decisions
+
+Decisions are logged in PROJECT.md Key Decisions table.
+Recent decisions affecting current work:
+
+- v1.1 Roadmap: 2 phases (6-7) derived from 23 requirements across 7 categories
+- v1.1 Roadmap: Content/structure first (Phase 6), then visuals/Marp (Phase 7)
+- 06-01 STRC-01: Merge Part 3 (AI Timeline) into Part 2 for better narrative cohesion
+- 06-01 STRC-04: Reorder "Choose Your Tool" before category detail slides (pedagogical flow)
+- 06-01 CONT-01: Add private repos slide (Charite context, unpublished research safety)
+- 06-01 CONT-03: Add PII management slide (zero-tolerance for patient data commits)
+- 06-02 OBJ-01: Learning objectives as slide 2 (prime expectations early)
+- 06-02 ENG-01: 4 engagement prompts spaced 5-8 minutes apart (maintain attention)
+- 06-02 TITL-01: Transform all titles to takeaway statements (outcome-based learning)
+- 07-01: Each section uses unique gradient (blue-teal, purple-teal, gray-teal, orange-teal)
+- 07-01: Section break titles use fit directive for consistent auto-sizing
+- 07-01: All section breaks include descriptive subtitle below title
+- 07-02: Images LEFT, text RIGHT split layout (cognitive processing research pattern)
+- 07-02: All diagrams use project theme colors (#02c797, #04e6af, #ffffff, #c6c6c6)
+- 07-02: Scoped styles for slide-specific adjustments (code readability, content density)
+
+### Pending Todos
+
+None yet.
+
+### Blockers/Concerns
+
+None.
 
 ## Session Continuity
 
-Last session: 2026-02-17
-Stopped at: v1.0 milestone complete and archived
-Resume file: None
+Last session: 2026-02-17T13:26:49Z
+Stopped at: Completed 07-02-PLAN.md
+Resume file: .planning/phases/07-visual-elements-and-marp-features/07-02-SUMMARY.md

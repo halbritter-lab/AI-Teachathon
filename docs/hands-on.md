@@ -470,4 +470,6 @@ By the end of this session, you've practiced:
 - How to write effective prompts for AI coding assistants
 - How to contribute to open-source projects
 
-Check out the [AI tools overview](/ai-tools) for a deeper look at what's available, or browse the resources page for further learning.
+Check out the [AI tools overview](/ai-tools) for a deeper look at what's available, or browse the [resources page](/resources) for further learning.
+
+**Next step:** Explore [project ideas](/ideas) for inspiration on what to build.

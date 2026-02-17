@@ -20,6 +20,20 @@ February 17, 2026
 
 ---
 
+# What You'll Learn Today
+
+By the end of this session, you'll be able to:
+
+- **Understand** Git basics: repos, commits, branches, and PRs
+- **Protect** your research: .gitignore, private repos, and PII management
+- **Explain** why version control is essential when using AI tools
+- **Navigate** the AI tool landscape and choose what fits your workflow
+- **Follow** the complete Git workflow hands-on with KidneyQuest
+
+<!-- This primes the audience for what matters. Keep to 5 objectives max. Use action verbs. Revisit these at the end to close the loop. -->
+
+---
+
 # We've All Been Here
 
 final_v3.docx
@@ -27,11 +41,11 @@ final_v3_REALLY_final.docx
 final_v3_REALLY_final_reviewed.docx
 final_v3_REALLY_final_reviewed_comments_addressed.docx
 
-<!-- This is the traditional approach to version control. You know this system. It works until it doesn't. The problem: which version has the correct analysis? Which one did you send to the collaborator? -->
+<!-- ENGAGEMENT: Show of hands - who has more than 5 versions of a file right now? [Pause for laughter/recognition] This is the traditional approach to version control. You know this system. It works until it doesn't. The problem: which version has the correct analysis? Which one did you send to the collaborator? -->
 
 ---
 
-# There's a Better Way
+# Version Control Unlocks AI's Potential
 
 - And it's not just about avoiding filename chaos
 - It's the foundation for working effectively with AI
@@ -41,7 +55,7 @@ final_v3_REALLY_final_reviewed_comments_addressed.docx
 
 ---
 
-# Real Consequences
+# Reproducibility Requires Version Control
 
 **Scenario:** You need to reproduce results from 6 months ago.
 
@@ -56,13 +70,16 @@ final_v3_REALLY_final_reviewed_comments_addressed.docx
 
 ---
 
-<!-- _class: lead -->
+<!-- _paginate: false -->
+<!-- _class: lead section-git -->
 
-# Part 1: Git Basics
+# <!-- fit --> Part 1: Git Basics
+
+Your foundation for version control
 
 ---
 
-# What is a Repository?
+# A Repository Tracks Your Entire Project History
 
 Think of it as a **lab notebook for your code**.
 
@@ -76,7 +93,7 @@ A repository (or "repo") is just a folder with a `.git` directory that stores th
 
 ---
 
-# Commits: Snapshots of Your Project
+# Every Commit Is a Safe Restore Point
 
 - A **commit** is a save point
 - It captures the exact state of all files at that moment
@@ -88,7 +105,7 @@ Think of commits as save points in a game. You can always go back.
 
 ---
 
-# Why Commit Messages Matter
+# Good Commit Messages Tell Your Project's Story
 
 **Bad commit message:**
 "fixed stuff"
@@ -104,7 +121,110 @@ Think of commits as save points in a game. You can always go back.
 
 ---
 
-# Branches: Parallel Experiments
+![bg left fit](images/diagrams/conventional-commit.svg)
+
+<style scoped>
+h1 { font-size: 2.4rem; margin-bottom: 0.5rem; }
+li { font-size: 1.5rem; margin-bottom: 0.2rem; }
+p { font-size: 1.5rem; }
+</style>
+
+# Conventional Commits Make History Machine-Readable
+
+**Format:** `type(scope): description`
+
+**Common types:**
+- `feat:` - New feature
+- `fix:` - Bug fix
+- `docs:` - Documentation
+- `refactor:` - Code restructure
+- `test:` - Tests
+
+**Example:** `feat: add gene search filter`
+
+<!-- This builds on the previous slide. KidneyQuest uses this format. It enables automated changelogs and clear history. Show a real example from the repo's git log if possible. -->
+
+---
+
+# Semantic Versioning Tells You What Changed
+
+**v1.2.3 means:**
+- **1** (MAJOR) - Breaking changes
+- **2** (MINOR) - New features, backward compatible
+- **3** (PATCH) - Bug fixes
+
+**Why researchers care:** Reproducibility
+- Cite specific versions in papers
+- Know when updates break things
+
+<!-- Bumping from v1.x to v2.0 means "this may break your analysis." Link back to conventional commits: feat bumps MINOR, fix bumps PATCH. -->
+
+---
+
+# Private Repos Protect Unpublished Research
+
+**Public repositories:**
+- Anyone can view, clone, and contribute
+- Good for: Open source, teaching, published tools
+
+**Private repositories:**
+- Restricted access only
+- Good for: Unpublished research, patient-adjacent data, pre-publication code
+
+**Default for medical research:** Start private, make public when ready
+
+<!-- Charite context: most research should be private until publication. GitHub gives you unlimited private repos for free. -->
+
+---
+
+# .gitignore Prevents Accidents Before They Happen
+
+**What it is:** A file telling Git which files to never track
+
+**What to ignore:**
+- Large data (CSVs, FASTQs, imaging)
+- Environment files (.env, API keys)
+- Binary files (PDFs, compiled code)
+- OS artifacts (.DS_Store, Thumbs.db)
+
+**Why it matters:** Prevents accidental commits of things that should never be in a repo
+
+<!-- .gitignore is your first line of defense. Use GitHub's templates for your language. Prevention is easier than cleanup. -->
+
+---
+
+# Never Commit Patient Data or Credentials
+
+**The rules:**
+- No patient data, even "anonymized"
+- No API keys, passwords, or tokens
+- No institutional credentials
+
+**What if you do?** It's in the history forever. Rewriting history is painful.
+
+**Best practice:** Always review diffs before committing
+
+<!-- For medical research, this is non-negotiable. Prevention is everything. A single accidental commit of patient data can be a serious compliance issue. -->
+
+---
+
+<!-- _class: lead -->
+
+# If you accidentally commit a password to GitHub, can you just delete the file?
+
+<!-- Give 10 seconds of silence. Then explain: No - it's in the history forever. Even if you delete the file in a new commit, the old commit still has it. This is why .gitignore and reviewing diffs matters. Prevention is everything. This reinforces the previous 3 slides. -->
+
+---
+
+![bg left fit](images/diagrams/git-branching.svg)
+
+<style scoped>
+h1 { font-size: 2.4rem; margin-bottom: 0.5rem; }
+li { font-size: 1.5rem; margin-bottom: 0.2rem; }
+p { font-size: 1.5rem; }
+</style>
+
+# Branches Let You Experiment Without Risk
 
 - A **branch** is like running a parallel experiment
 - The main branch stays safe and stable
@@ -118,7 +238,15 @@ Think of commits as save points in a game. You can always go back.
 
 ---
 
-# Pull Requests: Proposing Changes
+![bg left fit](images/diagrams/pr-workflow.svg)
+
+<style scoped>
+h1 { font-size: 2.4rem; margin-bottom: 0.5rem; }
+li { font-size: 1.5rem; margin-bottom: 0.2rem; }
+p { font-size: 1.5rem; }
+</style>
+
+# Pull Requests Are Where Collaboration Happens
 
 - You've finished work on your branch
 - Now you want to merge it into `main`
@@ -135,7 +263,7 @@ This is how teams collaborate.
 
 ---
 
-# Git vs GitHub
+# Git Is Local, GitHub Is Online
 
 **Git:**
 - The version control tool on your computer
@@ -147,17 +275,20 @@ This is how teams collaborate.
 - Enables collaboration, pull requests, issue tracking
 - Where you share your code
 
-<!-- Brief, clear distinction. Git is the tool. GitHub is the platform. You need both. -->
+<!-- ENGAGEMENT: Quick check - "If your laptop dies right now, is your Git history lost? What about your GitHub repos?" [Pause for 2-3 responses. Answer: Git is local (lost if not pushed), GitHub is remote (safe).] Brief, clear distinction. Git is the tool. GitHub is the platform. You need both. -->
 
 ---
 
-<!-- _class: lead -->
+<!-- _paginate: false -->
+<!-- _class: lead section-ai -->
 
-# Part 2: Why Version Control Matters with AI
+# <!-- fit --> Part 2: Version Control in the AI Era
+
+Why Git matters more when AI writes your code
 
 ---
 
-# AI Generates Code Fast
+# AI Is Fast - Version Control Keeps You Safe
 
 - AI tools can write hundreds of lines of code in seconds
 - You need to track what changed and why
@@ -184,13 +315,15 @@ This is how teams collaborate.
 
 ---
 
-<!-- _class: lead -->
+![bg left fit](images/diagrams/ai-timeline.svg)
 
-# Part 3: The AI Revolution Timeline
+<style scoped>
+h1 { font-size: 2.2rem; margin-bottom: 0.5rem; }
+li { font-size: 1.4rem; margin-bottom: 0.15rem; }
+p { font-size: 1.4rem; }
+</style>
 
----
-
-# 2022-2026: Rapid Acceleration
+# AI Coding Tools Evolved Rapidly Since 2022
 
 - **November 2022:** ChatGPT launches, goes viral
 - **2022-2023:** GitHub Copilot gains adoption
@@ -200,17 +333,20 @@ This is how teams collaborate.
 
 **The pace is accelerating. That's why we're here today.**
 
-<!-- This is moving fast. Two years ago, GitHub Copilot was cutting edge. Now we have AI agents that write entire features. You need to keep up. -->
+<!-- ENGAGEMENT: Show of hands - who has used ChatGPT, Copilot, or any AI coding tool before? [Gauge the room's experience level. Adjust depth accordingly.] This is moving fast. Two years ago, GitHub Copilot was cutting edge. Now we have AI agents that write entire features. You need to keep up. -->
 
 ---
 
-<!-- _class: lead -->
+<!-- _paginate: false -->
+<!-- _class: lead section-tools -->
 
-# Part 4: The Tool Landscape
+# <!-- fit --> Part 3: The Tool Landscape
+
+Navigate AI coding tools with confidence
 
 ---
 
-# The Spectrum of AI Coding Tools
+# Three Categories of AI Coding Tools
 
 **Three categories:**
 1. **Chat-based:** ChatGPT, Claude.ai
@@ -223,7 +359,29 @@ Each has strengths. Choose based on your workflow.
 
 ---
 
-# Chat-Based Tools
+# Choose the Tool That Fits Your Workflow
+
+**For today's hands-on session:**
+- You can use any tool you prefer
+- Chat-based is fine
+- Sidebar is fine
+- CLI is fine
+
+**No single right answer.** Use what feels comfortable.
+
+<!-- The goal is to learn the workflow, not master a specific tool. Pick what works for you. We'll briefly cover each category next. -->
+
+---
+
+![bg left fit](images/screenshots/chatgpt-interface.png)
+
+<style scoped>
+h1 { font-size: 2.4rem; margin-bottom: 0.5rem; }
+li { font-size: 1.5rem; margin-bottom: 0.2rem; }
+p { font-size: 1.5rem; }
+</style>
+
+# Chat Tools Are Best for Learning and Quick Questions
 
 **Examples:** ChatGPT, Claude.ai, Gemini
 
@@ -239,7 +397,15 @@ Each has strengths. Choose based on your workflow.
 
 ---
 
-# IDE Sidebar Tools
+![bg left fit](images/screenshots/copilot-vscode-sidebar.png)
+
+<style scoped>
+h1 { font-size: 2.4rem; margin-bottom: 0.5rem; }
+li { font-size: 1.5rem; margin-bottom: 0.2rem; }
+p { font-size: 1.5rem; }
+</style>
+
+# Sidebar Tools Integrate AI Into Your Editor
 
 **Examples:** GitHub Copilot, Cursor, Cody
 
@@ -255,7 +421,15 @@ Each has strengths. Choose based on your workflow.
 
 ---
 
-# CLI Agent Tools
+![bg left fit](images/screenshots/claude-code-terminal.png)
+
+<style scoped>
+h1 { font-size: 2.4rem; margin-bottom: 0.5rem; }
+li { font-size: 1.5rem; margin-bottom: 0.2rem; }
+p { font-size: 1.5rem; }
+</style>
+
+# CLI Agents Automate Entire Tasks
 
 **Examples:** Claude Code, Codex CLI, Aider
 
@@ -271,21 +445,7 @@ Each has strengths. Choose based on your workflow.
 
 ---
 
-# Choose Your Tool
-
-**For today's hands-on session:**
-- You can use any tool you prefer
-- Chat-based is fine
-- Sidebar is fine
-- CLI is fine
-
-**No single right answer.** Use what feels comfortable.
-
-<!-- The goal is to learn the workflow, not master a specific tool. Pick what works for you. -->
-
----
-
-# Where to Learn More
+# The Course Site Has Everything You Need
 
 **The AI Tools page on the course site has:**
 - Detailed comparisons
@@ -299,13 +459,16 @@ Each has strengths. Choose based on your workflow.
 
 ---
 
-<!-- _class: lead -->
+<!-- _paginate: false -->
+<!-- _class: lead section-workflow -->
 
-# Part 5: What We'll Do Today
+# <!-- fit --> Part 4: What We'll Do Today
+
+From clone to merge in five steps
 
 ---
 
-# KidneyQuest: The Project
+# KidneyQuest Teaches the Full Git Workflow
 
 **A simple browser game where the CeRKiD zebra collects genes.**
 
@@ -318,7 +481,15 @@ Each has strengths. Choose based on your workflow.
 
 ---
 
-# The Workflow You'll Follow
+![bg left fit](images/diagrams/workflow-5-step.svg)
+
+<style scoped>
+h1 { font-size: 2.4rem; margin-bottom: 0.5rem; }
+li { font-size: 1.4rem; margin-bottom: 0.15rem; }
+p { font-size: 1.4rem; }
+</style>
+
+# Five Steps from Clone to Merge
 
 1. **Clone the repo:** Get the code on your computer
 2. **Create a branch:** Work safely without affecting main
@@ -328,44 +499,53 @@ Each has strengths. Choose based on your workflow.
 
 **Each step is simple. This is easier than it looks.**
 
-<!-- This is the workflow. Five steps. You'll repeat this pattern for the rest of your career. It's the foundation of modern software development. -->
+<!-- ENGAGEMENT: Turn to your neighbor - which step do you think will be the hardest? [30 seconds. Then ask 1-2 pairs to share. Common answer: Step 3 or Step 5.] This is the workflow. Five steps. You'll repeat this pattern for the rest of your career. It's the foundation of modern software development. -->
 
 ---
 
-# Step 1: Clone the Repo
+<style scoped>
+pre { font-size: 2.2rem; line-height: 1.6; }
+code { font-weight: 600; }
+</style>
 
-**Command:** `git clone https://github.com/berntpopp/KidneyQuest.git`
+# Steps 1-2: Get the Code and Create Your Branch
 
-This downloads the project to your computer.
+**Clone the repository:**
+`git clone https://github.com/berntpopp/KidneyQuest.git`
 
-<!-- We'll walk through this together. No one gets left behind. -->
+**Create your branch:**
+`git checkout -b add-new-gene`
+
+Now you have the code and your own safe workspace. Main is untouched.
+
+<!-- Two quick commands, paired together. We'll walk through this together. No one gets left behind. -->
 
 ---
 
-# Step 2: Create a Branch
+<style scoped>
+blockquote { border-left: 4px solid #02c797; background: rgba(2, 199, 151, 0.1); padding: 0.8rem 1.2rem; font-size: 1.6rem; }
+li { font-size: 1.5rem; margin-bottom: 0.2rem; }
+</style>
 
-**Command:** `git checkout -b add-new-gene`
+# Step 3: Let AI Write Code While You Steer
 
-Now you're working on your own branch. Main is safe.
+**Example prompt to your AI tool:**
+> "Add a scoreboard to KidneyQuest that displays the number of genes collected"
 
-<!-- Branching is the key to safe experimentation. You can't break main when you're on your own branch. -->
+**What the AI might generate:**
+- HTML for the scoreboard element
+- JavaScript to track and update the score
+- CSS for positioning and styling
 
----
-
-# Step 3: Code with AI
-
-- Ask your AI tool to add a feature
-- Review the code it generates
-- Test it in the browser
-- Iterate until it works
+**Your job:** Review the code, test in the browser, iterate
 
 **You are the pilot. AI is the copilot.**
 
-<!-- AI will make mistakes. That's normal. Your job is to review, test, and iterate. You're in control. -->
+<!-- This is the most important step. Show a concrete example so they see what AI-assisted coding looks like. AI will make mistakes - that's normal. Review, test, iterate. -->
 
 ---
 
-# Step 4: Open a Pull Request
+# Step 4: Propose Your Changes with a Pull Request
 
 - Push your branch to GitHub
 - Open a PR from your branch to main
@@ -377,7 +557,7 @@ Now you're working on your own branch. Main is safe.
 
 ---
 
-# Step 5: Review and Merge
+# Step 5: Review, Discuss, and Merge
 
 - A partner reviews your PR
 - You discuss, make changes if needed
@@ -386,6 +566,21 @@ Now you're working on your own branch. Main is safe.
 **Congratulations. You've contributed to the project.**
 
 <!-- This is the full cycle. Clone, branch, code, PR, merge. You'll repeat this pattern for every feature. -->
+
+---
+
+# What You Now Know
+
+You've learned:
+- **Git** tracks every change safely - repos, commits, branches
+- **Branches and PRs** let you experiment and collaborate without risk
+- **.gitignore and private repos** protect sensitive research data
+- **AI + version control** = safe, fast iteration
+- **The workflow:** clone, branch, code with AI, PR, merge
+
+**Next up:** Apply all of this hands-on with KidneyQuest
+
+<!-- Bridge between theory and practice. Reinforce key takeaways. Point back to the objectives from the beginning - they've now covered each one. -->
 
 ---
 
