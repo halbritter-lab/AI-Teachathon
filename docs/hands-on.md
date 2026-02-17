@@ -129,7 +129,7 @@ Now navigate to `docs/ideas.md` in VS Code's file explorer. This is where partic
 
 Here's where your AI tool shines. Instead of writing the markdown yourself, ask your AI assistant to help. Try this prompt:
 
-```
+```text
 I'm contributing to a VitePress website about an AI workshop. I want to add my idea to the ideas page. The file is docs/ideas.md and it uses markdown bullet points. My idea is: [describe your idea - maybe a workshop topic, a tool to cover, or a format suggestion].
 
 Show me what markdown to add to the file.
@@ -139,6 +139,19 @@ Copy the AI's suggestion into `docs/ideas.md`, save the file (Ctrl+S or Cmd+S), 
 
 ::: tip Using AI Effectively
 Notice how the prompt gives context (VitePress website, workshop topic), specifies the format (markdown bullet points), and asks for a specific output (what to add). This helps the AI give you exactly what you need. We'll cover more prompting tips later.
+:::
+
+::: details If something went wrong
+
+**Problem:** VS Code won't open with `code .` command
+**Solution:** VS Code might not be in your PATH. On Windows, you can open VS Code from the Start menu, then use File > Open Folder. On macOS, open VS Code and run "Shell Command: Install 'code' command in PATH" from the Command Palette (Cmd+Shift+P).
+
+**Problem:** Can't find `docs/ideas.md` in VS Code
+**Solution:** Make sure you opened the entire AI-Teachathon folder, not just a single file. The folder structure should show in the left sidebar. If you don't see it, click the Explorer icon (top-left) or press Ctrl+Shift+E (Cmd+Shift+E on macOS).
+
+**Problem:** AI suggested code instead of markdown
+**Solution:** Refine your prompt to specify "markdown bullet points" or "plain text entry". You can also show the AI an example from the existing file.
+
 :::
 
 ### Step 5: Stage Your Changes
@@ -311,13 +324,13 @@ Vague requests produce vague results. Compare these two prompts:
 
 Bad:
 
-```
+```text
 Make this better
 ```
 
 Good:
 
-```
+```text
 Refactor this function to validate email addresses using a regex pattern. Return true for valid emails, false otherwise.
 ```
 
@@ -329,13 +342,13 @@ Tell the AI what project you're working on, what language you're using, and what
 
 Bad:
 
-```
+```text
 Add a jump feature
 ```
 
 Good:
 
-```
+```text
 I'm building KidneyQuest, a browser game using vanilla JavaScript and HTML5 Canvas. It's a side-scrolling jump game like Chrome's dino game. Add a jump mechanic: spacebar press makes the zebra rise 150px over 300ms, then gravity pulls it back down. Prevent double-jumping.
 ```
 
@@ -347,15 +360,15 @@ Ask for what you need: "Return just the function" or "Explain each line with com
 
 Examples:
 
-```
+```text
 Return just the function, no explanations.
 ```
 
-```
+```text
 Show me the code with inline comments explaining what each section does.
 ```
 
-```
+```text
 Give me the exact git command to undo my last commit.
 ```
 
