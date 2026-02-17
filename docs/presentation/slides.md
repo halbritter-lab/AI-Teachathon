@@ -104,6 +104,85 @@ Think of commits as save points in a game. You can always go back.
 
 ---
 
+# Conventional Commits: Structured Messages
+
+**Format:** `type(scope): description`
+
+**Common types:**
+- `feat:` - New feature
+- `fix:` - Bug fix
+- `docs:` - Documentation
+- `refactor:` - Code restructure
+- `test:` - Tests
+
+**Example:** `feat: add gene search filter`
+
+<!-- This builds on the previous slide. KidneyQuest uses this format. It enables automated changelogs and clear history. Show a real example from the repo's git log if possible. -->
+
+---
+
+# Semantic Versioning: MAJOR.MINOR.PATCH
+
+**v1.2.3 means:**
+- **1** (MAJOR) - Breaking changes
+- **2** (MINOR) - New features, backward compatible
+- **3** (PATCH) - Bug fixes
+
+**Why researchers care:** Reproducibility
+- Cite specific versions in papers
+- Know when updates break things
+
+<!-- Bumping from v1.x to v2.0 means "this may break your analysis." Link back to conventional commits: feat bumps MINOR, fix bumps PATCH. -->
+
+---
+
+# Private Repos Protect Unpublished Research
+
+**Public repositories:**
+- Anyone can view, clone, and contribute
+- Good for: Open source, teaching, published tools
+
+**Private repositories:**
+- Restricted access only
+- Good for: Unpublished research, patient-adjacent data, pre-publication code
+
+**Default for medical research:** Start private, make public when ready
+
+<!-- Charite context: most research should be private until publication. GitHub gives you unlimited private repos for free. -->
+
+---
+
+# .gitignore: Your First Defense Against Data Leaks
+
+**What it is:** A file telling Git which files to never track
+
+**What to ignore:**
+- Large data (CSVs, FASTQs, imaging)
+- Environment files (.env, API keys)
+- Binary files (PDFs, compiled code)
+- OS artifacts (.DS_Store, Thumbs.db)
+
+**Why it matters:** Prevents accidental commits of things that should never be in a repo
+
+<!-- .gitignore is your first line of defense. Use GitHub's templates for your language. Prevention is easier than cleanup. -->
+
+---
+
+# Never Commit Patient Data or Credentials
+
+**The rules:**
+- No patient data, even "anonymized"
+- No API keys, passwords, or tokens
+- No institutional credentials
+
+**What if you do?** It's in the history forever. Rewriting history is painful.
+
+**Best practice:** Always review diffs before committing
+
+<!-- For medical research, this is non-negotiable. Prevention is everything. A single accidental commit of patient data can be a serious compliance issue. -->
+
+---
+
 # Branches: Parallel Experiments
 
 - A **branch** is like running a parallel experiment
