@@ -41,7 +41,7 @@ final_v3_REALLY_final.docx
 final_v3_REALLY_final_reviewed.docx
 final_v3_REALLY_final_reviewed_comments_addressed.docx
 
-<!-- This is the traditional approach to version control. You know this system. It works until it doesn't. The problem: which version has the correct analysis? Which one did you send to the collaborator? -->
+<!-- ENGAGEMENT: Show of hands - who has more than 5 versions of a file right now? [Pause for laughter/recognition] This is the traditional approach to version control. You know this system. It works until it doesn't. The problem: which version has the correct analysis? Which one did you send to the collaborator? -->
 
 ---
 
@@ -197,6 +197,14 @@ Think of commits as save points in a game. You can always go back.
 
 ---
 
+<!-- _class: lead -->
+
+# If you accidentally commit a password to GitHub, can you just delete the file?
+
+<!-- Give 10 seconds of silence. Then explain: No - it's in the history forever. Even if you delete the file in a new commit, the old commit still has it. This is why .gitignore and reviewing diffs matters. Prevention is everything. This reinforces the previous 3 slides. -->
+
+---
+
 # Branches: Parallel Experiments
 
 - A **branch** is like running a parallel experiment
@@ -240,7 +248,7 @@ This is how teams collaborate.
 - Enables collaboration, pull requests, issue tracking
 - Where you share your code
 
-<!-- Brief, clear distinction. Git is the tool. GitHub is the platform. You need both. -->
+<!-- ENGAGEMENT: Quick check - "If your laptop dies right now, is your Git history lost? What about your GitHub repos?" [Pause for 2-3 responses. Answer: Git is local (lost if not pushed), GitHub is remote (safe).] Brief, clear distinction. Git is the tool. GitHub is the platform. You need both. -->
 
 ---
 
@@ -287,7 +295,7 @@ This is how teams collaborate.
 
 **The pace is accelerating. That's why we're here today.**
 
-<!-- This is moving fast. Two years ago, GitHub Copilot was cutting edge. Now we have AI agents that write entire features. You need to keep up. -->
+<!-- ENGAGEMENT: Show of hands - who has used ChatGPT, Copilot, or any AI coding tool before? [Gauge the room's experience level. Adjust depth accordingly.] This is moving fast. Two years ago, GitHub Copilot was cutting edge. Now we have AI agents that write entire features. You need to keep up. -->
 
 ---
 
@@ -415,7 +423,7 @@ Each has strengths. Choose based on your workflow.
 
 **Each step is simple. This is easier than it looks.**
 
-<!-- This is the workflow. Five steps. You'll repeat this pattern for the rest of your career. It's the foundation of modern software development. -->
+<!-- ENGAGEMENT: Turn to your neighbor - which step do you think will be the hardest? [30 seconds. Then ask 1-2 pairs to share. Common answer: Step 3 or Step 5.] This is the workflow. Five steps. You'll repeat this pattern for the rest of your career. It's the foundation of modern software development. -->
 
 ---
 
