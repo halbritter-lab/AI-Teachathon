@@ -1,4 +1,4 @@
-.PHONY: install dev build build-marp preview lint lint-fix format format-check check clean help
+.PHONY: install dev build build-marp preview lint lint-fix format format-check check test clean help
 
 ## -- Setup ----------------------------------------------
 
@@ -34,6 +34,9 @@ format-check: ## Check formatting without writing
 	npm run format:check
 
 check: lint format-check build ## Run all checks (lint + format + build)
+
+test: ## Run Playwright E2E tests
+	npm test
 
 ## -- Maintenance ----------------------------------------
 
