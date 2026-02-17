@@ -7,7 +7,7 @@
 
 Workshop website for the **Halbritter Lab AI-Teachathon** at CeRKiD, Charite Berlin. A hands-on evening where researchers learn AI-assisted coding, Git, and GitHub - no prior experience required.
 
-**[View the live site](https://halbritter-lab.github.io/AI-Teachathon/)**
+[![Live Site](https://img.shields.io/badge/%F0%9F%8C%90_Live_Site-halbritter--lab.github.io/AI--Teachathon-7c3aed?style=for-the-badge)](https://halbritter-lab.github.io/AI-Teachathon/)
 
 ## Pages
 
