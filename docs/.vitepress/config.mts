@@ -62,6 +62,11 @@ export default defineConfig({
       provider: 'local',
     },
 
+    editLink: {
+      pattern: 'https://github.com/berntpopp/AI-Teachathon/edit/main/docs/:path',
+      text: 'Edit this page on GitHub',
+    },
+
     siteTitle: 'AI-Teachathon | Halbritter Lab',
 
     nav: [],
