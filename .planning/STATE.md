@@ -2,19 +2,19 @@
 
 ## Current Position
 
-Phase: 5 of 5 (all v1.0 phases complete)
-Plan: N/A - milestone complete
-Status: v1.0 shipped
-Last activity: 2026-02-17 - v1.0 milestone archived
+Phase: Not started (defining requirements)
+Plan: -
+Status: Defining requirements
+Last activity: 2026-02-17 - Milestone v1.1 started
 
-Progress: [##########] 100% (v1.0 complete, 12/12 plans shipped)
+Progress: [..........] 0%
 
 ## Project Reference
 
 See: .planning/PROJECT.md (updated 2026-02-17)
 
 **Core value:** Participants arrive prepared and leave with practical knowledge
-**Current focus:** v1.0 shipped - planning next milestone
+**Current focus:** v1.1 Presentation Revision - full revision targeting 8.5+/10
 
 ## What's Been Built
 
@@ -42,5 +42,5 @@ None
 ## Session Continuity
 
 Last session: 2026-02-17
-Stopped at: v1.0 milestone complete and archived
+Stopped at: Starting v1.1 milestone
 Resume file: None
