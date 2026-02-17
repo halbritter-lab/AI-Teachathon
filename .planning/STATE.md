@@ -39,6 +39,11 @@ See: .planning/PROJECT.md (updated 2026-02-16)
 - Complete AI tool landscape page (docs/ai-tools.md) with 4-level evolution spectrum (2023-2026+)
 - 10 tool comparison cards with consistent structure and recommendation badges
 - 5 practical tips for working with AI coding tools
+- Complete hands-on coding guide (docs/hands-on.md) with 8-step Git workflow and AI prompting principles
+- Two-phase workshop structure (Follow Along on AI-Teachathon repo, On Your Own with KidneyQuest)
+- 8 collapsible troubleshooting sections for Git workflow steps
+- AI prompting guide with 4 principles and model-specific tips (Claude 4-block, Gemini concise)
+- 6 ready-to-use example prompts covering workflow and project tasks
 - Complete ideas page (docs/ideas.md) with KidneyQuest featured, 4 alternative projects, 6 research pain points
 - Site-wide edit-on-GitHub links via VitePress editLink configuration
 - Complete resources page (docs/resources.md) with 60+ curated links organized by event timeline
@@ -74,6 +79,11 @@ See: .planning/PROJECT.md (updated 2026-02-16)
 | spectrum-structure | 04-01 | 4-level AI tool spectrum: Chat (2023-2024), IDE (2024-2025), CLI (2025-2026), Autonomous (Emerging) | Shows rapid field evolution, helps participants understand capability differences | 2026-02-17 |
 | tool-selection | 04-01 | 10 tools: ChatGPT, Claude.ai, Gemini, GitHub Copilot, Cursor, Windsurf, Claude Code, Gemini CLI, Aider, Codex CLI | Most relevant for workshop participants, prioritized free tiers and student discounts | 2026-02-17 |
 | recommendation-badges | 04-01 | Highlight GitHub Copilot (students), Claude Code (power users), Gemini CLI (free CLI option) | Matches workshop participant demographics and budget constraints | 2026-02-17 |
+| git-workflow-steps | 04-02 | 8-step Git workflow covers full GitHub Flow (fork to merge) | Complete learning path from forking through pull request merge | 2026-02-17 |
+| troubleshooting-inline | 04-02 | Troubleshooting inline after each step for self-service learning | Participants solve problems independently, instructors float around | 2026-02-17 |
+| phase1-familiar-repo | 04-02 | Phase 1 uses AI-Teachathon repo itself (familiar environment) | Reduces cognitive load - participants work on website they're already reading | 2026-02-17 |
+| kidneyquest-minimal | 04-02 | KidneyQuest introduced with minimal context (CeRKiD zebra, Chrome dino style) | Brief framing per CONTEXT.md user decision, avoids overwhelming participants | 2026-02-17 |
+| prompting-principles-first | 04-02 | Prompting guide teaches 4 generic principles before model-specific application | Transferable skills work across any AI tool, then show Claude/Gemini specifics | 2026-02-17 |
 | featured-project-structure | 05-01 | Feature KidneyQuest as main project with CeRKiD zebra mascot connection | Emphasizes workshop's primary hands-on project, connects to lab's rare disease focus | 2026-02-17 |
 | editlink-config | 05-01 | Enable edit-on-GitHub links globally via VitePress editLink | Lowers contribution barrier, demonstrates GitHub workflow participants will learn | 2026-02-17 |
 | timeline-resource-org | 05-02 | Resources organized by journey timeline (Before/During/After Event) | Context-appropriate learning - participants find relevant links when they need them | 2026-02-17 |
