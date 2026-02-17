@@ -1,11 +1,11 @@
 .PHONY: install dev build build-marp preview lint lint-fix format format-check check clean help
 
-## —— Setup ——————————————————————————————————————————————
+## -- Setup ----------------------------------------------
 
 install: ## Install dependencies
 	npm ci
 
-## —— Development ————————————————————————————————————————
+## -- Development ----------------------------------------
 
 dev: ## Start dev server with hot reload
 	npm run docs:dev
@@ -19,7 +19,7 @@ build: ## Build static site for production
 preview: ## Preview production build locally
 	npm run docs:preview
 
-## —— Quality ——————————————————————————————————————————————
+## -- Quality ----------------------------------------------
 
 lint: ## Lint markdown files
 	npm run lint
@@ -35,12 +35,12 @@ format-check: ## Check formatting without writing
 
 check: lint format-check build ## Run all checks (lint + format + build)
 
-## —— Maintenance ————————————————————————————————————————
+## -- Maintenance ----------------------------------------
 
 clean: ## Remove build artifacts and caches
 	rm -rf docs/.vitepress/cache docs/.vitepress/dist docs/public/presentation.html node_modules
 
-## —— Help ——————————————————————————————————————————————
+## -- Help ----------------------------------------------
 
 help: ## Show this help
 	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | \

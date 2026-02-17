@@ -6,13 +6,13 @@ A modern, polished website for the Halbritter Lab AI Teachathon at CeRKiD (Chari
 
 ## Core Value
 
-Participants arrive prepared and leave with practical knowledge of AI coding tools, Git, and GitHub — with clear next steps to apply in their research.
+Participants arrive prepared and leave with practical knowledge of AI coding tools, Git, and GitHub - with clear next steps to apply in their research.
 
 ## Requirements
 
 ### Validated
 
-(None yet — ship to validate)
+(None yet - ship to validate)
 
 ### Active
 
@@ -28,14 +28,14 @@ Participants arrive prepared and leave with practical knowledge of AI coding too
 
 ### Out of Scope
 
-- KidneyQuest game implementation — separate repo, just referenced here
+- KidneyQuest game implementation - separate repo, just referenced here
 - User authentication or interactive features beyond static site
-- Mobile app — web-only
+- Mobile app - web-only
 
 ## Context
 
-- Halbritter Lab / CeRKiD / Charité Berlin — nephrology/genetics research group
-- Audience: researchers, clinicians, lab members — varying technical backgrounds
+- Halbritter Lab / CeRKiD / Charité Berlin - nephrology/genetics research group
+- Audience: researchers, clinicians, lab members - varying technical backgrounds
 - GitHub org: berntpopp, repo: AI-Teachathon
 - Must deploy to GitHub Pages (https://berntpopp.github.io/AI-Teachathon)
 - Event: Feb 17, 2026, 17:00, ~3 hours
@@ -46,7 +46,7 @@ Participants arrive prepared and leave with practical knowledge of AI coding too
 
 - **Timeline**: Must be deployable by Feb 17, 2026 afternoon
 - **Hosting**: GitHub Pages (static site)
-- **Audience**: Non-technical researchers — content must be approachable
+- **Audience**: Non-technical researchers - content must be approachable
 - **Stack**: VitePress + Tailwind CSS v4 + Reveal.js (Vite+Vue, Markdown content, built-in search)
 
 ## Current Milestone: v1.0 AI Teachathon Website

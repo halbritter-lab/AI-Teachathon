@@ -19,8 +19,8 @@ Write two reference pages used during the workshop: (1) AI tool landscape overvi
 - Highlighted/recommended tools: GitHub Copilot, browser chatbots (ChatGPT/Claude.ai/Gemini), Claude Code, Gemini CLI
 - Each card includes: type, best for, cost/month, and what you get
 - Pricing must be accurate as of Feb 2026:
-  - Claude Code: available on Pro plan ($20/mo, ~45 prompts/5hr) — Max $100-200/mo for heavy use
-  - Codex CLI: available with ChatGPT Plus ($20/mo) — temporarily free tier too
+  - Claude Code: available on Pro plan ($20/mo, ~45 prompts/5hr) - Max $100-200/mo for heavy use
+  - Codex CLI: available with ChatGPT Plus ($20/mo) - temporarily free tier too
   - Gemini CLI: free with Google account
   - GitHub Copilot: free for students (GitHub Education); Pro $10/mo; free tier (2k completions)
   - Cursor: free tier; Pro $20/mo
@@ -33,7 +33,7 @@ Write two reference pages used during the workshop: (1) AI tool landscape overvi
 - Each step: copy-paste command block + 1-2 sentences explaining what it does and why
 - Inline collapsible troubleshooting tips after each step ("If something went wrong")
 - Platform-specific notes where commands differ (Windows vs macOS/Linux)
-- Continuous flow pacing — participants work at their own pace, instructors float around
+- Continuous flow pacing - participants work at their own pace, instructors float around
 
 ### AI prompt examples
 - Both workflow prompts (for Git steps) and project-building prompts (for KidneyQuest phase)
@@ -51,8 +51,8 @@ Write two reference pages used during the workshop: (1) AI tool landscape overvi
 - Minimal context introduction: "KidneyQuest is a browser game starring the CeRKiD zebra. Here's what we'll build."
 - CeRKiD = Center for Rare Kidney Diseases at Charite (Halbritter Lab); zebra = rare disease mascot
 - Chrome-dino-style jump-and-run side-scroller in a kidney-themed world
-- Tech stack: vanilla HTML5 Canvas — zero dependencies, just open index.html
-- Repo will be created before the workshop (doesn't exist yet — use placeholder references in guide)
+- Tech stack: vanilla HTML5 Canvas - zero dependencies, just open index.html
+- Repo will be created before the workshop (doesn't exist yet - use placeholder references in guide)
 - Participants build with AI coding tools during the session
 
 ### Claude's Discretion
@@ -67,9 +67,9 @@ Write two reference pages used during the workshop: (1) AI tool landscape overvi
 <specifics>
 ## Specific Ideas
 
-- Tool spectrum should show evolution over time (2023->2026), not just categories — participants should see how fast this field moves
-- "Like the Chrome dino game but with a zebra" — the game reference for KidneyQuest's style
-- Pricing is important for researcher audience — they need to know what's free, what's student-discounted, what costs real money
+- Tool spectrum should show evolution over time (2023->2026), not just categories - participants should see how fast this field moves
+- "Like the Chrome dino game but with a zebra" - the game reference for KidneyQuest's style
+- Pricing is important for researcher audience - they need to know what's free, what's student-discounted, what costs real money
 - The hands-on guide starts with this repo (AI-Teachathon) so participants work on something they've already seen on the website
 - Prompting tips should reference official Claude and Gemini documentation best practices (2025-2026 era)
 
@@ -78,7 +78,7 @@ Write two reference pages used during the workshop: (1) AI tool landscape overvi
 <deferred>
 ## Deferred Ideas
 
-None — discussion stayed within phase scope
+None - discussion stayed within phase scope
 
 </deferred>
 

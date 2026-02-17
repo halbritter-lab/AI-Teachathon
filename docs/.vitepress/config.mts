@@ -8,7 +8,7 @@ const __dirname = dirname(fileURLToPath(import.meta.url))
 
 export default defineConfig({
   title: 'AI-Teachathon | Halbritter Lab',
-  description: 'Learn Git, GitHub & AI Tools — Hands On',
+  description: 'Learn Git, GitHub & AI Tools - Hands On',
   base: '/AI-Teachathon/',
 
   // Git-based last updated timestamps on every page
@@ -44,7 +44,7 @@ export default defineConfig({
       // Auto-open browser on dev server start
       open: '/AI-Teachathon/',
 
-      // HMR over WebSocket — enabled by default, overlay shows build errors
+      // HMR over WebSocket - enabled by default, overlay shows build errors
       hmr: {
         overlay: true,
       },

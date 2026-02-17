@@ -4,7 +4,7 @@ title: Agenda
 
 The AI-Teachathon runs on **February 17, 2026** from **17:00 to approximately 20:00**. Here's what the evening looks like.
 
-Times are approximate — this is an interactive session, not a rigid schedule. Feel free to ask questions at any point.
+Times are approximate - this is an interactive session, not a rigid schedule. Feel free to ask questions at any point.
 
 <Timeline :segments="[
   {
@@ -18,13 +18,13 @@ Times are approximate — this is an interactive session, not a rigid schedule. 
   {
     time: '~17:15 – 17:45',
     title: 'Presentation: Why AI & Version Control?',
-    description: 'A short talk on why version control and AI tools matter for research — and what you can do with them today.',
+    description: 'A short talk on why version control and AI tools matter for research - and what you can do with them today.',
     highlight: true
   },
   {
     time: '~17:45 – 18:05',
     title: 'AI Tool Landscape',
-    description: 'An overview of the AI coding tool spectrum — from simple chatbots to autonomous agents. Learn what\'s available and when to use each.',
+    description: 'An overview of the AI coding tool spectrum - from simple chatbots to autonomous agents. Learn what\'s available and when to use each.',
     link: '/ai-tools',
     linkText: 'AI tools overview'
   },
@@ -36,7 +36,7 @@ Times are approximate — this is an interactive session, not a rigid schedule. 
   {
     time: '~18:15 – 19:45',
     title: 'Hands-On: Build with AI',
-    description: 'The main event — work through a real Git workflow with AI assistants helping you code. Clone, branch, commit, and submit a pull request.',
+    description: 'The main event - work through a real Git workflow with AI assistants helping you code. Clone, branch, commit, and submit a pull request.',
     link: '/hands-on',
     linkText: 'Hands-on guide',
     highlight: true

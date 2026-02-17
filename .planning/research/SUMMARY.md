@@ -41,23 +41,23 @@ Two strong options emerged from research. Both can work, but they optimize for d
 
 Given:
 1. User explicitly asked to "rethink" and not assume Jekyll
-2. User wants "modern presentation-style" — Tailwind gives full creative freedom
-3. Event is TOMORROW — zero-build-step eliminates deployment risk category entirely
-4. Only 8 pages — framework overhead not justified
+2. User wants "modern presentation-style" - Tailwind gives full creative freedom
+3. Event is TOMORROW - zero-build-step eliminates deployment risk category entirely
+4. Only 8 pages - framework overhead not justified
 5. Claude Code generates beautiful HTML+Tailwind rapidly
 
 ## Content Structure (Consensus)
 
 Both researchers agree on the same page structure and content:
 
-1. **Landing page** — event essentials, 3 CTAs (prepare, agenda, project ideas)
-2. **Setup guide** — VS Code, Git, GitHub, platform-specific, verification steps
-3. **Agenda** — vertical timeline, 17:00-20:00, color-coded segments
-4. **Presentation** — standalone Reveal.js, 8-15 slides, dark theme, one idea per slide
-5. **AI Tool Landscape** — 4-level spectrum (chat → IDE → CLI → autonomous), comparison table
-6. **Hands-on guide** — step-by-step Git workflow, example AI prompts
-7. **Ideas page** — starter project ideas for research, participant-editable via GitHub
-8. **Resources** — curated links, post-event reference
+1. **Landing page** - event essentials, 3 CTAs (prepare, agenda, project ideas)
+2. **Setup guide** - VS Code, Git, GitHub, platform-specific, verification steps
+3. **Agenda** - vertical timeline, 17:00-20:00, color-coded segments
+4. **Presentation** - standalone Reveal.js, 8-15 slides, dark theme, one idea per slide
+5. **AI Tool Landscape** - 4-level spectrum (chat → IDE → CLI → autonomous), comparison table
+6. **Hands-on guide** - step-by-step Git workflow, example AI prompts
+7. **Ideas page** - starter project ideas for research, participant-editable via GitHub
+8. **Resources** - curated links, post-event reference
 
 ## Critical Pitfalls to Watch
 
@@ -65,7 +65,7 @@ Both researchers agree on the same page structure and content:
 2. **Deploy early**: Push minimal site within first 30 minutes, iterate from there
 3. **GitHub Pages source**: Must be set to "GitHub Actions" in repo settings
 4. **Reveal.js CDN**: Pin exact version, no Jekyll front matter on presentation.html
-5. **Content level**: Write for researchers, not developers — analogies over jargon
+5. **Content level**: Write for researchers, not developers - analogies over jargon
 6. **Scope creep**: Define "done" = 8 pages working. Ship MVP first, polish after.
 
 ## AI Tool Landscape (Current Feb 2026)
@@ -85,4 +85,4 @@ Workshop recommendation: Start with Copilot (free for edu), demo Claude Code liv
 - Clean sans-serif typography (Inter or system fonts)
 - Medical/kidney warm accent colors for CeRKiD identity
 - No clip art, no stock photos, no busy backgrounds
-- Professional academic tone — credible but approachable
+- Professional academic tone - credible but approachable

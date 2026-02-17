@@ -1,6 +1,6 @@
 # Setup Guide
 
-You'll need a few tools ready before the workshop. Don't worry — everything here is free and takes about 15-20 minutes to set up.
+You'll need a few tools ready before the workshop. Don't worry - everything here is free and takes about 15-20 minutes to set up.
 
 ::: info Before You Start
 You'll need administrator access on your computer to install some of these tools. If you're using a work laptop with restrictions, ask your IT department for help.
@@ -10,14 +10,14 @@ You'll need administrator access on your computer to install some of these tools
 
 VS Code is a modern code editor that supports AI assistants and has tons of helpful extensions. We'll use it throughout the workshop.
 
-Download from [code.visualstudio.com/download](https://code.visualstudio.com/download) — pick your operating system and run the installer.
+Download from [code.visualstudio.com/download](https://code.visualstudio.com/download) - pick your operating system and run the installer.
 
 ### Recommended Extensions
 
 After installing, open VS Code and install these extensions (click the Extensions icon in the sidebar or press `Ctrl+Shift+X` / `Cmd+Shift+X`):
 
-- **GitHub Copilot** — AI code suggestions (free with GitHub Education Pack)
-- **Markdown Preview Enhanced** — for viewing .md files
+- **GitHub Copilot** - AI code suggestions (free with GitHub Education Pack)
+- **Markdown Preview Enhanced** - for viewing .md files
 
 **Verify:** Open VS Code. If you see the Welcome tab, you're good.
 
@@ -27,11 +27,11 @@ Git is a version control system that tracks changes to your files so you can und
 
 ### Windows
 
-Download from [git-scm.com/download/win](https://git-scm.com/download/win) and run the installer. Use the default options — they work fine.
+Download from [git-scm.com/download/win](https://git-scm.com/download/win) and run the installer. Use the default options - they work fine.
 
 ### macOS
 
-Open Terminal (you can find it with Spotlight — press `Cmd+Space` and type "Terminal") and run:
+Open Terminal (you can find it with Spotlight - press `Cmd+Space` and type "Terminal") and run:
 
 ```bash
 xcode-select --install
@@ -62,7 +62,7 @@ Replace "Your Name" with your actual name and use the email you'll use for GitHu
 
 ## 3. GitHub Account (SETUP-03)
 
-GitHub is where code lives online — think of it like Google Drive for code, but with powerful collaboration features. You'll use it to save your work and share it with others.
+GitHub is where code lives online - think of it like Google Drive for code, but with powerful collaboration features. You'll use it to save your work and share it with others.
 
 1. Go to [github.com](https://github.com) and click "Sign up"
 2. Use your university email if you have one (this unlocks free tools)
@@ -76,7 +76,7 @@ If you have a university email (.edu or institutional email), you can get free a
 - Sign up with your university email
 - This gives you **free GitHub Copilot** access (normally $10/month)
 
-The approval usually happens within a few hours, but can take up to a few days. It's worth applying even if you don't get approved before the workshop — you can use it for future projects.
+The approval usually happens within a few hours, but can take up to a few days. It's worth applying even if you don't get approved before the workshop - you can use it for future projects.
 
 ## 4. Node.js (Optional) (SETUP-04)
 
@@ -111,4 +111,4 @@ Here's your final checklist:
 - [ ] (Optional) GitHub Education Pack applied for Copilot access
 - [ ] (Optional) Node.js installed
 
-If everything checks out, you're all set for the workshop! If you run into any issues, don't worry — we'll have time at the start of the event to help with setup.
+If everything checks out, you're all set for the workshop! If you run into any issues, don't worry - we'll have time at the start of the event to help with setup.

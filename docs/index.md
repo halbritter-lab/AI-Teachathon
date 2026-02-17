@@ -19,7 +19,7 @@ features:
     link: /setup
     linkText: Start setup
   - title: See the Agenda
-    details: Check the timeline for the evening — from intro talk to hands-on coding session.
+    details: Check the timeline for the evening - from intro talk to hands-on coding session.
     link: /agenda
     linkText: View schedule
   - title: Explore Project Ideas
@@ -30,10 +30,6 @@ features:
 
 ## What to Expect
 
-This is a hands-on, informal evening session — not a lecture. You'll be coding, experimenting, and learning by doing. We'll work together to build real projects using Git, GitHub, and AI coding assistants.
+A hands-on evening where you'll code, experiment, and learn by doing. No prior experience required - we'll guide you step-by-step.
 
-No prior coding or AI experience is required. We'll guide you through everything step-by-step, and you'll have plenty of support from the team and fellow participants. The goal is to learn practical skills you can use right away.
-
-Bring your laptop with the setup guide completed beforehand. You'll need VS Code, Git, and a GitHub account — the setup takes about 15 minutes and ensures we can jump straight into the fun stuff.
-
-You'll walk away with practical skills in Git, GitHub, and AI coding tools. More importantly, you'll see how AI can accelerate your work and make coding more accessible — whether you're building research tools, automating tasks, or just exploring new ideas.
+Bring your laptop with the [setup guide](/setup) completed beforehand (about 15 minutes). You'll walk away with practical Git, GitHub, and AI coding skills you can use right away.

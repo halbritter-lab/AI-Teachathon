@@ -197,22 +197,22 @@ None. All tooling integrated cleanly.
 ## Files Changed
 
 ### Created (3)
-- `docs/.vitepress/theme/marp-theme.css` — Custom Marp theme extending Gaia invert
-- `docs/presentation/slides.md` — Test slides for build verification
-- `docs/public/presentation.html` — Generated presentation (70KB)
+- `docs/.vitepress/theme/marp-theme.css` - Custom Marp theme extending Gaia invert
+- `docs/presentation/slides.md` - Test slides for build verification
+- `docs/public/presentation.html` - Generated presentation (70KB)
 
 ### Modified (9)
-- `package.json` — Added marp-cli dependency and build scripts
-- `package-lock.json` — Dependency lockfile updated
-- `Makefile` — Added build-marp target, updated clean target
-- `docs/.vitepress/config.mts` — Added Slides link to sidebar
-- `.prettierignore` — Excluded generated HTML and Marp slides
-- `.markdownlint-cli2.jsonc` — Excluded presentation directory
-- `docs/agenda.md` — Fixed lint errors (redundant H1, table formatting)
-- `docs/setup.md` — Fixed lint errors (table alignment, heading punctuation)
-- `docs/.vitepress/theme/index.ts` — Reformatted by Prettier
-- `docs/.vitepress/theme/style.css` — Reformatted by Prettier
-- `docs/.vitepress/theme/marp-theme.css` — Reformatted by Prettier
+- `package.json` - Added marp-cli dependency and build scripts
+- `package-lock.json` - Dependency lockfile updated
+- `Makefile` - Added build-marp target, updated clean target
+- `docs/.vitepress/config.mts` - Added Slides link to sidebar
+- `.prettierignore` - Excluded generated HTML and Marp slides
+- `.markdownlint-cli2.jsonc` - Excluded presentation directory
+- `docs/agenda.md` - Fixed lint errors (redundant H1, table formatting)
+- `docs/setup.md` - Fixed lint errors (table alignment, heading punctuation)
+- `docs/.vitepress/theme/index.ts` - Reformatted by Prettier
+- `docs/.vitepress/theme/style.css` - Reformatted by Prettier
+- `docs/.vitepress/theme/marp-theme.css` - Reformatted by Prettier
 
 ## Commit History
 

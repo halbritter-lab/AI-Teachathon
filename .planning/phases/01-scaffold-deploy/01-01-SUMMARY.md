@@ -100,14 +100,14 @@ Initialized the foundational VitePress project with Tailwind CSS v4 integration 
 - Hero gradient: `#f472b6` (pink) → `#a78bfa` (purple) → `#22d3ee` (cyan)
 - Dark backgrounds: `#1e1e2e` range (medium dark, not pitch black)
 - **Rationale:** Playful-energetic hackathon vibe, fresh identity separate from CeRKiD teal or Charité blue
-- **Alternative considered:** Institutional colors — rejected as too corporate for hackathon atmosphere
+- **Alternative considered:** Institutional colors - rejected as too corporate for hackathon atmosphere
 
 **3. Flat sidebar navigation structure**
 - Single-level list: Setup, Agenda, AI Tools, Hands-On, Ideas, Resources
 - No nested groups, no top navigation items
 - Order follows event timeline
 - **Rationale:** Simpler for small site, natural reading order for participants
-- **Alternative considered:** Top nav + sidebar — rejected as overkill for 6 pages
+- **Alternative considered:** Top nav + sidebar - rejected as overkill for 6 pages
 
 **4. docs/ subdirectory structure**
 - Content at: `docs/*.md`
@@ -118,8 +118,8 @@ Initialized the foundational VitePress project with Tailwind CSS v4 integration 
 ## Architecture Notes
 
 **Tailwind v4 content scanning:**
-- `@source "../../docs/**/*.md"` — scans markdown files for utility classes
-- `@source "../**/*.{vue,ts}"` — scans VitePress theme files
+- `@source "../../docs/**/*.md"` - scans markdown files for utility classes
+- `@source "../**/*.{vue,ts}"` - scans VitePress theme files
 - Paths are relative to `docs/.vitepress/theme/style.css` location
 
 **VitePress theme extension:**
@@ -152,7 +152,7 @@ None - plan executed exactly as written.
 
 **Blockers:** None
 
-**Concerns:** None — foundation is solid
+**Concerns:** None - foundation is solid
 
 ## Validation Evidence
 

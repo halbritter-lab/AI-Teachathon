@@ -6,7 +6,7 @@ The centerpiece of the workshop: a guided coding session where you'll use Git, G
 
 ## What We'll Build
 
-During the hands-on session, you'll work through a real Git workflow — from cloning a repository to submitting a pull request — with AI assistants helping along the way.
+During the hands-on session, you'll work through a real Git workflow - from cloning a repository to submitting a pull request - with AI assistants helping along the way.
 
 ## Skills You'll Practice
 

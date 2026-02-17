@@ -324,7 +324,7 @@ Add jump physics to the character. Press spacebar to jump 150px, gravity pulls d
 - No unnecessary persuasive language
 
 **For Gemini 3 models specifically:**
-- Use default temperature (1.0) — don't change it
+- Use default temperature (1.0) - don't change it
 - Put constraints at the beginning
 - Use XML tags or markdown for structure if needed
 

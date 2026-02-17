@@ -26,7 +26,7 @@ key-files:
 decisions:
   - id: link-and-verify
     choice: Official download link + verify command pattern
-    rationale: Self-service approach — users can validate their own setup without screenshots
+    rationale: Self-service approach - users can validate their own setup without screenshots
   - id: platform-visibility
     choice: Use H3 headings for Windows/macOS/Linux (not tabs)
     rationale: All platforms visible at once, easier scanning for users
@@ -67,7 +67,7 @@ Created comprehensive setup guide covering all 5 SETUP requirements:
 5. **SETUP-05:** Verification checklist table with commands and expected outputs, plus completion checklist with 6 checkboxes
 
 **Content characteristics:**
-- Friendly and casual tone: "Don't worry — everything here is free"
+- Friendly and casual tone: "Don't worry - everything here is free"
 - Brief inline jargon definitions (Git = "version control that tracks changes")
 - Link-and-verify pattern throughout (official link → verify command)
 - VitePress containers for callouts (`::: info`, `::: tip`)
@@ -86,7 +86,7 @@ Created comprehensive setup guide covering all 5 SETUP requirements:
 ## Files Created/Modified
 
 **Modified:**
-- `docs/setup.md` — Replaced placeholder with complete 115-line setup guide
+- `docs/setup.md` - Replaced placeholder with complete 115-line setup guide
 
 ## Decisions Made
 
@@ -102,11 +102,11 @@ Created comprehensive setup guide covering all 5 SETUP requirements:
 
 ## Deviations from Plan
 
-None — plan executed exactly as written.
+None - plan executed exactly as written.
 
 ## Issues Encountered
 
-None — straightforward content writing task with clear requirements.
+None - straightforward content writing task with clear requirements.
 
 ## Next Phase Readiness
 

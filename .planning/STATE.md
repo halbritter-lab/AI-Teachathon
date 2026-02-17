@@ -5,7 +5,7 @@
 Phase: 3 of 5 (Presentation)
 Plan: 2 of 2 in phase (checkpoint review in progress)
 Status: In progress
-Last activity: 2026-02-17 — 03-02 slides written, checkpoint fixes applied (theme, 404, emojis, fragments)
+Last activity: 2026-02-17 - 03-02 slides written, checkpoint fixes applied (theme, 404, emojis, fragments)
 
 Progress: [████████░░] 46% (6/13 plans complete across all phases)
 
@@ -14,7 +14,7 @@ Progress: [████████░░] 46% (6/13 plans complete across all p
 See: .planning/PROJECT.md (updated 2026-02-16)
 
 **Core value:** Participants arrive prepared and leave with practical knowledge
-**Current focus:** Phase 3 in progress — Slide deck written (32 slides), checkpoint fixes applied, awaiting final approval
+**Current focus:** Phase 3 in progress - Slide deck written (32 slides), checkpoint fixes applied, awaiting final approval
 
 ## What's Been Built
 
@@ -51,7 +51,7 @@ See: .planning/PROJECT.md (updated 2026-02-16)
 | icon-strategy | 02-01 | Emoji icons instead of icon library | Avoid dependency for just 3 icons, cleaner dependency tree | 2026-02-16 |
 | card-styling | 02-01 | CSS-only hover effects for feature cards | Prominent appearance without JavaScript or animation libraries | 2026-02-16 |
 | content-tone | 02-01 | Friendly, casual tone ("like a colleague explaining over coffee") | Use "you" and contractions, no research analogies, reduces intimidation | 2026-02-16 |
-| link-and-verify | 02-02 | Official download link + verify command pattern for setup instructions | Self-service approach — users validate their own setup without screenshots | 2026-02-16 |
+| link-and-verify | 02-02 | Official download link + verify command pattern for setup instructions | Self-service approach - users validate their own setup without screenshots | 2026-02-16 |
 | platform-visibility | 02-02 | Use H3 headings for Windows/macOS/Linux (not tabs) | All platforms visible at once for easier scanning | 2026-02-16 |
 | content-voice | 02-02 | Friendly and casual tone with brief inline jargon definitions | Reduces intimidation for non-technical participants | 2026-02-16 |
 | timeline-styling | 02-03 | VitePress CSS variables for theme compatibility | Ensures Timeline works in both light and dark modes without hardcoded colors | 2026-02-16 |
@@ -60,7 +60,7 @@ See: .planning/PROJECT.md (updated 2026-02-16)
 | theme-colors | 03-01 | Dark background (#1a1a1a) with teal accents (#02c797) | Matches site's dark aesthetic, teal differentiates from purple site branding | 2026-02-16 |
 | build-coordination | 03-01 | Run marp before vitepress in docs:build | Presentation HTML must exist before VitePress copies public/ directory | 2026-02-16 |
 | lint-exclusion | 03-01 | Exclude docs/presentation/ from markdownlint | Marp slides have different markdown conventions (multiple H1s, special directives) | 2026-02-16 |
-| no-fragments | 03-02 | Use `-` bullets instead of `*` (no fragment animations) | `*` hides content until clicked — looks broken in static view, unprofessional | 2026-02-17 |
+| no-fragments | 03-02 | Use `-` bullets instead of `*` (no fragment animations) | `*` hides content until clicked - looks broken in static view, unprofessional | 2026-02-17 |
 | theme-selector | 03-02 | Use `section` selector instead of `:root.invert` in Marp CSS | Marp renders in SVG foreignObject, `:root.invert` never matches | 2026-02-17 |
 | presentation-routing | 03-02 | Vite middleware + redirect page for presentation.html | VitePress SPA router 404s static HTML from public/ (known issue #360) | 2026-02-17 |
 | no-emojis-homepage | 03-02 | Remove emoji icons from index.md feature cards | User feedback: emojis look unprofessional | 2026-02-17 |
@@ -72,5 +72,5 @@ None
 ## Session Continuity
 
 Last session: 2026-02-17
-Stopped at: 03-02 checkpoint review — fixes applied, awaiting final approval
+Stopped at: 03-02 checkpoint review - fixes applied, awaiting final approval
 Resume file: None

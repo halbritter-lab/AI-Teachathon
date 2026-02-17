@@ -85,7 +85,7 @@ import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
   title: "AI-Teachathon | Halbritter Lab",
-  description: "Learn Git, GitHub & AI Tools — Hands On",
+  description: "Learn Git, GitHub & AI Tools - Hands On",
   base: '/AI-Teachathon/', // CRITICAL for GitHub Pages project repos
 
   vite: {
@@ -176,7 +176,7 @@ layout: home
 hero:
   name: "AI-Teachathon"
   text: "Halbritter Lab"
-  tagline: "Learn Git, GitHub & AI Tools — Hands On"
+  tagline: "Learn Git, GitHub & AI Tools - Hands On"
   actions:
     - theme: brand
       text: Get Started
