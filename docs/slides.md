@@ -1,5 +1,6 @@
 ---
 title: Slides
+comment: false
 ---
 
 <script setup>
