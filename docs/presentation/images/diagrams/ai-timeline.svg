@@ -1,23 +1,29 @@
-<svg viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+<svg viewBox="0 0 600 500" xmlns="http://www.w3.org/2000/svg">
   <style>
     .timeline-line {
       stroke: #02c797;
-      stroke-width: 3;
+      stroke-width: 4;
       fill: none;
     }
     .tick {
       stroke: #02c797;
-      stroke-width: 2;
+      stroke-width: 3;
     }
     .tick-current {
       stroke: #04e6af;
-      stroke-width: 3;
+      stroke-width: 4;
+    }
+    .year-dot {
+      fill: #02c797;
+    }
+    .year-dot-current {
+      fill: #04e6af;
     }
     .year-label {
       fill: #ffffff;
       font-family: system-ui, -apple-system, sans-serif;
-      font-size: 18px;
-      font-weight: 600;
+      font-size: 22px;
+      font-weight: 700;
       text-anchor: middle;
     }
     .year-current {
@@ -26,51 +32,56 @@
     .milestone {
       fill: #c6c6c6;
       font-family: system-ui, -apple-system, sans-serif;
-      font-size: 15px;
+      font-size: 16px;
       text-anchor: middle;
     }
     .connector {
       stroke: #02c797;
       stroke-width: 1;
-      stroke-dasharray: 2, 3;
+      stroke-dasharray: 3, 4;
+    }
+    .connector-current {
+      stroke: #04e6af;
+      stroke-width: 1.5;
+      stroke-dasharray: 3, 4;
     }
   </style>
 
-  <!-- Timeline horizontal line -->
-  <line class="timeline-line" x1="100" y1="200" x2="700" y2="200" />
+  <!-- Timeline vertical line -->
+  <line class="timeline-line" x1="120" y1="50" x2="120" y2="450" />
 
   <!-- 2022 -->
-  <line class="tick" x1="150" y1="190" x2="150" y2="210" />
-  <text class="year-label" x="150" y="180">2022</text>
-  <line class="connector" x1="150" y1="210" x2="150" y2="260" />
-  <text class="milestone" x="150" y="280">ChatGPT</text>
-  <text class="milestone" x="150" y="300">launches</text>
+  <circle class="year-dot" cx="120" cy="80" r="8" />
+  <text class="year-label" x="70" y="88">2022</text>
+  <line class="connector" x1="128" y1="80" x2="200" y2="80" />
+  <text class="milestone" x="350" y="76">ChatGPT launches,</text>
+  <text class="milestone" x="350" y="96">goes viral</text>
 
   <!-- 2023 -->
-  <line class="tick" x1="275" y1="190" x2="275" y2="210" />
-  <text class="year-label" x="275" y="180">2023</text>
-  <line class="connector" x1="275" y1="210" x2="275" y2="90" />
-  <text class="milestone" x="275" y="70">GPT-4, Claude,</text>
-  <text class="milestone" x="275" y="90">Gemini</text>
+  <circle class="year-dot" cx="120" cy="170" r="8" />
+  <text class="year-label" x="70" y="178">2023</text>
+  <line class="connector" x1="128" y1="170" x2="200" y2="170" />
+  <text class="milestone" x="350" y="166">GPT-4, Claude,</text>
+  <text class="milestone" x="350" y="186">Gemini released</text>
 
   <!-- 2024 -->
-  <line class="tick" x1="400" y1="190" x2="400" y2="210" />
-  <text class="year-label" x="400" y="180">2024</text>
-  <line class="connector" x1="400" y1="210" x2="400" y2="260" />
-  <text class="milestone" x="400" y="280">Cursor,</text>
-  <text class="milestone" x="400" y="300">Copilot Chat</text>
+  <circle class="year-dot" cx="120" cy="260" r="8" />
+  <text class="year-label" x="70" y="268">2024</text>
+  <line class="connector" x1="128" y1="260" x2="200" y2="260" />
+  <text class="milestone" x="350" y="256">Cursor, Copilot Chat</text>
+  <text class="milestone" x="350" y="276">transform coding</text>
 
   <!-- 2025 -->
-  <line class="tick" x1="525" y1="190" x2="525" y2="210" />
-  <text class="year-label" x="525" y="180">2025</text>
-  <line class="connector" x1="525" y1="210" x2="525" y2="90" />
-  <text class="milestone" x="525" y="70">Claude Code,</text>
-  <text class="milestone" x="525" y="90">Windsurf</text>
+  <circle class="year-dot" cx="120" cy="350" r="8" />
+  <text class="year-label" x="70" y="358">2025</text>
+  <line class="connector" x1="128" y1="350" x2="200" y2="350" />
+  <text class="milestone" x="350" y="346">Claude Code, Windsurf</text>
+  <text class="milestone" x="350" y="366">emerge as AI agents</text>
 
   <!-- 2026 (current year - emphasized) -->
-  <line class="tick-current" x1="650" y1="190" x2="650" y2="210" />
-  <text class="year-label year-current" x="650" y="180">2026</text>
-  <line class="connector" x1="650" y1="210" x2="650" y2="260" />
-  <text class="milestone" x="650" y="280">AI writes</text>
-  <text class="milestone" x="650" y="300">production code</text>
+  <circle class="year-dot-current" cx="120" cy="440" r="10" />
+  <text class="year-label year-current" x="70" y="448">2026</text>
+  <line class="connector-current" x1="130" y1="440" x2="200" y2="440" />
+  <text class="milestone" x="350" y="436" style="fill: #04e6af; font-weight: 600;">AI writes production</text>
+  <text class="milestone" x="350" y="456" style="fill: #04e6af; font-weight: 600;">code at scale</text>
 </svg>
