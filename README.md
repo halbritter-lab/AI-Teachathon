@@ -11,16 +11,22 @@ Workshop website for the **Halbritter Lab AI-Teachathon** at CeRKiD, Charite Ber
 
 ## Pages
 
-| Page | Description |
-|------|-------------|
-| [Home](https://halbritter-lab.github.io/AI-Teachathon/) | Event overview, date, location, and quick links |
-| [Setup Guide](https://halbritter-lab.github.io/AI-Teachathon/setup) | VS Code, Git, GitHub, and Node.js installation instructions |
-| [Agenda](https://halbritter-lab.github.io/AI-Teachathon/agenda) | Event timeline (17:00 - 20:00) with six segments |
-| [Presentation](https://halbritter-lab.github.io/AI-Teachathon/presentation.html) | 32-slide deck on AI + version control (Marp) |
-| [AI Tools](https://halbritter-lab.github.io/AI-Teachathon/ai-tools) | 4-level tool spectrum with 10 comparison cards |
-| [Hands-On](https://halbritter-lab.github.io/AI-Teachathon/hands-on) | 8-step Git workflow and AI prompting guide |
-| [Ideas](https://halbritter-lab.github.io/AI-Teachathon/ideas) | KidneyQuest and alternative project ideas |
-| [Resources](https://halbritter-lab.github.io/AI-Teachathon/resources) | 60+ curated links organized by event timeline |
+| Page                                                                             | Description                                                 |
+| -------------------------------------------------------------------------------- | ----------------------------------------------------------- |
+| [Home](https://halbritter-lab.github.io/AI-Teachathon/)                          | Event overview, date, location, and quick links             |
+| [Setup Guide](https://halbritter-lab.github.io/AI-Teachathon/setup)              | VS Code, Git, GitHub, and Node.js installation instructions |
+| [Agenda](https://halbritter-lab.github.io/AI-Teachathon/agenda)                  | Event timeline (17:00 - 20:00) with six segments            |
+| [Presentation](https://halbritter-lab.github.io/AI-Teachathon/presentation.html) | 32-slide deck on AI + version control (Marp)                |
+| [AI Tools](https://halbritter-lab.github.io/AI-Teachathon/ai-tools)              | 4-level tool spectrum with 10 comparison cards              |
+| [Hands-On](https://halbritter-lab.github.io/AI-Teachathon/hands-on)              | 8-step Git workflow and AI prompting guide                  |
+| [Ideas](https://halbritter-lab.github.io/AI-Teachathon/ideas)                    | KidneyQuest and alternative project ideas                   |
+| [Resources](https://halbritter-lab.github.io/AI-Teachathon/resources)            | 60+ curated links organized by event timeline               |
+
+## Comments
+
+Every doc page has a comment section at the bottom powered by [Giscus](https://giscus.app/), which stores comments as GitHub Discussions. Sign in with your GitHub account to leave questions or notes - they'll appear in the repo's [Discussions tab](https://github.com/halbritter-lab/AI-Teachathon/discussions) under the "General" category.
+
+Comments are disabled on the home page and the slides redirect.
 
 ## Tech Stack
 
