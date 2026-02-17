@@ -4,7 +4,7 @@ layout: home
 hero:
   name: AI-Teachathon
   text: Learn AI-Assisted Development
-  tagline: February 17, 2026 · 17:00 · Charite Campus Berlin
+  tagline: February 17, 2026 · 17:00 · Charite Campus Berlin · No prior experience required
   actions:
     - theme: brand
       text: Prepare Your Setup
@@ -14,15 +14,21 @@ hero:
       link: /agenda
 
 features:
-  - title: Prepare Your Setup
+  - icon:
+      src: /icons/wrench.svg
+    title: Prepare Your Setup
     details: Install VS Code, Git, and create a GitHub account before the event. Takes about 15 minutes.
     link: /setup
     linkText: Start setup
-  - title: See the Agenda
+  - icon:
+      src: /icons/calendar.svg
+    title: See the Agenda
     details: Check the timeline for the evening - from intro talk to hands-on coding session.
     link: /agenda
     linkText: View schedule
-  - title: Explore Project Ideas
+  - icon:
+      src: /icons/lightbulb.svg
+    title: Explore Project Ideas
     details: Browse starter project ideas for the hands-on session, including KidneyQuest.
     link: /ideas
     linkText: See ideas

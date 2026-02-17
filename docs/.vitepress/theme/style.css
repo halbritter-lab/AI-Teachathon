@@ -43,8 +43,8 @@
   --vp-c-bg-elv: #2a2a3c;
 
   --vp-c-text-1: #e4e4ef;
-  --vp-c-text-2: #a6a6b8;
-  --vp-c-text-3: #6c6c80;
+  --vp-c-text-2: #b4b4c6;
+  --vp-c-text-3: #8a8a9e;
 
   --vp-c-divider: #3a3a50;
   --vp-c-gutter: #262637;
@@ -77,6 +77,10 @@
 
 .dark .VPFeatures .VPFeature:hover {
   box-shadow: 0 2px 12px rgba(167, 139, 250, 0.15);
+}
+
+.VPFeatures .VPImage {
+  color: var(--vp-c-brand-1);
 }
 
 .VPFeatures .icon {
@@ -184,6 +188,7 @@
   border-radius: 12px;
   padding: 1rem 1.25rem;
 }
+.pain-point-card h3,
 .pain-point-card h4 {
   margin: 0 0 0.5rem;
   font-size: 1rem;

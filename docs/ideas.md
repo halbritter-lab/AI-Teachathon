@@ -153,6 +153,16 @@ Describe what you want to show, and AI can suggest plot types and generate the c
 
 </div>
 
+## Project-Specific Resources
+
+- **AlphaGenome:** [Documentation](https://www.alphagenomedocs.com/) | [Colab Notebooks](https://www.alphagenomedocs.com/colabs/) | [GitHub](https://github.com/google-deepmind/alphagenome)
+- **Electron/Vue:** [Electron Docs](https://www.electronjs.org/docs) | [Vue.js Guide](https://vuejs.org/guide/introduction)
+- **Zotero:** [Documentation](https://www.zotero.org/support/)
+- **AI Detection:** [QuillBot](https://quillbot.com/) | [GPTZero](https://gptzero.me/)
+- **AI APIs:** [OpenAI API Docs](https://platform.openai.com/docs) | [Anthropic API Docs](https://docs.anthropic.com/)
+
 ## Contribute Your Ideas
 
 Have a project idea? [Edit this page](https://github.com/halbritter-lab/AI-Teachathon/edit/main/docs/ideas.md) and add it - that's what contributing on GitHub looks like.
+
+**Next step:** Check the [resources page](/resources) for curated links and further learning.

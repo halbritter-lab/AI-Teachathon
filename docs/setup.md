@@ -391,3 +391,5 @@ Here's your final checklist:
 - [ ] (Optional) AI subscription login tested (Claude, ChatGPT, etc.)
 
 If everything checks out, you're all set for the workshop! If you run into any issues, don't worry - **we'll have time at the start of the event to help with setup**.
+
+**Next step:** Check the [agenda](/agenda) to see what the evening looks like.
