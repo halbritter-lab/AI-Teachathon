@@ -121,6 +121,14 @@ Think of commits as save points in a game. You can always go back.
 
 ---
 
+![bg left fit](images/diagrams/conventional-commit.svg)
+
+<style scoped>
+h1 { font-size: 2.4rem; margin-bottom: 0.5rem; }
+li { font-size: 1.5rem; margin-bottom: 0.2rem; }
+p { font-size: 1.5rem; }
+</style>
+
 # Conventional Commits Make History Machine-Readable
 
 **Format:** `type(scope): description`
@@ -229,6 +237,14 @@ p { font-size: 1.5rem; }
 <!-- This is the second and last research analogy. After this, we use real terms. Branches let you try things without breaking the main project. -->
 
 ---
+
+![bg left fit](images/diagrams/pr-workflow.svg)
+
+<style scoped>
+h1 { font-size: 2.4rem; margin-bottom: 0.5rem; }
+li { font-size: 1.5rem; margin-bottom: 0.2rem; }
+p { font-size: 1.5rem; }
+</style>
 
 # Pull Requests Are Where Collaboration Happens
 

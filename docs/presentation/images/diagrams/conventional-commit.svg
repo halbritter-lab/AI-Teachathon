@@ -1,0 +1,132 @@
+<svg viewBox="0 0 600 500" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .code-text {
+      fill: #ffffff;
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 26px;
+      font-weight: 700;
+    }
+    .label-text {
+      fill: #c6c6c6;
+      font-family: system-ui, -apple-system, sans-serif;
+      font-size: 16px;
+      text-anchor: middle;
+    }
+    .highlight-text {
+      fill: #02c797;
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 26px;
+      font-weight: 700;
+    }
+    .bracket-text {
+      fill: #c6c6c6;
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 26px;
+      font-weight: 400;
+    }
+    .type-box {
+      fill: rgba(2, 199, 151, 0.15);
+      stroke: #02c797;
+      stroke-width: 2;
+      rx: 6;
+    }
+    .scope-box {
+      fill: rgba(4, 230, 175, 0.10);
+      stroke: #04e6af;
+      stroke-width: 2;
+      rx: 6;
+    }
+    .desc-box {
+      fill: rgba(255, 255, 255, 0.05);
+      stroke: #c6c6c6;
+      stroke-width: 2;
+      rx: 6;
+    }
+    .arrow-line {
+      stroke: #02c797;
+      stroke-width: 2;
+      stroke-dasharray: 4, 4;
+    }
+    .type-badge {
+      fill: #02c797;
+      rx: 12;
+    }
+    .badge-text {
+      fill: #1a1a1a;
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 16px;
+      font-weight: 700;
+      text-anchor: middle;
+    }
+    .badge-desc {
+      fill: #c6c6c6;
+      font-family: system-ui, -apple-system, sans-serif;
+      font-size: 15px;
+    }
+  </style>
+
+  <!-- Main commit format display -->
+  <!-- type -->
+  <rect class="type-box" x="30" y="40" width="90" height="44" />
+  <text class="highlight-text" x="42" y="70">feat</text>
+
+  <!-- scope -->
+  <rect class="scope-box" x="120" y="40" width="130" height="44" />
+  <text class="bracket-text" x="128" y="70">(</text>
+  <text class="highlight-text" x="144" y="70" style="fill: #04e6af;">auth</text>
+  <text class="bracket-text" x="210" y="70">)</text>
+  <text class="bracket-text" x="226" y="70">:</text>
+
+  <!-- description -->
+  <rect class="desc-box" x="250" y="40" width="310" height="44" />
+  <text class="code-text" x="262" y="70">add login page</text>
+
+  <!-- Labels with arrows -->
+  <line class="arrow-line" x1="75" y1="84" x2="75" y2="120" />
+  <text class="label-text" x="75" y="140">type</text>
+
+  <line class="arrow-line" x1="185" y1="84" x2="185" y2="120" />
+  <text class="label-text" x="185" y="140">scope</text>
+
+  <line class="arrow-line" x1="405" y1="84" x2="405" y2="120" />
+  <text class="label-text" x="405" y="140">description</text>
+
+  <!-- Separator -->
+  <line stroke="#02c797" stroke-width="1" stroke-opacity="0.3" x1="30" y1="170" x2="570" y2="170" />
+
+  <!-- Type badges -->
+  <rect class="type-badge" x="30" y="200" width="84" height="30" />
+  <text class="badge-text" x="72" y="220">feat:</text>
+  <text class="badge-desc" x="126" y="220">New feature</text>
+
+  <rect class="type-badge" x="30" y="248" width="84" height="30" />
+  <text class="badge-text" x="72" y="268">fix:</text>
+  <text class="badge-desc" x="126" y="268">Bug fix</text>
+
+  <rect class="type-badge" x="30" y="296" width="84" height="30" />
+  <text class="badge-text" x="72" y="316">docs:</text>
+  <text class="badge-desc" x="126" y="316">Documentation</text>
+
+  <rect class="type-badge" x="310" y="200" width="116" height="30" />
+  <text class="badge-text" x="368" y="220">refactor:</text>
+  <text class="badge-desc" x="438" y="220">Restructure</text>
+
+  <rect class="type-badge" x="310" y="248" width="84" height="30" />
+  <text class="badge-text" x="352" y="268">test:</text>
+  <text class="badge-desc" x="406" y="268">Tests</text>
+
+  <rect class="type-badge" x="310" y="296" width="96" height="30" />
+  <text class="badge-text" x="358" y="316">chore:</text>
+  <text class="badge-desc" x="418" y="316">Maintenance</text>
+
+  <!-- Separator -->
+  <line stroke="#02c797" stroke-width="1" stroke-opacity="0.3" x1="30" y1="350" x2="570" y2="350" />
+
+  <!-- Example -->
+  <text class="label-text" x="300" y="380" style="font-size: 14px; fill: #02c797; text-transform: uppercase; letter-spacing: 2px;">Example</text>
+
+  <rect class="type-box" x="60" y="400" width="480" height="50" style="fill: rgba(2, 199, 151, 0.08);" />
+  <text class="highlight-text" x="80" y="432" style="font-size: 22px;">feat</text>
+  <text class="bracket-text" x="134" y="432" style="font-size: 22px;">:</text>
+  <text class="code-text" x="158" y="432" style="font-size: 22px;">add gene search filter</text>
+</svg>
