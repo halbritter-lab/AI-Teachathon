@@ -5,7 +5,8 @@ This directory holds real tool screenshots for the AI-Teachathon presentation.
 ## Expected Files
 
 - `chatgpt-interface.png` - ChatGPT conversation UI showing a coding question
-- `copilot-vscode.png` - GitHub Copilot autocomplete suggestion visible in VS Code
+- `copilot-vscode-sidebar.png` - GitHub Copilot sidebar chat in VS Code
+- `copilot-vscode-autocomplete.png` - GitHub Copilot autocomplete suggestion in VS Code
 - `claude-code-terminal.png` - Claude Code running in a terminal with visible output
 
 ## Capture Guidelines

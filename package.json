@@ -7,7 +7,7 @@
     "docs:dev": "vitepress dev docs --port 4321",
     "docs:build": "npm run build:marp && vitepress build docs",
     "docs:preview": "vitepress preview docs",
-    "copy:marp-assets": "node -e \"require('fs').cpSync('docs/presentation/images','docs/public/images',{recursive:true})\"",
+    "copy:marp-assets": "node -e \"const fs=require('fs');if(fs.existsSync('docs/presentation/images'))fs.cpSync('docs/presentation/images','docs/public/images',{recursive:true})\"",
     "build:marp": "npm run copy:marp-assets && marp docs/presentation/slides.md -o docs/public/presentation.html --theme docs/.vitepress/theme/marp-theme.css --html",
     "dev:marp": "npm run copy:marp-assets && marp docs/presentation/slides.md -o docs/public/presentation.html --theme docs/.vitepress/theme/marp-theme.css --html --watch",
     "lint": "markdownlint-cli2 \"docs/**/*.md\"",
