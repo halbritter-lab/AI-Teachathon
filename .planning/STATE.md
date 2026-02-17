@@ -2,19 +2,19 @@
 
 ## Current Position
 
-Phase: 4 of 5 (Knowledge Pages)
-Plan: 1 of 2 in phase
+Phase: 5 of 5 (Community & Polish)
+Plan: 2 of 2 in phase
 Status: In progress
-Last activity: 2026-02-17 - Completed 04-01-PLAN.md (AI tool landscape page)
+Last activity: 2026-02-17 - Completed 05-02-PLAN.md (resources page)
 
-Progress: [████████░░] 54% (7/13 plans complete across all phases)
+Progress: [████████░░] 62% (8/13 plans complete across all phases)
 
 ## Project Reference
 
 See: .planning/PROJECT.md (updated 2026-02-16)
 
 **Core value:** Participants arrive prepared and leave with practical knowledge
-**Current focus:** Phase 4 in progress - AI tool landscape page complete (243 lines), hands-on guide next
+**Current focus:** Phase 5 in progress - Resources page complete (63 lines), all core content pages finished
 
 ## What's Been Built
 
@@ -39,6 +39,8 @@ See: .planning/PROJECT.md (updated 2026-02-16)
 - Complete AI tool landscape page (docs/ai-tools.md) with 4-level evolution spectrum (2023-2026+)
 - 10 tool comparison cards with consistent structure and recommendation badges
 - 5 practical tips for working with AI coding tools
+- Complete resources page (docs/resources.md) with 60+ curated links organized by event timeline
+- Cross-linked resources to setup, AI tools, and hands-on guides
 
 ## Decisions
 
@@ -70,6 +72,8 @@ See: .planning/PROJECT.md (updated 2026-02-16)
 | spectrum-structure | 04-01 | 4-level AI tool spectrum: Chat (2023-2024), IDE (2024-2025), CLI (2025-2026), Autonomous (Emerging) | Shows rapid field evolution, helps participants understand capability differences | 2026-02-17 |
 | tool-selection | 04-01 | 10 tools: ChatGPT, Claude.ai, Gemini, GitHub Copilot, Cursor, Windsurf, Claude Code, Gemini CLI, Aider, Codex CLI | Most relevant for workshop participants, prioritized free tiers and student discounts | 2026-02-17 |
 | recommendation-badges | 04-01 | Highlight GitHub Copilot (students), Claude Code (power users), Gemini CLI (free CLI option) | Matches workshop participant demographics and budget constraints | 2026-02-17 |
+| timeline-resource-org | 05-02 | Resources organized by journey timeline (Before/During/After Event) | Context-appropriate learning - participants find relevant links when they need them | 2026-02-17 |
+| title-only-links | 05-02 | Links with titles only, no descriptions | Cleaner scanning, section headers provide context | 2026-02-17 |
 
 ## Blockers & Concerns
 
@@ -78,5 +82,5 @@ None
 ## Session Continuity
 
 Last session: 2026-02-17
-Stopped at: Completed 04-01-PLAN.md (AI tool landscape page)
+Stopped at: Completed 05-02-PLAN.md (resources page)
 Resume file: None
