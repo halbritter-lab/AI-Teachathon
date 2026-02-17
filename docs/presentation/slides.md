@@ -153,7 +153,7 @@ This is how teams collaborate.
 
 <!-- _class: lead -->
 
-# Part 2: Why Version Control Matters with AI
+# Part 2: Version Control in the AI Era
 
 ---
 
@@ -184,12 +184,6 @@ This is how teams collaborate.
 
 ---
 
-<!-- _class: lead -->
-
-# Part 3: The AI Revolution Timeline
-
----
-
 # 2022-2026: Rapid Acceleration
 
 - **November 2022:** ChatGPT launches, goes viral
@@ -206,7 +200,7 @@ This is how teams collaborate.
 
 <!-- _class: lead -->
 
-# Part 4: The Tool Landscape
+# Part 3: The Tool Landscape
 
 ---
 
@@ -220,6 +214,20 @@ This is how teams collaborate.
 Each has strengths. Choose based on your workflow.
 
 <!-- This is the overview. Next slides break down each category. -->
+
+---
+
+# Choose Your Tool
+
+**For today's hands-on session:**
+- You can use any tool you prefer
+- Chat-based is fine
+- Sidebar is fine
+- CLI is fine
+
+**No single right answer.** Use what feels comfortable.
+
+<!-- The goal is to learn the workflow, not master a specific tool. Pick what works for you. We'll briefly cover each category next. -->
 
 ---
 
@@ -271,20 +279,6 @@ Each has strengths. Choose based on your workflow.
 
 ---
 
-# Choose Your Tool
-
-**For today's hands-on session:**
-- You can use any tool you prefer
-- Chat-based is fine
-- Sidebar is fine
-- CLI is fine
-
-**No single right answer.** Use what feels comfortable.
-
-<!-- The goal is to learn the workflow, not master a specific tool. Pick what works for you. -->
-
----
-
 # Where to Learn More
 
 **The AI Tools page on the course site has:**
@@ -301,7 +295,7 @@ Each has strengths. Choose based on your workflow.
 
 <!-- _class: lead -->
 
-# Part 5: What We'll Do Today
+# Part 4: What We'll Do Today
 
 ---
 
@@ -332,36 +326,35 @@ Each has strengths. Choose based on your workflow.
 
 ---
 
-# Step 1: Clone the Repo
+# Steps 1-2: Clone the Repo and Create a Branch
 
-**Command:** `git clone https://github.com/berntpopp/KidneyQuest.git`
+**Clone the repository:**
+`git clone https://github.com/berntpopp/KidneyQuest.git`
 
-This downloads the project to your computer.
+**Create your branch:**
+`git checkout -b add-new-gene`
 
-<!-- We'll walk through this together. No one gets left behind. -->
+Now you have the code and your own safe workspace. Main is untouched.
 
----
-
-# Step 2: Create a Branch
-
-**Command:** `git checkout -b add-new-gene`
-
-Now you're working on your own branch. Main is safe.
-
-<!-- Branching is the key to safe experimentation. You can't break main when you're on your own branch. -->
+<!-- Two quick commands, paired together. We'll walk through this together. No one gets left behind. -->
 
 ---
 
 # Step 3: Code with AI
 
-- Ask your AI tool to add a feature
-- Review the code it generates
-- Test it in the browser
-- Iterate until it works
+**Example prompt to your AI tool:**
+> "Add a scoreboard to KidneyQuest that displays the number of genes collected"
+
+**What the AI might generate:**
+- HTML for the scoreboard element
+- JavaScript to track and update the score
+- CSS for positioning and styling
+
+**Your job:** Review the code, test in the browser, iterate
 
 **You are the pilot. AI is the copilot.**
 
-<!-- AI will make mistakes. That's normal. Your job is to review, test, and iterate. You're in control. -->
+<!-- This is the most important step. Show a concrete example so they see what AI-assisted coding looks like. AI will make mistakes - that's normal. Review, test, iterate. -->
 
 ---
 
