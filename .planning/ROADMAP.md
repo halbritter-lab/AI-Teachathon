@@ -48,11 +48,11 @@ CONT-03, CONT-04, CONT-05, OBJ-01, OBJ-02, ENG-01, ENG-02, TITL-01
   4. At least 3 engagement prompts exist in speaker notes (show of hands, audience questions, pair discussion) and at least 1 dedicated question slide with large text exists in the deck
   5. Slide titles throughout the deck state takeaways rather than topics (e.g., "Branches Let You Experiment Without Risk" instead of "Branches: Parallel Experiments")
 
-**Plans**: TBD
+**Plans:** 2 plans
 
 Plans:
-- [ ] 06-01: TBD
-- [ ] 06-02: TBD
+- [ ] 06-01-PLAN.md - Restructure sections, reorder tools, add 5 essential researcher content slides
+- [ ] 06-02-PLAN.md - Add learning objectives bookends, engagement prompts, and takeaway slide titles
 
 ### Phase 7: Visual Elements and Marp Features
 
@@ -85,7 +85,7 @@ Phases execute in numeric order: 6 -> 6.x (if inserted) -> 7
 
 | Phase | Milestone | Plans Complete | Status | Completed |
 |-------|-----------|----------------|--------|-----------|
-| 6. Structure, Content, and Engagement | v1.1 | 0/TBD | Not started | - |
+| 6. Structure, Content, and Engagement | v1.1 | 0/2 | Not started | - |
 | 7. Visual Elements and Marp Features | v1.1 | 0/TBD | Not started | - |
 
 ---
